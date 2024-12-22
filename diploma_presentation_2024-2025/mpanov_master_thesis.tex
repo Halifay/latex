@@ -1,0 +1,86 @@
+%!TEX TS-program = xelatex
+
+% HSE Beamer Theme
+% Version 2.0 (English)
+% January 2022
+
+\documentclass[aspectratio=169]{beamer}
+\newbool{russian}
+%\booltrue{russian} % Uncomment if in Russian
+\usepackage{HSE-theme/beamerthemeHSE} % Load HSE theme
+
+\usepackage[no-math]{fontspec}      % fonts loading
+	\setsansfont{HSE Sans} 
+	\setmonofont{Courier New}
+\usepackage{mathspec}
+	\setmathsfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{HSE Sans}
+	\setmathrm[Numbers={Lining,Proportional}]{HSE Sans}
+
+\graphicspath{{images/}}  	% Images folder
+
+%%% Author and presentation info
+\title[Prediction of Liquid Viscosity]{Prediction of Liquid Viscosity Using Machine Learning Based on Cubic Equations of State Parameters} 
+\subtitle{Master's Thesis Presentation}
+\author[M. Panov]{Mikhail Panov \\ \smallskip \scriptsize \url{mpanov@hse.ru}}
+\institute{Department of Applied Mathematics}
+\date{\today}
+
+\begin{document}
+
+% Title Slide
+\frame[plain]{\titlepage}
+
+% Slide 1: Introduction
+\begin{frame}
+\frametitle{Introduction}
+\framesubtitle{Description}
+This paper explores the potential of machine learning methods to predict liquid viscosity. We use equations of state parameters to relate them to experimental viscosity data. Unlike classical approaches such as Entropy Scaling, ML models can take into account complex dependencies, which can improve the accuracy of predictions.    
+\medskip
+\end{frame}
+
+% Slide 2: Goals and Objectives
+\begin{frame}
+\frametitle{Goals and Objectives}
+\framesubtitle{}
+\textbf{Goal:} Develop a machine learning method to predict liquid viscosity based on parameters of cubic equations of state (CubicEOS), improving prediction accuracy compared to classical methods.
+
+\medskip
+\textbf{Objectives:}
+\begin{enumerate} 
+	\item Collect and preprocess experimental viscosity data from the ThermoML database.
+	\item Derive additional parameters using thermodynamic relationships and equations of state to augment experimental data.
+	\item Determine optimal parameters, including their transformations and combinations, for improving viscosity prediction accuracy.
+	\item Develop and validate machine learning models that predict viscosity based on the selected parameters.
+	\item Compare ML models against traditional prediction methods.
+\end{enumerate}
+\end{frame}
+
+% Slide 4: Results Achieved
+\begin{frame}
+\frametitle{Results Achieved}
+\framesubtitle{}
+\textbf{Current Results:}
+\begin{itemize}
+    	\item Analyzed ThermoML database for relevant viscosity data.
+    	\item Collected and processed experimental viscosity data to ensure compatibility with futher analysis.
+\end{itemize}
+\medskip
+\textbf{Expected Results:}
+\begin{itemize}
+	\item Derive additional parameters using equations of state and thermodynamic relationships to expand the dataset.
+	\item Identify and evaluate critical thermodynamic parameters, including their transformations and combinations, that influence viscosity.
+	\item Design and implement a machine learning model to achieve high-accuracy viscosity predictions.
+	\item Validate the model’s performance by demonstrating superior accuracy compared to Entropy Scaling and Expanded Liquid Correlation methods.
+\end{itemize}
+\end{frame}
+
+% Slide 7: Questions
+\begin{frame}
+\frametitle{Questions}
+\framesubtitle{}
+\centering
+\Huge{Any Questions?}
+\end{frame}
+
+\end{document}
+

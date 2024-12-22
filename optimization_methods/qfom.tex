@@ -1,0 +1,500 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{amsmath, amssymb, amsfonts, graphicx, hyperref, cite, array}
+\usepackage{geometry}
+\usepackage[T2A]{fontenc} % Font encoding
+\usepackage[russian]{babel} % Russian language support
+\usepackage{fontspec}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{lmodern}
+\usepackage{xcolor}
+
+% Custom color definitions
+\definecolor{lightestgray}{rgb}{0.95,0.95,0.95} % Lighter background color
+\definecolor{darkblue}{rgb}{0.0,0.0,0.5} % Darker blue for keywords
+\definecolor{darkgreen}{rgb}{0.0,0.5,0.0} % Darker green for comments
+\definecolor{darkred}{rgb}{0.5,0.0,0.0} % Darker red for strings
+
+\setmainfont{Times New Roman}
+
+% Custom label for listings
+\renewcommand{\lstlistingname}{Листинг кода}
+\renewcommand{\lstlistlistingname}{Список листингов}
+
+% Define Julia language settings
+\lstdefinelanguage{Julia}%
+  {
+	morekeywords={abstract,break,case,catch,const,continue,do,else,elseif,%
+		end,export,false,for,function,immutable,import,importall,if,in
+		macro,module,otherwise,quote,return,switch,true,try,type,typealias,%
+	using,while},%
+	basicstyle=\ttfamily, % Basic style is monospace
+	showstringspaces=false, % Do not show spaces in strings
+	breaklines=true, % Automatically break long lines
+	% extendedchars=true % Enable extended characters 
+	frame=single, % Add a frame around the code
+  	sensitive=true,%
+   	alsoother={$},%
+   	morecomment=[l]\#,%
+   	morecomment=[n]{\#=}{=\#},%
+   	morestring=[s]{"}{"},%
+   	morestring=[m]{'}{'},%
+}[keywords,comments,strings]%
+
+\lstset{%
+    language         = Julia,
+    basicstyle       = \ttfamily,
+    keywordstyle     = \bfseries\color{blue},
+    stringstyle      = \color{magenta},
+    commentstyle     = \color{darkgreen},
+    backgroundcolor  = \color{lightestgray},
+    showstringspaces = false,
+}
+
+\geometry{a4paper, margin=1in}
+\title{Квартические методы первого порядка для минимизации низкого ранга}
+\author{Раду-Александру Драгомир, Александр д'Аспремон, Жером Больт}
+\date{}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+% Список листингов
+% \lstlistoflistings
+% \newpage
+
+\section*{Аннотация}
+Мы исследуем общую неконвексную формулировку для задач минимизации низкого ранга. Используя последние результаты по неевклидовым методам первого порядка, мы предлагаем эффективные и масштабируемые алгоритмы. Наш подход использует геометрию, задаваемую дивергенцией Брэгмана для тщательно выбранных функций ядра, вводя новое семейство граммовых квартических ядер для задач без ограничений. Численные эксперименты демонстрируют передовую производительность в задаче восстановления матрицы расстояний Евклида и симметричной неотрицательной матричной факторизации.
+
+\section{Введение}
+Минимизация низкого ранга является центральной задачей оптимизации с приложениями в таких областях, как машинное обучение, обработка сигналов и вычислительная биология. Она включает в себя нахождение аппроксимации матрицы низкого ранга при сохранении её ключевых характеристик, что важно для задач, таких как восстановление матриц (например, в рекомендательных системах), робастный метод главных компонент (PCA) и компрессированный сбор данных.
+
+Распространённый подход — это факторизация Бурера-Монтейру, где положительно полуопределённая матрица \( Y \) заменяется на \( Y = XX^T \), что уменьшает размер задачи, но вводит неконвексность. Неконвексность усложняет оптимизацию из-за наличия множества локальных минимумов, требуя тщательно разработанных методов для обеспечения сходимости к значимому решению.
+
+Основная цель данной работы — решить эти проблемы, используя неевклидовую геометрию, которая обеспечивает гибкость при адаптации к структурам задачи. Традиционные евклидовы методы часто не справляются со сложностью задач минимизации низкого ранга из-за неспособности в полной мере учитывать их геометрию.
+
+Предложенный подход использует дивергенцию Брэгмана — обобщение мер расстояния, адаптированных к специфической геометрии задачи. В сочетании с квартическими ядрами это позволяет эффективно проводить оптимизацию в неевклидовых пространствах. Динамическая адаптация геометрии к структуре задачи обеспечивает более высокие скорости сходимости и улучшенную масштабируемость, особенно на больших наборах данных.
+
+В данной статье вводится семейство квартических ядер, включая нормовые и граммовые ядра, которые повышают производительность методов первого порядка. Эти ядра захватывают более богатую геометрическую информацию об области оптимизации, позволяя алгоритмам более эффективно справляться с неконвексными задачами. Широкие численные эксперименты демонстрируют, что предложенные методы превосходят современные подходы по скорости сходимости и качеству решений.
+
+\section{Теоретические основы}
+\subsection{Определения и ключевые концепции}
+\begin{itemize}
+    \item \textbf{Относительная гладкость:} Обобщение условия Липшица для градиента. Относительная гладкость позволяет алгоритмам оптимизации работать в неевклидовых геометриях, используя свойства задачи через дивергенцию Брэгмана вместо глобальной константы Липшица для градиента. Это обеспечивает плавное изменение функции относительно выбранного ядра \(h(X)\).
+    \item \textbf{Дивергенция Брэгмана:} Определяется через строго выпуклую функцию ядра \(h(X)\) и измеряет различие между двумя точками \(X\) и \(Y\) в пространстве оптимизации:
+    \[
+    D_h(X, Y) = h(X) - h(Y) - \langle \nabla h(Y), X - Y \rangle.
+    \]
+    В отличие от евклидовых расстояний, дивергенция Брэгмана может адаптироваться к геометрии задачи, обеспечивая более эффективную оптимизацию.
+\end{itemize}
+
+\subsection{Формулировка и предположения}
+Задача минимизации низкого ранга переформулирована с использованием факторизации Бурера-Монтейру \(Y = XX^T\), что сокращает размерность задачи, но вводит неконвексность. Оптимизационная задача выражается как:
+\[
+\min \Psi(X) = F(XX^T) + g(X),
+\]
+где:
+\begin{itemize}
+    \item \(F(XX^T)\): Гладкая выпуклая функция, отражающая основную цель (например, ошибка восстановления).
+    \item \(g(X)\): Регуляризующий член, обеспечивающий дополнительную структуру (например, разреженность или неотрицательность).
+\end{itemize}
+
+Основное предположение состоит в том, что \(F\) является относительно гладкой относительно выбранного ядра \(h\), а \(g(X)\) достаточно прост для эффективного вычисления на каждом шаге итерации.
+
+\section{Предложенные методы}
+\subsection{Квартические ядра}
+Предлагаются два типа квартических ядер, предназначенных для захвата различных геометрических свойств задачи оптимизации:
+\begin{itemize}
+    \item \textbf{Нормовое ядро \(h_N(X)\):} Базовое ядро, которое зависит только от фробениусовой нормы \(X\):
+    \[
+    h_N(X) = \frac{\alpha}{4}\|X\|^4 + \frac{\sigma}{2}\|X\|^2,
+    \]
+    где \(\alpha\) и \(\sigma\) — параметры, регулирующие вес квартического и квадратичного членов.
+    \item \textbf{Граммовое ядро \(h_G(X)\):} Более сложное ядро, которое включает дополнительную структуру через граммову матрицу \(X^TX\):
+    \[
+    h_G(X) = h_N(X) + \frac{\beta}{4}\|X^TX\|^2,
+    \]
+    где \(\beta\) регулирует влияние граммового члена, который учитывает корреляции между столбцами \(X\).
+\end{itemize}
+
+\subsection{Алгоритмы}
+Предлагаемые алгоритмы основаны на структуре Dyn-NoLips, которая адаптивно регулирует шаги и использует свойства квартических ядер:
+\begin{itemize}
+    \item \textbf{Dyn-NoLips с нормовым ядром:}
+    Для этого варианта оптимизация использует нормовое ядро \(h_N(X)\). Итеративное обновление имеет вид:
+    \[
+    X_{k+1} = \text{argmin}_U \left\{ g(U) + \langle \nabla F(X_k), U - X_k \rangle + \frac{1}{\lambda_k} D_{h_N}(U, X_k) \right\},
+    \]
+    где \(\lambda_k\) — адаптивный шаг.
+    \item \textbf{Dyn-NoLips с граммовым ядром:}
+    Для этого варианта используется более богатое граммовое ядро \(h_G(X)\). Итеративное обновление аналогично, но с \(D_{h_G}(U, X_k)\):
+    \[
+    X_{k+1} = \text{argmin}_U \left\{ g(U) + \langle \nabla F(X_k), U - X_k \rangle + \frac{1}{\lambda_k} D_{h_G}(U, X_k) \right\}.
+    \]
+\end{itemize}
+
+\subsection{Сравнение ядер}
+\begin{itemize}
+    \item **Нормовое ядро:** Простое и вычислительно дешевое. Эффективно для общих задач минимизации низкого ранга, но может быть менее подходящим для данных со сложной структурой.
+    \item **Граммовое ядро:** Захватывает более богатую геометрическую информацию, обеспечивая лучшую производительность в задачах с корреляциями между переменными. Однако оно вычислительно более затратное из-за \(\|X^TX\|^2\).
+\end{itemize}
+
+Благодаря динамической адаптации геометрии задачи с использованием этих ядер предложенные методы достигают более высоких скоростей сходимости и лучшей масштабируемости по сравнению с традиционными евклидовыми подходами.
+
+\section{Сравнительный анализ}
+
+Для оценки эффективности предложенных методов были использованы различные алгоритмы,
+включая как современные подходы, так и предложенный Dyn-NoLips. В этом разделе кратко описаны
+основные алгоритмы, использованные в сравнении, их принципы работы и вычислительные сложности.
+
+\subsection{Используемые алгоритмы}
+
+\begin{itemize}
+    \item \textbf{Dyn-NoLips:}
+    Динамический метод первого порядка, основанный на дивергенции Брэгмана. Использует адаптивный шаг $\lambda_k$, чтобы
+    обеспечить достаточное уменьшение функции. Итеративное обновление имеет вид:
+    \[
+    T_\lambda(X) = \arg\min_U \left\{ g(U) + \langle \nabla f(X), U - X \rangle + \frac{1}{\lambda} D_h(U, X) \right\},
+    \]
+    где $D_h(U, X)$ определяется через выбранное ядро (нормовое $h_N$ или граммовое $h_G$).
+    Сложность одной итерации: $O(nr^2)$ для $h_N$ и $O(nr^2 + r^3)$ для $h_G$.
+
+    \item \textbf{Beta-SNMF:}
+    Мультипликативный метод обновления для задач симметричной неотрицательной матричной факторизации (SymNMF).
+    Использует фиксированный параметр $\beta$ для регулирования обновлений. Формула обновления:
+    \[
+    X_{ij} \leftarrow X_{ij} \frac{(M X)_{ij}^\beta}{(X X^T X)_{ij}^\beta}.
+    \]
+    Отличается простотой реализации, но требует подбора параметра $\beta$.
+
+    \item \textbf{PG (Projected Gradient):}
+    Метод проекционного градиента, обновляющий переменные с проекцией на допустимое множество. Итерация имеет вид:
+    \[
+    X_{k+1} = \text{proj}_{\text{constraint}}(X_k - \alpha_k \nabla f(X_k)),
+    \]
+    где $\alpha_k$ выбирается с помощью поиска по Армихо.
+    Сложность определяется проекцией: $O(nr)$ для каждой итерации.
+
+    \item \textbf{CD (Coordinate Descent):}
+    Метод координатного спуска, минимизирующий функцию по одной переменной за раз. Формула обновления:
+    \[
+    X_{ij} \leftarrow \arg\min_{x \geq 0} f(X_{ij} \mid \text{фиксированы остальные элементы}).
+    \]
+    Эффективен для задач с большой размерностью, где сложность одной итерации пропорциональна числу координат.
+
+    \item \textbf{SymANLS:}
+    Чередующийся метод наименьших квадратов для SymNMF. На каждой итерации решается подзадача:
+    \[
+    X \leftarrow \arg\min_{X \geq 0} \|M - XX^T\|_F^2.
+    \]
+    Сложность итерации: $O(nr^2)$.
+
+    \item \textbf{SymHALS:}
+    Улучшенный чередующийся метод, обновляющий одну строку или столбец за раз. Формула обновления:
+    \[
+    X_{i,:} \leftarrow \arg\min_{x \geq 0} \|M - XX^T\|_F^2.
+    \]
+    Более эффективен на больших наборах данных. Сложность итерации аналогична SymANLS.
+\end{itemize}
+
+\subsection{Сравнение}
+
+Для оценки методов были использованы следующие метрики:
+\begin{itemize}
+    \item \textbf{Время сходимости:} время, необходимое для достижения заданного критерия сходимости.
+    \item \textbf{Разрыв функции цели:}
+    \[
+    f(X_k) - f_\text{min},
+    \]
+    где $f_\text{min}$ — минимальное значение функции цели среди всех инициализаций.
+
+\end{itemize}
+
+Dyn-NoLips продемонстрировал вторую лучшую производительность после SymHALS на задачах SymNMF,
+превосходя другие методы по стабильности и отсутствию необходимости в настройке гиперпараметров.
+В задаче восстановления евклидовых матриц расстояний (EDMC) метод Dyn-NoLips-Gram показал
+наилучшую сходимость, что иллюстрирует преимущества граммовой геометрии.
+
+\section{Код для тестирования}
+\label{sec:testing-code}
+В этом разделе описан пример кода на языке Julia, который используется для запуска экспериментов. 
+Приведенный код включает модули и функции для различных алгоритмов, подготовки данных и их обработки.
+
+\subsection{Структура кода}
+\label{subsec:code-structure}
+Код состоит из следующих частей:
+\begin{enumerate}
+    \item \textbf{Загрузка библиотек}: загрузка необходимых модулей и пакетов.
+    \item \textbf{Инициализация}: определение основных параметров алгоритмов.
+    \item \textbf{Подготовка данных}: загрузка и обработка данных в зависимости от выбранного набора данных.
+    \item \textbf{Запуск алгоритмов}: выполнение алгоритмов с заданными параметрами и сохранение результатов.
+    \item \textbf{Анализ результатов}: визуализация потерь и кластерной точности.
+\end{enumerate}
+
+\subsection{Пример кода}
+\label{subsec:code-example}
+Ниже приведен код, который выполняет вышеуказанные шаги:
+\begin{lstlisting}[language=Julia, caption={Загрузка библиотек}, label={lst:example0}]
+include("utils.jl")
+include("PG.jl") # projected gradient 
+include("BPG.jl") # Bregman proximal gradient algorithms (Nolips and variants)
+include("Beta.jl")
+include("CD.jl")
+include("SymHALS.jl")
+include("SymANLS.jl")
+
+include("SymNMF.jl") # wrapper for all SymNMF solvers
+
+using LinearAlgebra
+using PyPlot
+using Random
+using NPZ
+using SparseArrays
+using JLD
+\end{lstlisting}
+
+\begin{lstlisting}[language=Julia, caption={Инициализация параметров}, label={lst:example1}]
+algos = [:pga, :nolips, :acc_nolips, :dyn_nolips, :beta, :cd, :sym_hals]
+algo_names = Dict(:pga => "PG", :dyn_nolips => "Dyn-Nolips",
+    :beta => "Beta", :cd => "CD",
+    :sym_hals => "SymHALS", :sym_anls => "SymANLS")
+
+algo_params = Dict()
+
+algo_params[:pga] = (step = 1., beta = 0.1, sigma = 0.01, max_inner_iter = 20)
+algo_params[:dyn_nolips] = (step = 1., gamma_inc = 2., gamma_dec = 2.)
+algo_params[:beta] = (beta = 0.99,)
+algo_params[:cd] = ()
+algo_params[:sym_hals] = (mu = 1e-2,)
+\end{lstlisting}
+
+\begin{lstlisting}[language=Julia, caption={Загрузка данных}, label={lst:example2}]
+possible_choices = [:synth500, :synth1000, :cbcl, :coil20, :tdt2, :reuters]
+
+dataset = :tdt2 # CHANGE HERE
+
+max_iter = 12000
+max_time = 10.
+monit_acc = true;
+y_true = [0]
+
+function load_dataset(ds_name)
+    file_content = load("data/$ds_name.jld")
+    return file_content["M"], file_content["labels"]
+end
+
+if dataset == :synth500 # synthetic dataset
+    mu = 1e1
+    max_time = 5.
+    n, r = 500, 20
+    M, r = synthetic_SNMF(n, r), r;
+    monit_acc = false
+
+elseif dataset == :synth1000
+    mu = 1e1
+    max_time = 10.
+    n, r = 1000, 30
+    M, r = synthetic_SNMF(n, r), r;
+    monit_acc = false
+
+elseif dataset == :cbcl
+    mu = 1e-2
+    max_time = 10.
+    r = 20
+    M, y_true = load_dataset("cbcl")
+    monit_acc = false
+
+elseif dataset == :coil20
+    mu = 1e-2
+    max_time = 20.
+    M, y_true = load_dataset("coil20")
+    r = 20
+
+elseif dataset == :tdt2
+    mu = 1e-1
+    max_time = 20.
+    M, y_true = load_dataset("tdt2")
+    r = 30
+
+elseif dataset == :reuters
+    mu = 1e-1
+    max_time = 20.
+    M, y_true = load_dataset("reuters")
+    r = 25
+
+elseif dataset == :orl
+    mu = 1e-2
+    max_time = 10.
+    M, y_true = load_dataset("orl")
+    r = 40
+end
+algo_params[:sym_hals] = (mu = mu,)
+algo_params[:sym_anls] = (mu = mu,)
+
+monitoring_interval = max_time / 20.;
+\end{lstlisting}
+
+\begin{lstlisting}[language=Julia, caption={Запуск алгоритмов}, label={lst:example3}]
+function run_algo(algo::Symbol, A0::Matrix{Float64}, algo_params)
+    SymNMF(M, r; algo = algo, 
+        max_iter = max_iter, 
+        max_time = max_time,
+        monitoring_interval = monitoring_interval, 
+        A_init = A0, 
+        monitor_accuracy = monit_acc, 
+        true_labels = y_true,
+        algo_params...);
+end;
+
+n_runs = 5 # number of runs to average
+
+algos_to_run = [:pga, :dyn_nolips, :beta, :cd,
+    :sym_hals, :sym_anls]
+
+all_losses = Dict()
+clust_accs = Dict()
+n_measures = Dict()
+min_loss = Inf
+
+for t = 1:n_runs
+    println("Run number $t / $n_runs ...")
+    A0 = random_init_sym(M, r);
+
+    for algo = algos_to_run
+        params, name = algo_params[algo], algo_names[algo]
+
+        A, losses = run_algo(algo, A0, params)
+
+        # updating minimal loss
+        min_loss = min(min_loss, minimum(losses[:,2]))
+
+        if t == 1
+            all_losses[algo] = losses
+            clust_accs[algo] = [losses[end,:4]]
+        else
+            push!(clust_accs[algo], losses[end,:4])
+
+            # a procedure to ensure that all losses measures have same size,
+            # in order to average them
+            n_meas_old = size(all_losses[algo],1)
+            n_meas_new = min(n_meas_old, size(losses,1))
+
+            trimmed_old_losses = all_losses[algo][1:n_meas_new,:]
+            trimmed_losses = losses[1:n_meas_new,:]
+
+            all_losses[algo] = ((t - 1) * trimmed_old_losses + trimmed_losses) / t
+        end
+    end
+end
+
+all_losses[:min_loss] = min_loss
+\end{lstlisting}
+
+\begin{lstlisting}[language=Julia, caption={Графики и анализ}, label={lst:example4}]
+fig, ax = subplots()
+
+markers = Dict(:pga => ".", :nolips => "v", :acc_nolips => "s",
+    :dyn_nolips => "D", :cd => "None",
+    :sym_hals => "^", :sym_anls => "h", :dyn_acc_nolips => "s", :beta => "None")
+
+
+algos_to_show = [:dyn_nolips, :beta, :pga, :cd, :sym_anls, :sym_hals]
+
+linestyles = Dict()
+for algo = algos_to_show
+   linestyles[algo] = "-" 
+end
+
+linestyles[:beta] = "--"
+linestyles[:cd] = "-."
+
+function plot_loss(axis, losses, label, marker, ls)
+    min_loss = all_losses[:min_loss]
+    axis.plot(losses[:,1], losses[:,2] .- min_loss, label = label,
+        marker = marker, linestyle = ls, linewidth = 2)
+end
+
+for algo = algos_to_show
+   plot_loss(ax, all_losses[algo], algo_names[algo], markers[algo],
+        linestyles[algo]) 
+end
+
+fontsize = 12
+ax.set_xlabel("Time (seconds)", fontsize = fontsize)
+
+ax.set_ylabel("f(X^k) - f_min", fontsize = fontsize)
+
+ax.legend(fontsize = fontsize, loc = 1);
+ax.set_yscale("log");
+
+n = size(M, 1)
+title("Results on dataset $dataset, with n = $n, r = $r. Averaged over $n_runs runs")
+# ax1[:set_xlim](0, 5.)
+
+println("Clustering accuracies \n")
+for algo = algos_to_run
+    println(algo_names[algo], "\t", mean(clust_accs[algo]))
+end
+\end{lstlisting}
+
+\subsection{Используемые библиотеки}
+Для работы кода требуется установить следующие библиотеки Julia:
+\begin{itemize}
+    \item \textbf{LinearAlgebra}: операции с матрицами.
+    \item \textbf{PyPlot}: построение графиков.
+    \item \textbf{Random}: генерация случайных чисел.
+    \item \textbf{NPZ}: работа с файлами в формате .npz.
+    \item \textbf{SparseArrays}: работа с разреженными матрицами.
+    \item \textbf{JLD}: работа с файлами формата .jld.
+\end{itemize}
+
+\section{Обсуждение сторонних библиотек}
+\label{sec:external-libraries}
+\subsection{Общие сведения}
+Код основывается на библиотеке \textbf{SymNMF}, которая предоставляет реализацию различных алгоритмов для симметричной неотрицательной матричной факторизации. Подробнее:
+\begin{itemize}
+    \item \textbf{SymNMF/SymNMF.jl}: оболочка для тестирования и мониторинга всех алгоритмов.
+    \item \textbf{SymNMF/BPG.jl}: алгоритм Dyn-NoLips.
+    \item \textbf{SymNMF/Beta.jl}: алгоритм Beta-SNMF.
+    \item \textbf{SymNMF/CD.jl}: алгоритм координатного спуска.
+    \item \textbf{SymNMF/PG.jl}: проекционный градиент.
+    \item \textbf{SymNMF/utils.jl}: функции для инициализации и оценки.
+\end{itemize}
+
+Подробная документация находится в репозитории \href{https://github.com/RaduAlexandruDragomir/QuarticLowRankOptimization}{QuarticLowRankOptimization}.
+
+\subsection{Используемые датасеты и решаемые задачи}
+Эксперименты проводились на следующих датасетах:
+\begin{itemize}
+    \item \textbf{:synth500, :synth1000:} Синтетические данные размером 500 и 1000 строк, используемые для проверки масштабируемости алгоритмов на данных с известным ранком.
+    \item \textbf{:cbcl:} Набор данных с изображениями лиц, применяемый для задач восстановления матриц.
+    \item \textbf{:coil20:} Набор изображений объектов, используемый для кластеризации и анализа структуры данных.
+    \item \textbf{:tdt2, :reuters:} Текстовые датасеты, предназначенные для задач кластеризации документов и моделирования тем.
+\end{itemize}
+
+\section{Экспериментальные результаты}
+\begin{itemize}
+    \item \textbf{Наборы данных:} CBCL (лица), Coil-20 (объекты), TDT2 и Reuters (тексты).
+    \item \textbf{Метрики:} Время сходимости, нормализованный разрыв функции цели и среднеквадратичная ошибка.
+    \item \textbf{Наблюдения:} Dyn-NoLips превосходит существующие методы по масштабируемости и настройке параметров.
+\end{itemize}
+
+\section{Выводы}
+\begin{itemize}
+    \item Разработаны масштабируемые алгоритмы для неконвексной минимизации низкого ранга.
+    \item Предложены новые квартические ядра для улучшения скоростей сходимости.
+    \item Будущая работа: инерционные варианты и новые дизайны ядер для более широких приложений.
+\end{itemize}
+
+\section*{Список литературы}
+\begin{itemize}
+    \item Cand\`es, E.J., Recht, B.: Exact Matrix Completion via Convex Optimization. Found. Comput. Math. (2009).
+    \item Burer, S., Monteiro, R.D.C.: Local Minima in Low-Rank Semidefinite Programming. Math. Program. (2005).
+    \item Bolte, J., Teboulle, M.: First-Order Methods Beyond Lipschitz Gradient Continuity. Math. Oper. Res. (2017).
+\end{itemize}
+
+\end{document}
+
