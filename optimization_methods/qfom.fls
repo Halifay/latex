@@ -158,6 +158,12 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/import/import.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/import/import.sty
 INPUT ./qfom.aux
 INPUT ./qfom.aux
 INPUT qfom.aux
@@ -216,6 +222,14 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 OUTPUT qfom.toc
 OUTPUT qfom.xdv
+INPUT ./images/my_plot_cbcl.png
+INPUT ./images/my_plot_cbcl.png
+INPUT ./images/my_plot_coil20.png
+INPUT ./images/my_plot_coil20.png
+INPUT ./images/my_plot_tdt2.png
+INPUT ./images/my_plot_tdt2.png
+INPUT ./images/my_plot_reuters.png
+INPUT ./images/my_plot_reuters.png
 INPUT qfom.aux
 INPUT ./qfom.out
 INPUT ./qfom.out

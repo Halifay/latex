@@ -18,4 +18,8 @@
 \contentsline {subsection}{\numberline {6.1}Общие сведения}{10}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Используемые датасеты и решаемые задачи}{10}{subsection.6.2}%
 \contentsline {section}{\numberline {7}Экспериментальные результаты}{11}{section.7}%
-\contentsline {section}{\numberline {8}Выводы}{11}{section.8}%
+\contentsline {subsection}{\numberline {7.1}Результаты на датасете CBCL}{11}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Результаты на датасете Coil-20}{12}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Результаты на датасете TDT2}{13}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Результаты на датасете Reuters}{14}{subsection.7.4}%
+\contentsline {section}{\numberline {8}Выводы}{14}{section.8}%

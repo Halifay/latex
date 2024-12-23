@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1734909647.60012 "qfom.xdv" "qfom.pdf" "qfom" 1734909647.8087 0
-  "qfom.xdv" 1734909647.55429 323028 a9862522cf97a574ccb7a37ba13dedfe "xelatex"
+["xdvipdfmx"] 1734914207.03122 "qfom.xdv" "qfom.pdf" "qfom" 1734914207.45715 0
+  "qfom.xdv" 1734914206.98959 348312 540f20130f1f89a75f85c3597955a84a "xelatex"
   (generated)
   "qfom.pdf"
   (rewritten before read)
-["xelatex"] 1734909646.92506 "qfom.tex" "qfom.xdv" "qfom" 1734909647.80776 0
+["xelatex"] 1734914206.35405 "qfom.tex" "qfom.xdv" "qfom" 1734914207.4562 0
   "/etc/texmf/web2c/texmf.cnf" 1726840375.39741 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/mikhail/.texlive2023/texmf-var/fonts/tfm/lh/lh-t2a/larm1095.tfm" 1734826965.92757 3264 ead613d557baebcc53cf028c9c92d927 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -49,6 +49,8 @@
   "/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty" 1705352648 5119 a04a8b68ab4f6ce800a41f7f8012a10e ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo" 1705352648 8464 59874a3b0776c73e2a138b025d8473dd ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd" 1705352648 2430 fce77d7e103eb98b6c4d486ae1d466c0 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty" 1696191071 56128 c2ccf1a29d78c33bc553880402e4fb9a ""
+  "/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty" 1696191071 72619 ee90b6612147680fd73c3b1406a74245 ""
   "/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty" 1425427964 26218 19edeff8cdc2bcb704e8051dc55eb5a7 ""
   "/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd" 1655411061 2556 2f35e21d371ff2a89907e962d45fc1f1 ""
   "/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2aenc.def" 1655411061 12159 05eeae2a6aef0d4a75002d9120f47cbf ""
@@ -71,6 +73,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty" 1705871765 11026 182c63f139a71afd30a28e5f1ed2cd1c ""
   "/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def" 1705871765 14249 e67cb186717b7ab18d14a4875e7e98b5 ""
   "/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def" 1705871765 117112 05831178ece2cad4d9629dcf65099b11 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/import/import.sty" 1586645574 6201 0ad8b5da8e12f60a88d546b2198a56f2 ""
   "/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty" 1655478651 22555 6d8e155cfef6d82c3d5c742fea7c992e ""
   "/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty" 1665067230 13815 760b0c02f691ea230f5359c4e1de23a7 ""
   "/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def" 1704491087 31815 935a376385ab1feff82e3d2187c4f47a ""
@@ -104,10 +107,14 @@
   "/usr/share/texmf/tex/latex/lm/ot1lmr.fd" 1616454256 1882 28c08db1407ebff35a658fd141753d16 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1730896687 10844396 f7c60128c09712e9cf171ec69012ab26 ""
-  "qfom.aux" 1734909647.55329 4527 13dbb07f18348d26213c14bd52ab28dd "xelatex"
-  "qfom.out" 1734909647.55429 4103 74b301b808e27a77889d0b9264b27359 "xelatex"
-  "qfom.tex" 1734909646.84927 29986 462e40713dd46d1fb38ca7c183dcade7 ""
-  "qfom.toc" 1734909647.55429 2018 3196f041cd02d53d15202c4bf6529bb4 "xelatex"
+  "images/my_plot_cbcl.png" 1734913735.65495 60440 69d472fca49f20ef82a3c4a54cc463e3 ""
+  "images/my_plot_coil20.png" 1734913324.58175 44960 3b37356e69df6cc358ee7a35bb5d7312 ""
+  "images/my_plot_reuters.png" 1734912938.78154 54910 00f06eb1bedd2be83ca754ac01d5f602 ""
+  "images/my_plot_tdt2.png" 1734912095.26928 60788 a0309d50da0a7e61fe6a55abd7b1f9a5 ""
+  "qfom.aux" 1734914206.98859 7929 392b125dfa2f2d219e7111b26b5f9273 "xelatex"
+  "qfom.out" 1734914206.98959 5181 6a12bafbe73d5f4f999b585b09d5a0fd "xelatex"
+  "qfom.tex" 1734914205.56955 34696 f366343b1d617e01aeaee1494274e87a ""
+  "qfom.toc" 1734914206.98959 2480 3217ca4da37330ab8959c10732fe1f2d "xelatex"
   (generated)
   "qfom.aux"
   "qfom.log"
