@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.11.6)  23 DEC 2024 03:36
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.11.6)  25 DEC 2024 02:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -431,33 +431,33 @@ Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
  (./qfom.aux)
 \openout1 = `qfom.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 70.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-Package hyperref Info: Link coloring OFF on input line 65.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+Package hyperref Info: Link coloring OFF on input line 70.
  (./qfom.out) (./qfom.out)
 \@outlinefile=\write3
 \openout3 = `qfom.out'.
@@ -497,37 +497,37 @@ Package hyperref Info: Link coloring OFF on input line 65.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \th on input line 65.
+LaTeX Info: Redefining \th on input line 70.
 \c@lstlisting=\count313
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 68.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 73.
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 68.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 73.
  (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 68.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 73.
  (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 68.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 73.
  (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 68.
+(Font)              <12> on input line 73.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 68.
+(Font)              <8> on input line 73.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 68.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 68.
+(Font)              <6> on input line 73.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 73.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 68.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (./qfom.toc
@@ -539,39 +539,43 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
  [1
 
-]
-Overfull \hbox (0.51457pt too wide) in paragraph at lines 85--86
-[]\TU/TimesNewRoman(0)/m/n/10.95 Предложенный подход использует дивергенцию Брэгмана — обобщение мер расстояния, адап-
- []
-
-[2] [3]
-Overfull \hbox (3.17119pt too wide) in paragraph at lines 183--186
+] [2] [3]
+Overfull \hbox (3.17119pt too wide) in paragraph at lines 180--183
 \TU/TimesNewRoman(0)/m/n/10.95 где $\OML/lmm/m/it/10.95 ^^K[]$ \TU/TimesNewRoman(0)/m/n/10.95 выбирается с помощью поиска по Армихо. Сложность определяется проекцией: $\OML/lmm/m/it/10.95 O\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 nr\OT1/lmr/m/n/10.95 )$
  []
 
 [4]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 246.
- [5]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 229.
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 257.
- [6] [7] [8] [9] [10]
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 240.
+ [5] [6] [7] [8] [9] [10]
 File: images/my_plot_cbcl.png Graphic file (type bmp)
 <images/my_plot_cbcl.png>
  [11]
 File: images/my_plot_coil20.png Graphic file (type bmp)
 <images/my_plot_coil20.png>
- [12]
+
+Overfull \hbox (19.83252pt too wide) in paragraph at lines 517--529
+ [][] 
+ []
+
+[12]
 File: images/my_plot_tdt2.png Graphic file (type bmp)
 <images/my_plot_tdt2.png>
- [13]
+
+Overfull \hbox (19.83252pt too wide) in paragraph at lines 542--554
+ [][] 
+ []
+
+[13]
 File: images/my_plot_reuters.png Graphic file (type bmp)
 <images/my_plot_reuters.png>
 
-Overfull \hbox (10.71077pt too wide) in paragraph at lines 623--624
-[]\TU/TimesNewRoman(0)/m/n/10.95 Burer, S., Monteiro, R.D.C.: Local Minima in Low-Rank Semidefinite Programming. Math. Program.
+Overfull \hbox (19.83252pt too wide) in paragraph at lines 567--579
+ [][] 
  []
 
-[14] [15] (./qfom.aux)
+[14] (./qfom.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -581,15 +585,15 @@ L3 programming layer <2024-01-22>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `qfom.out' has not changed.
-(rerunfilecheck)             Checksum: 6A12BAFBE73D5F4F999B585B09D5A0FD;5181.
+(rerunfilecheck)             Checksum: 7BB88CD6AA318E1686ED6B8B78C7ECC7;6055.
  ) 
 Here is how much of TeX's memory you used:
- 17344 strings out of 474878
- 325742 string characters out of 5762516
- 2185627 words of memory out of 5000000
- 39157 multiletter control sequences out of 15000+600000
+ 17342 strings out of 474878
+ 325675 string characters out of 5762516
+ 2149627 words of memory out of 5000000
+ 39155 multiletter control sequences out of 15000+600000
  575694 words of font info for 82 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 79i,8n,93p,588b,1825s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,8n,93p,470b,1789s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on qfom.xdv (15 pages, 348312 bytes).
+Output written on qfom.xdv (14 pages, 339056 bytes).

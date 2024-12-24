@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1734914207.03122 "qfom.xdv" "qfom.pdf" "qfom" 1734914207.45715 0
-  "qfom.xdv" 1734914206.98959 348312 540f20130f1f89a75f85c3597955a84a "xelatex"
+["xdvipdfmx"] 1735081989.96109 "qfom.xdv" "qfom.pdf" "qfom" 1735081990.69715 0
+  "qfom.xdv" 1735081989.8757 339056 81fefdc238328157f2cd1be1594b35ee "xelatex"
   (generated)
   "qfom.pdf"
   (rewritten before read)
-["xelatex"] 1734914206.35405 "qfom.tex" "qfom.xdv" "qfom" 1734914207.4562 0
+["xelatex"] 1735081988.5689 "qfom.tex" "qfom.xdv" "qfom" 1735081990.69554 0
   "/etc/texmf/web2c/texmf.cnf" 1726840375.39741 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/mikhail/.texlive2023/texmf-var/fonts/tfm/lh/lh-t2a/larm1095.tfm" 1734826965.92757 3264 ead613d557baebcc53cf028c9c92d927 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -107,14 +107,14 @@
   "/usr/share/texmf/tex/latex/lm/ot1lmr.fd" 1616454256 1882 28c08db1407ebff35a658fd141753d16 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1730896687 10844396 f7c60128c09712e9cf171ec69012ab26 ""
-  "images/my_plot_cbcl.png" 1734913735.65495 60440 69d472fca49f20ef82a3c4a54cc463e3 ""
-  "images/my_plot_coil20.png" 1734913324.58175 44960 3b37356e69df6cc358ee7a35bb5d7312 ""
-  "images/my_plot_reuters.png" 1734912938.78154 54910 00f06eb1bedd2be83ca754ac01d5f602 ""
-  "images/my_plot_tdt2.png" 1734912095.26928 60788 a0309d50da0a7e61fe6a55abd7b1f9a5 ""
-  "qfom.aux" 1734914206.98859 7929 392b125dfa2f2d219e7111b26b5f9273 "xelatex"
-  "qfom.out" 1734914206.98959 5181 6a12bafbe73d5f4f999b585b09d5a0fd "xelatex"
-  "qfom.tex" 1734914205.56955 34696 f366343b1d617e01aeaee1494274e87a ""
-  "qfom.toc" 1734914206.98959 2480 3217ca4da37330ab8959c10732fe1f2d "xelatex"
+  "images/my_plot_cbcl.png" 1735066941.4815 59275 537c40a123fc44e9826aa8411f29a0aa ""
+  "images/my_plot_coil20.png" 1735065854.38102 43781 ef55cfde6a17d0d2bd50a26b34446ffe ""
+  "images/my_plot_reuters.png" 1735064352.14392 58274 a29c407452c1cc0a04b9638f5e20fcb2 ""
+  "images/my_plot_tdt2.png" 1735065432.63505 58365 0f9e8c8f6f2368bb6600c9673a70f2ee ""
+  "qfom.aux" 1735081989.8747 8031 e8a33b4528c7240283b1150d11e91a16 "xelatex"
+  "qfom.out" 1735081989.8757 6055 7bb88cd6aa318e1686ed6b8b78c7ecc7 "xelatex"
+  "qfom.tex" 1735081988.3367 30959 59b7fe26f9985255b100561aba542ff5 ""
+  "qfom.toc" 1735081989.8757 2938 48efcb993b3568122a3b71c86b656d33 "xelatex"
   (generated)
   "qfom.aux"
   "qfom.log"
