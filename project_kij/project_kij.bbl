@@ -1,0 +1,442 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Chirico2020}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{hash=ffb6831c440055717e86d6a4ed30ecd2}{%
+           family={Chirico},
+           familyi={C\bibinitperiod},
+           given={Robert\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=c1b285c4f32843c01deefe3e23f7d9e0}{%
+           family={Frenkel},
+           familyi={F\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=64a307a2fce9aec8ee33d8828136fc06}{%
+           family={Diky},
+           familyi={D\bibinitperiod},
+           given={Vladimir},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{597a3f537ce4778c753263776ad185b2}
+      \strng{fullhash}{597a3f537ce4778c753263776ad185b2}
+      \strng{bibnamehash}{597a3f537ce4778c753263776ad185b2}
+      \strng{authorbibnamehash}{597a3f537ce4778c753263776ad185b2}
+      \strng{authornamehash}{597a3f537ce4778c753263776ad185b2}
+      \strng{authorfullhash}{597a3f537ce4778c753263776ad185b2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Chemical Information and Modeling}
+      \field{title}{ThermoML—An XML-based approach for storage and exchange of experimental and critically evaluated thermophysical and thermochemical property data}
+      \field{volume}{60}
+      \field{year}{2020}
+      \field{pages}{567\bibrangedash 580}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1021/je025645o
+      \endverb
+    \endentry
+    \entry{Frenkel2004}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{hash=c1b285c4f32843c01deefe3e23f7d9e0}{%
+           family={Frenkel},
+           familyi={F\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ffb6831c440055717e86d6a4ed30ecd2}{%
+           family={Chirico},
+           familyi={C\bibinitperiod},
+           given={Robert\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=64a307a2fce9aec8ee33d8828136fc06}{%
+           family={Diky},
+           familyi={D\bibinitperiod},
+           given={Vladimir},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{3c42c809b8b04aabc2beec5755cc5d7a}
+      \strng{fullhash}{3c42c809b8b04aabc2beec5755cc5d7a}
+      \strng{bibnamehash}{3c42c809b8b04aabc2beec5755cc5d7a}
+      \strng{authorbibnamehash}{3c42c809b8b04aabc2beec5755cc5d7a}
+      \strng{authornamehash}{3c42c809b8b04aabc2beec5755cc5d7a}
+      \strng{authorfullhash}{3c42c809b8b04aabc2beec5755cc5d7a}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Chemical and Engineering Data}
+      \field{title}{XML-based IUPAC standard for experimental, predicted, and critically evaluated thermodynamic property data storage and capture (ThermoML)}
+      \field{volume}{49}
+      \field{year}{2004}
+      \field{pages}{123\bibrangedash 135}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1351/pac200678030541
+      \endverb
+    \endentry
+    \entry{Gross2001}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d039ee785963d74cf7ea3c7a18f9c865}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={Joachim},
+           giveni={J\bibinitperiod}}}%
+        {{hash=514f4d00b73b85e58ac1cde274edd2ad}{%
+           family={Sadowski},
+           familyi={S\bibinitperiod},
+           given={Gabriele},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb4f674f1462b0b34907dc49f8a8d0fa}
+      \strng{fullhash}{fb4f674f1462b0b34907dc49f8a8d0fa}
+      \strng{bibnamehash}{fb4f674f1462b0b34907dc49f8a8d0fa}
+      \strng{authorbibnamehash}{fb4f674f1462b0b34907dc49f8a8d0fa}
+      \strng{authornamehash}{fb4f674f1462b0b34907dc49f8a8d0fa}
+      \strng{authorfullhash}{fb4f674f1462b0b34907dc49f8a8d0fa}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Industrial \& Engineering Chemistry Research}
+      \field{number}{4}
+      \field{title}{Perturbed-Chain SAFT: An Equation of State Based on a Perturbation Theory for Chain Molecules}
+      \field{volume}{40}
+      \field{year}{2001}
+      \field{pages}{1244\bibrangedash 1260}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1021/IE0003887
+      \endverb
+    \endentry
+    \entry{Held2014}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=1b316cd7e05b6f510eb44dc463229611}{%
+           family={Held},
+           familyi={H\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{075534438e37eaedb8d62403900a0074}
+      \strng{fullhash}{075534438e37eaedb8d62403900a0074}
+      \strng{bibnamehash}{075534438e37eaedb8d62403900a0074}
+      \strng{authorbibnamehash}{075534438e37eaedb8d62403900a0074}
+      \strng{authornamehash}{075534438e37eaedb8d62403900a0074}
+      \strng{authorfullhash}{075534438e37eaedb8d62403900a0074}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fluid Phase Equilibria}
+      \field{title}{A modified PC-SAFT equation of state based on critical point data}
+      \field{volume}{375}
+      \field{year}{2014}
+      \field{pages}{187\bibrangedash 196}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.fluid.2014.05.001
+      \endverb
+    \endentry
+    \entry{Nagarajan1990}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b18f4e32e94c207d565639e21bbc5fea}{%
+           family={Nagarajan},
+           familyi={N\bibinitperiod},
+           given={Narayana},
+           giveni={N\bibinitperiod}}}%
+        {{hash=564838edcd31373af950fd06daf55873}{%
+           family={Gasem},
+           familyi={G\bibinitperiod},
+           given={Khaied\bibnamedelimb A.\bibnamedelimi M.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=f99fd6c0b3ac16b6e7e067cf0cbf72c0}{%
+           family={Robert\bibnamedelimb L.\bibnamedelimi Robinson},
+           familyi={R\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Jr.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d29c1e020fe3c45bd1f579bcd11aac5}
+      \strng{fullhash}{8d29c1e020fe3c45bd1f579bcd11aac5}
+      \strng{bibnamehash}{8d29c1e020fe3c45bd1f579bcd11aac5}
+      \strng{authorbibnamehash}{8d29c1e020fe3c45bd1f579bcd11aac5}
+      \strng{authornamehash}{8d29c1e020fe3c45bd1f579bcd11aac5}
+      \strng{authorfullhash}{8d29c1e020fe3c45bd1f579bcd11aac5}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Chemical and Engineering Data}
+      \field{number}{3}
+      \field{title}{Equilibrium Phase Compositions, Phase Densities, and Interfacial Tensions for CO₂ + Hydrocarbon Systems. 6. CO₂ + n-Butane + n-Decane}
+      \field{volume}{35}
+      \field{year}{1990}
+      \verb{doi}
+      \verb 10.1021/je00061a002
+      \endverb
+    \endentry
+    \entry{Picard2015}{misc}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=136bd670d4f991486d672450db4d0cbd}{%
+           family={Picard},
+           familyi={P\bibinitperiod},
+           given={R.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{c90bcfcbef6f8c35a1f2064c45572e4b}
+      \strng{fullhash}{c90bcfcbef6f8c35a1f2064c45572e4b}
+      \strng{bibnamehash}{c90bcfcbef6f8c35a1f2064c45572e4b}
+      \strng{authorbibnamehash}{c90bcfcbef6f8c35a1f2064c45572e4b}
+      \strng{authornamehash}{c90bcfcbef6f8c35a1f2064c45572e4b}
+      \strng{authorfullhash}{c90bcfcbef6f8c35a1f2064c45572e4b}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ThermoPyL: A Python library for automated analysis of ThermoML archives}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://github.com/choderalab/thermopyl
+      \endverb
+      \verb{url}
+      \verb https://github.com/choderalab/thermopyl
+      \endverb
+    \endentry
+    \entry{Pisarev2025}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=245ee16f8ecf6feff4efbaa0851b03d1}{%
+           family={Pisarev},
+           familyi={P\bibinitperiod},
+           given={Vasily},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{245ee16f8ecf6feff4efbaa0851b03d1}
+      \strng{fullhash}{245ee16f8ecf6feff4efbaa0851b03d1}
+      \strng{bibnamehash}{245ee16f8ecf6feff4efbaa0851b03d1}
+      \strng{authorbibnamehash}{245ee16f8ecf6feff4efbaa0851b03d1}
+      \strng{authornamehash}{245ee16f8ecf6feff4efbaa0851b03d1}
+      \strng{authorfullhash}{245ee16f8ecf6feff4efbaa0851b03d1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CubicEoS.jl: Extensible, Open-Source Isothermal Phase Equilibrium Calculations}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://github.com/vvpisarev/CubicEoS.jl
+      \endverb
+      \verb{url}
+      \verb https://github.com/vvpisarev/CubicEoS.jl
+      \endverb
+    \endentry
+    \entry{polishuk2014standardized}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d58d58f8259aecd1bd276d93d1ccdca9}{%
+           family={Polishuk},
+           familyi={P\bibinitperiod},
+           given={Ilya},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{d58d58f8259aecd1bd276d93d1ccdca9}
+      \strng{fullhash}{d58d58f8259aecd1bd276d93d1ccdca9}
+      \strng{bibnamehash}{d58d58f8259aecd1bd276d93d1ccdca9}
+      \strng{authorbibnamehash}{d58d58f8259aecd1bd276d93d1ccdca9}
+      \strng{authornamehash}{d58d58f8259aecd1bd276d93d1ccdca9}
+      \strng{authorfullhash}{d58d58f8259aecd1bd276d93d1ccdca9}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Industrial \& Engineering Chemistry Research}
+      \field{number}{36}
+      \field{title}{Standardized critical point-based numerical solution of statistical association fluid theory parameters: the perturbed chain-statistical association fluid theory equation of state revisited}
+      \field{volume}{53}
+      \field{year}{2014}
+      \field{pages}{14127\bibrangedash 14141}
+      \range{pages}{15}
+    \endentry
+    \entry{SanchezGarcia2023}{article}{}
+      \name{author}{4}{}{%
+        {{hash=535f819b4b67be2c0e40d708064df792}{%
+           family={Sánchez-García},
+           familyi={S\bibinithyphendelim G\bibinitperiod},
+           given={Carmen},
+           giveni={C\bibinitperiod}}}%
+        {{hash=3ee78c5eb08d696f5b64737df92c29dd}{%
+           family={Vázquez-Hernández},
+           familyi={V\bibinithyphendelim H\bibinitperiod},
+           given={Karla\bibnamedelima E.},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=accfea3b626b18b7dab7443cc14bdc61}{%
+           family={Galicia-Luna},
+           familyi={G\bibinithyphendelim L\bibinitperiod},
+           given={Luis\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=868a68858bb1195997cb098e847cbd81}{%
+           family={Elizalde-Solis},
+           familyi={E\bibinithyphendelim S\bibinitperiod},
+           given={Octavio},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{98cb05f64de34571da9f6364091abcf0}
+      \strng{fullhash}{d5b139639c1f5610c9c310facd90ca0e}
+      \strng{bibnamehash}{98cb05f64de34571da9f6364091abcf0}
+      \strng{authorbibnamehash}{98cb05f64de34571da9f6364091abcf0}
+      \strng{authornamehash}{98cb05f64de34571da9f6364091abcf0}
+      \strng{authorfullhash}{d5b139639c1f5610c9c310facd90ca0e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Chemical \& Engineering Data}
+      \field{title}{Vapor-Liquid Equilibrium Measurements for the Ternary Systems of CO₂ + n-Hexane + n-Decane and CO₂ + n-Octane + n-Decane}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.1021/acs.jced.3c00712
+      \endverb
+    \endentry
+    \entry{cp_pc_saft2024}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=cd5fed6e92b231bdbbe67971ce80e110}{%
+           family={Zakharov},
+           familyi={Z\bibinitperiod},
+           given={Stepan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd5fed6e92b231bdbbe67971ce80e110}
+      \strng{fullhash}{cd5fed6e92b231bdbbe67971ce80e110}
+      \strng{bibnamehash}{cd5fed6e92b231bdbbe67971ce80e110}
+      \strng{authorbibnamehash}{cd5fed6e92b231bdbbe67971ce80e110}
+      \strng{authornamehash}{cd5fed6e92b231bdbbe67971ce80e110}
+      \strng{authorfullhash}{cd5fed6e92b231bdbbe67971ce80e110}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{cp\_pc\_saft: Julia Library for SAFT Equations of State}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://github.com/zmeri/PC-SAFT
+      \endverb
+      \verb{url}
+      \verb https://github.com/zmeri/PC-SAFT
+      \endverb
+    \endentry
+    \entry{Zakharov2024}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=cd5fed6e92b231bdbbe67971ce80e110}{%
+           family={Zakharov},
+           familyi={Z\bibinitperiod},
+           given={Stepan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=245ee16f8ecf6feff4efbaa0851b03d1}{%
+           family={Pisarev},
+           familyi={P\bibinitperiod},
+           given={Vasily},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{cc45361d00de117d0decb8b4d149aa18}
+      \strng{fullhash}{cc45361d00de117d0decb8b4d149aa18}
+      \strng{bibnamehash}{cc45361d00de117d0decb8b4d149aa18}
+      \strng{authorbibnamehash}{cc45361d00de117d0decb8b4d149aa18}
+      \strng{authornamehash}{cc45361d00de117d0decb8b4d149aa18}
+      \strng{authorfullhash}{cc45361d00de117d0decb8b4d149aa18}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Russian Supercomputing Days}
+      \field{title}{CubicEoS.jl: Extensible, Open-Source Isothermal Phase Equilibrium Calculations for Fluids}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.1007/978-3-031-49432-1_5
+      \endverb
+    \endentry
+    \entry{Brusilovskii2002}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d412f1d6647382c40f03309b40de8ce4}{%
+           family={Брусиловский},
+           familyi={Б\bibinitperiod},
+           given={А.И.},
+           giveni={А\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Грааль, Москва}%
+      }
+      \strng{namehash}{d412f1d6647382c40f03309b40de8ce4}
+      \strng{fullhash}{d412f1d6647382c40f03309b40de8ce4}
+      \strng{bibnamehash}{d412f1d6647382c40f03309b40de8ce4}
+      \strng{authorbibnamehash}{d412f1d6647382c40f03309b40de8ce4}
+      \strng{authornamehash}{d412f1d6647382c40f03309b40de8ce4}
+      \strng{authorfullhash}{d412f1d6647382c40f03309b40de8ce4}
+      \field{extraname}{1}
+      \field{sortinit}{Б}
+      \field{sortinithash}{5261f8dfa92113358b76bb09b8629977}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{5-94688-031-4}
+      \field{title}{Фазовые превращения при разработке месторождений нефти и газа}
+      \field{year}{2002}
+    \endentry
+    \entry{Brusilovskii1987}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0defc54bccaca17ecadfecf65278845c}{%
+           family={Брусиловский},
+           familyi={Б\bibinitperiod},
+           given={Г.\bibnamedelimi Я.},
+           giveni={Г\bibinitperiod\bibinitdelim Я\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Недра, Москва}%
+      }
+      \strng{namehash}{0defc54bccaca17ecadfecf65278845c}
+      \strng{fullhash}{0defc54bccaca17ecadfecf65278845c}
+      \strng{bibnamehash}{0defc54bccaca17ecadfecf65278845c}
+      \strng{authorbibnamehash}{0defc54bccaca17ecadfecf65278845c}
+      \strng{authornamehash}{0defc54bccaca17ecadfecf65278845c}
+      \strng{authorfullhash}{0defc54bccaca17ecadfecf65278845c}
+      \field{extraname}{2}
+      \field{sortinit}{Б}
+      \field{sortinithash}{5261f8dfa92113358b76bb09b8629977}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Термодинамика углеводородов и их смесей}
+      \field{year}{1987}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

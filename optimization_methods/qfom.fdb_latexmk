@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1735081989.96109 "qfom.xdv" "qfom.pdf" "qfom" 1735081990.69715 0
-  "qfom.xdv" 1735081989.8757 339056 81fefdc238328157f2cd1be1594b35ee "xelatex"
+["xdvipdfmx"] 1735127517.98748 "qfom.xdv" "qfom.pdf" "qfom" 1735127518.64284 0
+  "qfom.xdv" 1735127517.93544 339220 1aca835007dfa9e0c3e31e6e36c5d1fa "xelatex"
   (generated)
   "qfom.pdf"
   (rewritten before read)
-["xelatex"] 1735081988.5689 "qfom.tex" "qfom.xdv" "qfom" 1735081990.69554 0
+["xelatex"] 1735127517.17353 "qfom.tex" "qfom.xdv" "qfom" 1735127518.64061 0
   "/etc/texmf/web2c/texmf.cnf" 1726840375.39741 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/mikhail/.texlive2023/texmf-var/fonts/tfm/lh/lh-t2a/larm1095.tfm" 1734826965.92757 3264 ead613d557baebcc53cf028c9c92d927 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -111,10 +111,10 @@
   "images/my_plot_coil20.png" 1735065854.38102 43781 ef55cfde6a17d0d2bd50a26b34446ffe ""
   "images/my_plot_reuters.png" 1735064352.14392 58274 a29c407452c1cc0a04b9638f5e20fcb2 ""
   "images/my_plot_tdt2.png" 1735065432.63505 58365 0f9e8c8f6f2368bb6600c9673a70f2ee ""
-  "qfom.aux" 1735081989.8747 8031 e8a33b4528c7240283b1150d11e91a16 "xelatex"
-  "qfom.out" 1735081989.8757 6055 7bb88cd6aa318e1686ed6b8b78c7ecc7 "xelatex"
-  "qfom.tex" 1735081988.3367 30959 59b7fe26f9985255b100561aba542ff5 ""
-  "qfom.toc" 1735081989.8757 2938 48efcb993b3568122a3b71c86b656d33 "xelatex"
+  "qfom.aux" 1735127517.93444 7807 9edf3a7e1590ee4c32a8cc791017001a "xelatex"
+  "qfom.out" 1735127517.93544 5971 5cb457e636cb4af6b916cb2781ef6d37 "xelatex"
+  "qfom.tex" 1735127516.11692 31242 0d75dd3c3e97aa18c49afb39de372914 ""
+  "qfom.toc" 1735127517.93544 2871 de9b67895cbd2130cb8bf595d3599888 "xelatex"
   (generated)
   "qfom.aux"
   "qfom.log"

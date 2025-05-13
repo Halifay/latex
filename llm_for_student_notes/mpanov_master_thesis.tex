@@ -1,0 +1,141 @@
+%!TEX TS-program = xelatex
+
+% HSE Beamer Theme
+% Version 2.0 (English)
+% January 2022
+
+\documentclass[aspectratio=169]{beamer}
+\newbool{russian}
+%\booltrue{russian} % Uncomment if in Russian
+\usepackage{HSE-theme/beamerthemeHSE} % Load HSE theme
+
+\usepackage[no-math]{fontspec}      % fonts loading
+	\setsansfont{HSE Sans} 
+	\setmonofont{Courier New}
+\usepackage{mathspec}
+	\setmathsfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{HSE Sans}
+	\setmathrm[Numbers={Lining,Proportional}]{HSE Sans}
+
+\graphicspath{{images/}}  	% Images folder
+
+%%% Author and presentation info
+\title[Analysis of Student's Lab Notes]{Comparing Large Language Models for supervised analysis of students’ lab notes} 
+\date{\today}
+
+
+\begin{document}
+
+% Title Slide
+\frame[plain]{\titlepage}
+
+\begin{frame}
+    \frametitle{Введение}
+    \textbf{Тема исследования:} Сравнение моделей машинного обучения для анализа лабораторных заметок студентов. \\
+    \textbf{Цель:} Исследование эффективности моделей в классификации предложений по экспериментальным навыкам. \\
+\end{frame}
+
+\section*{Авторы и их места работы}
+
+\begin{itemize}
+    \item Rebeckah K. Fussell, Laboratory of Atomic and Solid State Physics, Cornell University, Ithaca, New York 14853, USA.
+    \item Megan Flynn, Laboratory of Atomic and Solid State Physics, Cornell University, Ithaca, New York 14853, USA; Department of Computer Science, Cornell University, Ithaca, New York 14853, USA.
+    \item Anil Damle, Department of Computer Science, Cornell University, Ithaca, New York 14853, USA.
+    \item Michael F.J. Fox, Department of Physics, Imperial College London, London, UK.
+    \item N.G. Holmes, Laboratory of Atomic and Solid State Physics, Cornell University, Ithaca, New York 14853, USA.
+\end{itemize}
+
+\begin{frame}
+    \frametitle{Методы исследовани}
+    \textbf{Данные:} Лабораторные заметки студентов физического факультета (2019 и 2022 годы). \\
+    873 заметки, 58,369 предложений. \\
+    \textbf{Кодировка навыков:} 
+    \begin{itemize}
+    \item \textbf{QC Code (Количественное сравнение):}
+    \begin{itemize}
+        \item \textbf{Описание:} Предложения, где студенты сравнивают данные, линии на графиках, предсказания и т.д.
+        \item \textbf{Требования для включения:} Должна быть явная ссылка на использование инструментов анализа данных и сравнение двух величин.
+    \end{itemize}
+    \item \textbf{PI Code (Предложение итерации):}
+    \begin{itemize}
+        \item \textbf{Описание:} Предложения, где студенты предлагают улучшения или дальнейшие эксперименты.
+        \item \textbf{Требования для включения:} Наличие слов, связанных с планами, улучшениями, или повторными измерениями.
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Методы исследовани}
+    \textbf{Модели:} \\
+    \begin{itemize}
+        \item Bag of Words (BoW)
+        \item BERT (110M параметров)
+        \item LLaMA (8B параметров, с и без подсказок)
+        \item Zero-shot LLaMA
+    \end{itemize}
+    \textbf{Метрики:} AUC, Accuracy, Balanced Accuracy.
+\end{frame}
+
+
+
+\begin{frame}
+    \frametitle{Сравнение производительности}
+    \textbf{QC Code:} \\
+    \begin{itemize}
+        \item LLaMA (с и без подсказок) показала наилучшие результаты.
+        \item BERT уступает LLaMA, но превосходит BoW.
+        \item Zero-shot LLaMA значительно уступает остальным.
+    \end{itemize}
+    \textbf{PI Code:} \\
+    \begin{itemize}
+        \item Все модели показывают схожие тренды, но LLaMA снова лидирует.
+        \item Bag of Words оптимизирует Balanced Accuracy за счет чувствительности.
+    \end{itemize}
+    \textbf{Итог:} LLaMA ближе к результатам межэкспертной надежности.
+\end{frame}
+
+\begin{frame}
+    \frametitle{Ресурсы и затраты}
+    \textbf{Временные затраты на обучение:} \\
+    \begin{itemize}
+        \item BoW: 2 секунды (CPU).
+        \item BERT: 7 минут 16 секунд (GPU A6000).
+        \item LLaMA: 6+ часов (GPU A6000).
+    \end{itemize}
+    \textbf{Человеческое участие:} \\
+    \begin{itemize}
+        \item Простота: BoW > BERT > LLaMA.
+        \item LLaMA требует больше опыта с кодом и настройкой.
+    \end{itemize}
+    \textbf{Рекомендации:} Выбор модели зависит от доступных ресурсов и цели исследования.
+\end{frame}
+
+\begin{frame}
+    \frametitle{Исследовательские результаты}
+    \textbf{QC и PI тренды:} \\
+    \begin{itemize}
+        \item Все модели определяют схожие тренды изменений навыков в лабораторных заметках.
+        \item Различия в абсолютных значениях требуют учета систематических и статистических неопределенностей.
+    \end{itemize}
+    \textbf{Тенденции:} \\
+    \begin{itemize}
+        \item Максимальная частота навыков наблюдается в сеансах с явной инструкцией (например, L1b).
+        \item LLaMA показывает более точное соответствие статистическим трендам.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Выводы}
+    \textbf{Рекомендации для PER:} \\
+    \begin{itemize}
+        \item LLM (например, LLaMA) улучшает качество классификации по сравнению с традиционными методами.
+        \item Даже ресурсоемкие модели оправданы при необходимости высокой точности.
+    \end{itemize}
+    \textbf{Будущие исследования:} \\
+    \begin{itemize}
+        \item Оценка влияния гиперпараметров и оптимизация подсказок.
+        \item Адаптация более крупных LLM (e.g., GPT-4).
+    \end{itemize}
+\end{frame}
+
+\end{document}
+
