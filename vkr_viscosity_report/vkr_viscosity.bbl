@@ -19,6 +19,32 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{cranmer2023pysr}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=987d3dced51a437a02e32a98445c2893}{%
+           family={Cranmer},
+           familyi={C\bibinitperiod},
+           given={Miles},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{987d3dced51a437a02e32a98445c2893}
+      \strng{fullhash}{987d3dced51a437a02e32a98445c2893}
+      \strng{bibnamehash}{987d3dced51a437a02e32a98445c2893}
+      \strng{authorbibnamehash}{987d3dced51a437a02e32a98445c2893}
+      \strng{authornamehash}{987d3dced51a437a02e32a98445c2893}
+      \strng{authorfullhash}{987d3dced51a437a02e32a98445c2893}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{PySR: Fast \& Interpretable Symbolic Regression in Python and Julia}
+      \field{year}{2023}
+      \verb{eprint}
+      \verb 2305.01582
+      \endverb
+    \endentry
     \entry{polishuk2015viscosity}{article}{}
       \name{author}{1}{}{%
         {{hash=d58d58f8259aecd1bd276d93d1ccdca9}{%
@@ -36,6 +62,7 @@
       \strng{authorbibnamehash}{d58d58f8259aecd1bd276d93d1ccdca9}
       \strng{authornamehash}{d58d58f8259aecd1bd276d93d1ccdca9}
       \strng{authorfullhash}{d58d58f8259aecd1bd276d93d1ccdca9}
+      \field{extraname}{1}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{labelnamesource}{author}
@@ -56,6 +83,36 @@
       \verb{url}
       \verb https://doi.org/10.1021/acs.iecr.5b01468
       \endverb
+    \endentry
+    \entry{polishuk2014standardized}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d58d58f8259aecd1bd276d93d1ccdca9}{%
+           family={Polishuk},
+           familyi={P\bibinitperiod},
+           given={Ilya},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACS Publications}%
+      }
+      \strng{namehash}{d58d58f8259aecd1bd276d93d1ccdca9}
+      \strng{fullhash}{d58d58f8259aecd1bd276d93d1ccdca9}
+      \strng{bibnamehash}{d58d58f8259aecd1bd276d93d1ccdca9}
+      \strng{authorbibnamehash}{d58d58f8259aecd1bd276d93d1ccdca9}
+      \strng{authornamehash}{d58d58f8259aecd1bd276d93d1ccdca9}
+      \strng{authorfullhash}{d58d58f8259aecd1bd276d93d1ccdca9}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Industrial \& Engineering Chemistry Research}
+      \field{number}{36}
+      \field{title}{Standardized critical point-based numerical solution of statistical association fluid theory parameters: the perturbed chain-statistical association fluid theory equation of state revisited}
+      \field{volume}{53}
+      \field{year}{2014}
+      \field{pages}{14127\bibrangedash 14141}
+      \range{pages}{15}
     \endentry
     \entry{taib2020residual}{article}{}
       \name{author}{2}{}{%
