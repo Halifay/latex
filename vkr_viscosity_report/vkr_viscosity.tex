@@ -9,7 +9,11 @@
 \newfontfamily\cyrillicfont{Times New Roman}
 \newfontfamily\cyrillicfonttt{Courier New}
 
-\usepackage{amsmath, amssymb, amsfonts, graphicx, csquotes, array, geometry, titlesec, listings, hyperref, caption, xcolor, import, subcaption}
+\usepackage{amsmath, amssymb, amsfonts, csquotes, array, geometry, titlesec, listings, hyperref, caption, xcolor, import, subcaption}
+
+% Numbering of only mentioned formulas
+\usepackage{mathtools}
+\mathtoolsset{showonlyrefs}
 
 \usepackage{enumitem}
 \usepackage{alphabeta} % Optional: for Greek if needed
@@ -24,15 +28,44 @@
 % Changing itemize dots to dashes
 \setlist[itemize]{label=-}
 
+\usepackage{graphicx}
+\graphicspath{{images/}}  % Presets the "images" directory
+
 \usepackage[backend=biber, style=numeric-comp, sorting=none]{biblatex}
 \addbibresource{references.bib} % Файл со списком литературы
 
+% Для управления таблицами и правильной нумерации
+\usepackage{caption}            % Настройка подписей
+\captionsetup[table]{justification=raggedright, labelsep=period, textfont=normalsize}
+% \captionsetup[table]{font=normalsize, labelfont=bf, labelsep=period, justification=raggedright}
+
+% Для изменения шрифта в таблицах
+\usepackage{array}
+
+% Для многострочных заголовков и гибкой ширины колонок
+\usepackage{makecell}
+\renewcommand\theadfont{\bfseries}
+
+% Patch caption to store the number only
+\makeatletter
+\newcommand{\TableNumberRight}{
+  \refstepcounter{table}% increment and make labelable
+  \noindent\hfill\textbf{Таблица \thetable}
+}
+\makeatother
+
+\usepackage{etoolbox}
+\AtBeginEnvironment{tabular}{\small}  % or \footnotesize, \scriptsize
+
+\usepackage{siunitx}
+\sisetup{
+  group-separator     = {\,},   % optional: use space between thousands
+  detect-all,                 % makes font/style match surroundings
+  table-align-text-post = false
+}
+
 \geometry{left=25mm,right=20mm,top=25mm,bottom=25mm}
 
-% \hypersetup{colorlinks=false}
-% \usepackage{tocloft}
-% \renewcommand{\cftsecfont}{\normalfont}
-% \renewcommand{\cftsecpagefont}{\normalfont}
 \hypersetup{
 	% linkcolor=white,
 	linkbordercolor = white,          
@@ -40,9 +73,6 @@
 }
 
 \setcounter{page}{2}
-
-% Оглавление
-% \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
 
 \title{\Huge{Предсказание вязкости жидкостей с помощью методов машинного обучения на основе параметров уравнения состояния}}
 \author{Панов Михаил Федорович \\ Руководитель: Писарев Василий Вячеславович}
@@ -57,17 +87,14 @@
 
 % Задание на ВКР
 \section*{Задание на ВКР}
-% \addcontentsline{toc}{section}{Задание на ВКР}
 (Текст задания на ВКР)
 
 % Аннотация
 \section*{Аннотация}
-% \addcontentsline{toc}{section}{Аннотация}
 (Аннотация на русском языке)
 
 % Abstract
 \section*{Abstract}
-% \addcontentsline{toc}{section}{Abstract}
 (Аннотация на английском языке)
 \newpage
 
@@ -113,11 +140,12 @@
       \textbf{Структура модели.}  
       Модель MYS представляет собой сложную аналитическую формулу, включающую молекулярные параметры, полученные из теории SAFT:
       
-      \[
-      \eta = 0.1 \left( \exp \left( \frac{c_1 \sqrt{m} + \ln \left( 1 + \frac{M_w^4}{c_2 v^4 m^3} \right) \ln \left( \frac{T}{T_{\text{tp}} + 120} \right)}{
-      \exp \left( \frac{1.04 v}{N_{\text{av}} m \sigma^3} \exp \left( \frac{c_3 P}{\epsilon_k \sqrt{-\frac{dP}{dv} \cdot \sqrt{m v}}} \right) - 1 \right) - 1} 
-      \right) - 1 \right) + \eta_0
-      \]
+      \begin{equation}
+        \eta = 0.1 \left( \exp \left( \frac{c_1 \sqrt{m} + \ln \left( 1 + \frac{M_w^4}{c_2 v^4 m^3} \right) \ln \left( \frac{T}{T_{\text{tp}} + 120} \right)}{
+        \exp \left( \frac{1.04 v}{N_{\text{av}} m \sigma^3} \exp \left( \frac{c_3 P}{\epsilon_k \sqrt{-\frac{dP}{dv} \cdot \sqrt{m v}}} \right) - 1 \right) - 1} 
+        \right) - 1 \right) + \eta_0
+        \label{eq:mys}
+      \end{equation}
       
       где:  
       \begin{itemize}
@@ -376,40 +404,194 @@ P_c = P_{\text{c, exp}}
     \begin{itemize}
       \item Бутан: получено 311 экспериментальных точек из 2 работ \cite{acs.jced.5b00654,s10765-006-0053-2}
       \item Пентан: получено 50 экспериментальных точек из 3 работ \cite{acs.jced.7b00650,j.jct.2005.10.011,je0501944}
-      \item Гексан: получено 140 экспериментальных точек из 25 работ \cite{acs.jced.5b00152,acs.jced.8b00589,j.fluid.2013.07.060,j.fluid.2018.08.001,j.jct.2004.09.021,j.jct.2005.03.024,j.jct.2005.07.008,j.jct.2005.10.011,j.jct.2007.05.016,j.jct.2008.02.005,j.tca.2005.10.008,je020114l,je020131a,je030107c,je034002l,je049576k,je049777o,je060389r,je060491o,je800048f,je8006138,je9006597,s10765-005-5572-8,s10765-006-0053-2,s10765-009-0622-2}
+      \item Гексан: получено 127 экспериментальных точек из 25 работ \cite{acs.jced.5b00152,acs.jced.8b00589,j.fluid.2013.07.060,j.fluid.2018.08.001,j.jct.2004.09.021,j.jct.2005.03.024,j.jct.2005.07.008,j.jct.2005.10.011,j.jct.2007.05.016,j.jct.2008.02.005,j.tca.2005.10.008,je020114l,je020131a,je030107c,je034002l,je049576k,je049777o,je060389r,je060491o,je800048f,je8006138,je9006597,s10765-005-5572-8,s10765-006-0053-2,s10765-009-0622-2}
       \item Гептан: получено 443 экспериментальных точек из 28 работ \cite{acs.jced.5b00152,acs.jced.7b00121,j.fluid.2006.01.030,j.fluid.2010.10.009,j.fluid.2016.11.029,j.jct.2004.09.021,j.jct.2005.03.024,j.jct.2005.10.011,j.jct.2006.01.012,j.jct.2013.09.017,j.jct.2015.12.021,j.tca.2005.10.008,j.tca.2015.08.005,j.tca.2018.10.018,je020131a,je049662k,je049776w,je049777o,je400835u,je5007532,je600554h,je700202h,je8003707,je9006597,je900969u,s10765-009-0667-2,s10765-012-1373-z,s10765-014-1759-1}
-      \item Октан: получено 380 экспериментальных точек из 32 работ \cite{acs.jced.6b00391,acs.jced.7b00121,acs.jced.7b00650,j.fluid.2010.10.009,j.jct.2003.12.005,j.jct.2004.09.021,j.jct.2005.03.024,j.jct.2005.10.011,j.jct.2006.01.012,j.jct.2007.05.016,j.jct.2008.02.005,j.jct.2013.09.017,j.jct.2014.09.015,j.tca.2005.10.008,j.tca.2015.08.005,je020131a,je034017j,je034208m,je049572f,je049776w,je0503296,je060389r,je300899n,je4004806,je400835u,je600554h,je800348s,je800417q,je9006597,s10765-006-0053-2,s10765-008-0542-6,s10765-014-1759-1}
+      \item Октан: получено 362 экспериментальных точек из 32 работ \cite{acs.jced.6b00391,acs.jced.7b00121,acs.jced.7b00650,j.fluid.2010.10.009,j.jct.2003.12.005,j.jct.2004.09.021,j.jct.2005.03.024,j.jct.2005.10.011,j.jct.2006.01.012,j.jct.2007.05.016,j.jct.2008.02.005,j.jct.2013.09.017,j.jct.2014.09.015,j.tca.2005.10.008,j.tca.2015.08.005,je020131a,je034017j,je034208m,je049572f,je049776w,je0503296,je060389r,je300899n,je4004806,je400835u,je600554h,je800348s,je800417q,je9006597,s10765-006-0053-2,s10765-008-0542-6,s10765-014-1759-1}
       \item Нонан: получено 115 экспериментальных точек из 13 работ \cite{acs.jced.7b00121,acs.jced.7b00650,j.fluid.2010.10.009,j.jct.2004.09.021,j.jct.2005.03.024,j.jct.2005.10.011,j.jct.2013.09.017,je200757a,je300899n,je400250u,je400835u,je700202h,je700428f}
-      \item Декан: получено 242 экспериментальных точек из 25 работ \cite{acs.jced.5b00270,acs.jced.6b00542,acs.jced.7b00121,acs.jced.7b00650,j.fluid.2010.10.009,j.jct.2003.12.005,j.jct.2004.09.021,j.jct.2005.03.024,j.jct.2005.10.011,j.jct.2007.05.016,j.jct.2008.02.005,j.jct.2013.05.014,j.jct.2013.09.017,je034208m,je0501585,je060389r,je300899n,je400250u,je400835u,je4008926,je800348s,je800417q,je800635g,s10765-005-5572-8,s10765-008-0542-6}
-      \item Додекан: получено 425 экспериментальных точек из 25 работ \cite{acs.jced.6b00391,acs.jced.6b00542,acs.jced.6b00688,acs.jced.7b00201,acs.jced.7b00466,acs.jced.7b00650,acs.jced.7b00866,acs.jced.8b00008,acs.jced.8b00438,acs.jced.8b01135,acs.jced.8b01233,acs.jced.9b00187,j.fluid.2015.07.022,j.jct.2003.12.005,j.jct.2004.09.021,j.jct.2005.03.024,j.jct.2013.12.022,j.jct.2014.02.012,j.jct.2015.12.021,je034208m,je060491o,je200757a,je400493x,je400835u,je5000132}
+      \item Декан: получено 224 экспериментальных точек из 25 работ \cite{acs.jced.5b00270,acs.jced.6b00542,acs.jced.7b00121,acs.jced.7b00650,j.fluid.2010.10.009,j.jct.2003.12.005,j.jct.2004.09.021,j.jct.2005.03.024,j.jct.2005.10.011,j.jct.2007.05.016,j.jct.2008.02.005,j.jct.2013.05.014,j.jct.2013.09.017,je034208m,je0501585,je060389r,je300899n,je400250u,je400835u,je4008926,je800348s,je800417q,je800635g,s10765-005-5572-8,s10765-008-0542-6}
+      \item Додекан: получено 412 экспериментальных точек из 25 работ \cite{acs.jced.6b00391,acs.jced.6b00542,acs.jced.6b00688,acs.jced.7b00201,acs.jced.7b00466,acs.jced.7b00650,acs.jced.7b00866,acs.jced.8b00008,acs.jced.8b00438,acs.jced.8b01135,acs.jced.8b01233,acs.jced.9b00187,j.fluid.2015.07.022,j.jct.2003.12.005,j.jct.2004.09.021,j.jct.2005.03.024,j.jct.2013.12.022,j.jct.2014.02.012,j.jct.2015.12.021,je034208m,je060491o,je200757a,je400493x,je400835u,je5000132}
     \end{itemize}
-
+    
     Для включения записи в выборку требовалось наличие всех трёх параметров:
     \begin{itemize}
       \item температуры (\( T \), К),
-      \item давления (\( P \), кПа),
+      \item давления (\( P \), Па),
       \item вязкости (\( \eta \), Па·с).
     \end{itemize}
     
     Записи, в которых отсутствовала хотя бы одна из этих величин, исключались. Дополнительная фильтрация по фазе не производилась, поскольку, например, для бутана полезны данные как в жидкой, так и в газообразной фазе. Каждая выборка сохранялась в виде отдельного CSV-файла для дальнейшей обработки. В результате было собрано более 2000 уникальных записей.
-  
-  \subsection{Выбор веществ и критерии включения}
+
+  \subsection{Распределение данных}
+    \subsubsection{Фазовое состояние}
+      Большая часть данных принадлежала к жидкой фазе. Только 295 точек для бутана находятся в состоянии газа. Так как модель MYS расчитана на данные как в жидкой, так и в газовой фазе, было решено оставить точки, принадлежащие газовой фазе, несмотря на то, что они представлены только бутаном.
+
+    \subsubsection{Температура}
+      Значения температуры итоговых данных лежат в диапазоне от 273.15 до 693.7 Кельвинов с явным пиком в районе 300 Кельвинов. Средняя температура данных - 406 Кельвинов, а медианная 403.
+      \begin{figure}[ht]
+        \centering
+        \includegraphics[width=0.8\textwidth]{data_distribution_temperature.png}
+        \caption{Распределение температуры в экспериментальных данных}
+        \label{fig:data_distribution_temperature}
+      \end{figure}
+
+    \subsubsection{Давление}
+      Значения давления итоговых данных лежат в диапазоне от 57.183 кПа до 245.16 МПа. Данные удобнее отображать в логарифмической шкале, так как в ней они относительно равномерно распределены за исключением резкого пика в районе 1 атмосферы. Среднее значение давления для экспериментальных данных - 23 МПа, медианное - 6 МПа.
+      \begin{figure}[ht]
+        \centering
+        \includegraphics[width=0.8\textwidth]{data_distribution_pressure.png}
+        \caption{Распределение давления в экспериментальных данных (логарифмическая шкала по горизонтали)}
+        \label{fig:data_distribution_pressure}
+      \end{figure}
+
+    \subsubsection{Вязкость}
+      Значения вязкости итоговых данных лежат в диапазоне от 7.3 мкПа*с до 5.8 мПа*с. Распределение вязкости, аналогично распределению давления, удобнее отображать в логарифмическом масштабе. Данные имеют небольшой пик в районе 10 мкПа*с за счет данных по экспериментам с бутаном, где вещество находится в газовой фазе. Среднее значения вязкости для экспериментальных данных - 500 мкПа*с, медианное - 385 мкПа*с. 
+      \begin{figure}[ht]
+        \centering
+        \includegraphics[width=0.8\textwidth]{data_distribution_viscosity.png}
+        \caption{Распределение вязкости в экспериментальных данных (логарифмическая шкала по горизонтали)}
+        \label{fig:data_distribution_viscosity}
+      \end{figure}
+
   \subsection{Добавление параметров уравнения CP-PC-SAFT}
+    Как уже было упомянуто выше, у каждого вещества есть единственный набор параметров для уравнения CP-PC-SAFT: $\sigma$, $\delta$, $\epsilon/k_b$ и $m$. Для всех исследуемых веществ данные признаки были добавлены в датасет. Эти параметры представляют собой ключевые свойства каждого соединения, поскольку их можно точно определить, что позволяет назвать их основными характеристиками.
+    \begin{table}[ht]
+      \TableNumberRight
+
+      \begin{center}
+        \textbf{Основные характеристики компонентов}
+        \vspace*{\fill}
+      \end{center}
+
+      \vspace{0.8ex}
+      
+      % Table aligned left + full width
+      \noindent
+      \begin{tabular}{|l|S|S|S|S|S|}
+          \hline
+          \textbf{Вещество} & \textbf{Молярная масса, (г/моль)} & \textbf{m} & \textbf{$\epsilon/k_b$, K} & \textbf{\sigma, \si{\angstrom} } & \textbf{\delta} \\
+          \hline
+          butane & 58.120 & 2.48262 & 209.446 & 3.65040 & 1.15976 \\
+          pentane & 72.150 & 3.06424 & 212.528 & 3.62421 & 1.16385 \\
+          hexane & 86.180 & 3.51081 & 218.238 & 3.65575 & 1.16091 \\
+          heptane & 100.210 & 4.07032 & 220.494 & 3.63515 & 1.16631 \\
+          octane & 114.230 & 4.45475 & 225.287 & 3.67868 & 1.17934 \\
+          nonane & 128.257 & 4.85100 & 229.271 & 3.70469 & 1.18722 \\
+          decane & 142.284 & 5.27013 & 232.262 & 3.72188 & 1.20260 \\
+          dodecane & 170.338 & 6.01209 & 238.240 & 3.76983 & 1.22522 \\
+          \hline
+      \end{tabular}
+      \label{tab:components_data}
+    \end{table}
+
   \subsection{Вычисление производных величин}
+    В ходе работы возникала потребность в дополнении данных новыми величинами, которые можно вычислить используя уже известные величины. Это нужно как для увеличения количества признаков, которыми могли бы пользоваться модели машинного обучения, так и для возможности пользоваться некоторыми формулами.
+    
+    \subsubsection{Вязкость идеального газа}
+      Вязкость идеального газа является одним из параметров уравнения MYS~\eqref{eq:mys}. Можно было бы опустить этот коэффициент и использовать вместо него ноль, и формально формула осталась бы вполне точной для жидкой фазы. Однако для газовой области именно этот коэффициент даёт наибольший вклад. Пренебречь им — значит закрыть глаза на половину картины. Поэтому было решено вычислить вязкость идеального газа для всех экспериментальных точек, чтобы обеспечить максимальную точность модели в целом. Поскольку уравнение MYS служит основным критерием точности, задача вычисления $\eta_0$ приобрела особую значимость.
+
+      Для расчёта вязкости идеального газа использовался классический подход на основе параметров Леннарда--Джонса — $\epsilon/k$ и $\sigma$ (for example), которые были определены по температуре плавления и мольному объёму вещества. Этот подход, несмотря на свою простоту, оказывается весьма работоспособным при корректной выборке входных данных. Температура плавления ($T_m$) и плотность в жидком состоянии ($\rho$) использовались для расчёта мольного объёма $V_m$ по формуле:
+      \[
+      V_m = \frac{M}{\rho},
+      \]
+      где $M$ — молярная масса.
+      
+      Далее параметры $\epsilon/k$ и $\sigma$ определялись следующим образом:
+      \[
+      \frac{\epsilon}{k} = 1.92 \cdot T_m, \quad 
+      \sigma = \left( \frac{2.3 \cdot V_m}{\pi N_A \cdot 2/3} \right)^{1/3},
+      \]
+      где $N_A$ — число Авогадро. Стоит отметить, что здесь $V_m$ переводился в кубические метры, а итоговое значение $\sigma$ — в ангстремы.
+     
+      \begin{table}[ht]
+        \TableNumberRight
+      
+        \begin{center}
+          \textbf{Параметры Леннарда--Джонса для выбранных алканов (for example)}
+          \vspace*{\fill}
+        \end{center}
+      
+        \vspace{0.8ex}
+      
+        \noindent
+        \begin{tabular}{|l
+                |S[round-mode=places,round-precision=2]
+                |S[round-mode=places,round-precision=4]
+                |S[round-mode=places,round-precision=2]
+                |S[round-mode=places,round-precision=4]|}
+
+          \hline
+          \textbf{Вещество} & {\textbf{$\epsilon/k_b$, K}} & {\textbf{$\sigma$, \si{\angstrom}}} & {\textbf{$\epsilon/k_b$ lit., K}} & {\textbf{$\sigma$ lit., \si{\angstrom}}}\\
+          \hline
+          butane     & 410.00 & 4.9970 & 257.28 & 5.7016 \\
+          pentane    & 345.00 & 5.7690 & 274.56 & 5.9456 \\
+          hexane     & 413.00 & 5.9090 & 341.76 & 6.2013 \\
+          heptane    & 350.59 & 6.4406 & 350.59 & 6.4406 \\
+          octane     & 345.00 & 5.7690 & 415.30 & 6.6668 \\
+          nonane     & 413.00 & 5.9090 & 422.40 & 6.8806 \\
+          decane     & 467.52 & 7.0836 &  &  \\
+          dodecane   & 506.11 & 7.4540 &  &  \\
+          \hline
+        \end{tabular}
+        \label{tab:lj_params}
+      \end{table}
+
+      Полученные параметры Леннарда--Джонса использовались далее для расчёта вязкости идеального газа. Выражение для вязкости, выведено в рамках кинетической теории газов и может быть найдено в продвинутых книгах по молекулярной динамике \cite{molecular1955theory}и включает поправки на столкновения. Финальное выражение имеет следующий вид:
+      \[
+      \eta_0 = \frac{5}{16} \cdot \frac{\sqrt{MRT}}{\pi^{1/2} \cdot \sigma^2 \cdot \Omega(T^*) \cdot N_A},
+      \]
+      где $T^*$ — приведённая температура, а $\Omega$ — коэффициент столкновений, зависящий от $T^*$:
+      \[
+      T^* = \frac{RT}{\epsilon/k_b}, \quad
+      \Omega(T^*) = \frac{A}{(T^*)^B} + C e^{-D T^*} + E e^{-F T^*} + R T^{*B} \sin(S T^{*W} - P).
+      \]
+      Ниже приведены значения эмпирических коэффициентов, использованных в выражении для функции столкновений $\Omega(T^*)$. Эти значения были взяты из работы \cite{neufeld1972collision} и использованы без модификации.
+      \begin{table}[ht]
+        \TableNumberRight
+        \begin{center}
+          \textbf{Коэффициенты для расчёта функции столкновений $\Omega(T^*)$}
+          \vspace*{\fill}
+        \end{center}
+      
+        \vspace{0.8ex}
+        \noindent
+        \begin{tabular}{|c|S|}
+          \hline
+          \textbf{Коэффициент} & {\textbf{Значение}} \\
+          \hline
+          $A$ & 1.16145 \\
+          $B$ & 0.14874 \\
+          $C$ & 0.52487 \\
+          $D$ & 0.77320 \\
+          $E$ & 2.16178 \\
+          $F$ & 2.43787 \\
+          $R$ & -0.0006435 \\
+          $S$ & 18.0323 \\
+          $W$ & -0.76830 \\
+          $P$ & 7.27371 \\
+          \hline
+        \end{tabular}
+        \label{tab:neufeld_coeffs}
+      \end{table}
+
+      
+      Расчёты выполнялись для каждой строки из экспериментальной выборки с помощью функции `apply()` библиотеки `pandas`. Итоговая вязкость $\eta_0$ вносилась в результирующий CSV-файл, на основе которого строилось дальнейшее сравнение с экспериментальными и модельными данными.      
+      
     \subsubsection{Мольный объем}
+
     \subsubsection{Избыточная энтропия}
 
-Основная идея заключается в том, что логарифм безразмерной вязкости жидкости может быть представлен как функция избыточной энтропии вещества, нормализованной по постоянной Больцмана. Таким образом, в основу модели заложена физически обоснованная связь между вязкостью и степенью упорядоченности молекулярной структуры жидкости, выраженной через избыточную энтропию:
 
-\[
-\ln \left( \frac{\eta}{\eta_0} \right) = A + B \cdot \frac{S^{\text{ex}}}{k_B} + C \cdot \left(\frac{S^{\text{ex}}}{k_B} \right)^2 + \ldots
-\]
-
-где:
-- \( \\eta \) — динамическая вязкость жидкости,
-- \( \\eta_0 \) — характеристическая (референсная) вязкость,
-- \( S^{\\text{ex}} \) — избыточная энтропия,
-- \( A, B, C \) — подбираемые параметры.
+% Основная идея заключается в том, что логарифм безразмерной вязкости жидкости может быть представлен как функция избыточной энтропии вещества, нормализованной по постоянной Больцмана. Таким образом, в основу модели заложена физически обоснованная связь между вязкостью и степенью упорядоченности молекулярной структуры жидкости, выраженной через избыточную энтропию:
+% 
+% \[
+% \ln \left( \frac{\eta}{\eta_0} \right) = A + B \cdot \frac{S^{\text{ex}}}{k_B} + C \cdot \left(\frac{S^{\text{ex}}}{k_B} \right)^2 + \ldots
+% \]
+% 
+% где:
+% - \( \\eta \) — динамическая вязкость жидкости,
+% - \( \\eta_0 \) — характеристическая (референсная) вязкость,
+% - \( S^{\\text{ex}} \) — избыточная энтропия,
+% - \( A, B, C \) — подбираемые параметры.
 
 
   \subsection{Выводы по главе}

@@ -1,43 +1,48 @@
 \xpginauxfiletrue 
 \selectlanguage *{russian}
-\contentsline {section}{Введение}{5}{Doc-Start}%
-\contentsline {section}{\numberline {1}Обзор литературы и постановка задачи}{5}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Свойства вязкости и ее роль в инженерных задачах}{5}{subsection.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}Вязкость в промышленных приложениях}{5}{subsubsection.1.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.2}Значение точного прогнозирования вязкости}{5}{subsubsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.2}Обзор подходов к предсказанию вязкости}{5}{subsection.1.2}%
-\contentsline {subsubsection}{\numberline {1.2.1}Ограничения эмпирических формул}{5}{subsubsection.1.2.1}%
-\contentsline {subsubsection}{\numberline {1.2.2}Модель MYS}{6}{subsubsection.1.2.2}%
-\contentsline {subsubsection}{\numberline {1.2.3}Уравнение состояния CP-PC-SAFT}{7}{subsubsection.1.2.3}%
-\contentsline {subsubsection}{\numberline {1.2.4}Параметры веществ в CP-PC-SAFT}{8}{subsubsection.1.2.4}%
-\contentsline {subsubsection}{\numberline {1.2.5}Трудности машинного обучения}{9}{subsubsection.1.2.5}%
-\contentsline {subsubsection}{\numberline {1.2.6}Символьная регрессия}{10}{subsubsection.1.2.6}%
-\contentsline {subsection}{\numberline {1.3}Цель и задачи исследования}{11}{subsection.1.3}%
-\contentsline {subsubsection}{\numberline {1.3.1}Цель исследования}{11}{subsubsection.1.3.1}%
-\contentsline {subsubsection}{\numberline {1.3.2}Задачи исследования}{11}{subsubsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.4}Выводы по главе}{12}{subsection.1.4}%
-\contentsline {section}{\numberline {2}Сбор и обработка данных}{13}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Работа с базой данных}{13}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Источник данных: база ThermoML}{13}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}ThermoPyL для чтения данных}{13}{subsubsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.2}Выбор веществ и критерии включения}{13}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Выбор веществ и критерии включения}{14}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Добавление параметров уравнения CP-PC-SAFT}{14}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Вычисление производных величин}{14}{subsection.2.5}%
-\contentsline {subsubsection}{\numberline {2.5.1}Мольный объем}{14}{subsubsection.2.5.1}%
-\contentsline {subsubsection}{\numberline {2.5.2}Избыточная энтропия}{14}{subsubsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.6}Выводы по главе}{14}{subsection.2.6}%
-\contentsline {section}{\numberline {3}Построение моделей и генерация признаков}{15}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Автоматическая генерация признаков}{15}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Отбор признаков}{15}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Символьная регрессия}{15}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Проверка значимости избыточной энтропии}{15}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Выводы по главе}{15}{subsection.3.5}%
-\contentsline {section}{\numberline {4}Обучение моделей и анализ результатов}{16}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Обучение моделей ML}{16}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Сравнение подходов}{16}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Сравнение с моделью MYS}{16}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Выводы по главе}{16}{subsection.4.4}%
-\contentsline {section}{Заключение}{17}{subsection.4.4}%
-\contentsline {section}{Список литературы}{18}{subsection.4.4}%
+\contentsline {section}{Введение}{6}{Doc-Start}%
+\contentsline {section}{\numberline {1}Обзор литературы и постановка задачи}{6}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Свойства вязкости и ее роль в инженерных задачах}{6}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Вязкость в промышленных приложениях}{6}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Значение точного прогнозирования вязкости}{6}{subsubsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.2}Обзор подходов к предсказанию вязкости}{6}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Ограничения эмпирических формул}{6}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Модель MYS}{7}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Уравнение состояния CP-PC-SAFT}{8}{subsubsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.4}Параметры веществ в CP-PC-SAFT}{9}{subsubsection.1.2.4}%
+\contentsline {subsubsection}{\numberline {1.2.5}Трудности машинного обучения}{10}{subsubsection.1.2.5}%
+\contentsline {subsubsection}{\numberline {1.2.6}Символьная регрессия}{11}{subsubsection.1.2.6}%
+\contentsline {subsection}{\numberline {1.3}Цель и задачи исследования}{12}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Цель исследования}{12}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Задачи исследования}{12}{subsubsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.4}Выводы по главе}{13}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Сбор и обработка данных}{14}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Работа с базой данных}{14}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Источник данных: база ThermoML}{14}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}ThermoPyL для чтения данных}{14}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Выбор веществ и критерии включения}{14}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Распределение данных}{15}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Фазовое состояние}{15}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Температура}{15}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Давление}{15}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}Вязкость}{15}{subsubsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.4}Добавление параметров уравнения CP-PC-SAFT}{16}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Вычисление производных величин}{16}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Вязкость идеального газа}{17}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Мольный объем}{19}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.3}Избыточная энтропия}{19}{subsubsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.6}Выводы по главе}{19}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Построение моделей и генерация признаков}{20}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Автоматическая генерация признаков}{20}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Отбор признаков}{20}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Символьная регрессия}{20}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Проверка значимости избыточной энтропии}{20}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Выводы по главе}{20}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Обучение моделей и анализ результатов}{21}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Обучение моделей ML}{21}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Сравнение подходов}{21}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Сравнение с моделью MYS}{21}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Выводы по главе}{21}{subsection.4.4}%
+\contentsline {section}{Заключение}{22}{subsection.4.4}%
+\contentsline {section}{Список литературы}{23}{subsection.4.4}%
 \xpginauxfilefalse 

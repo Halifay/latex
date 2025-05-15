@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.11.6)  14 MAY 2025 20:04
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.11.6)  16 MAY 2025 00:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -225,22 +225,7 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: xetex.def on input line 107.
- (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
-))
-\Gin@req@height=\dimen153
-\Gin@req@width=\dimen154
-) (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
 \csq@reset=\count286
 \csq@gtype=\count287
@@ -258,9 +243,9 @@ Package csquotes Info: ... configuration file loaded successfully.
 File: csquotes.cfg 
 )) (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen155
+\col@sep=\dimen153
 \ar@mcellbox=\box54
-\extrarowheight=\dimen156
+\extrarowheight=\dimen154
 \NC@list=\toks25
 \extratabsurround=\skip53
 \backup@length=\skip54
@@ -273,39 +258,39 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@cnth=\count292
 \Gm@cntv=\count293
 \c@Gm@tempcnt=\count294
-\Gm@bindingoffset=\dimen157
-\Gm@wd@mp=\dimen158
-\Gm@odd@mp=\dimen159
-\Gm@even@mp=\dimen160
-\Gm@layoutwidth=\dimen161
-\Gm@layoutheight=\dimen162
-\Gm@layouthoffset=\dimen163
-\Gm@layoutvoffset=\dimen164
+\Gm@bindingoffset=\dimen155
+\Gm@wd@mp=\dimen156
+\Gm@odd@mp=\dimen157
+\Gm@even@mp=\dimen158
+\Gm@layoutwidth=\dimen159
+\Gm@layoutheight=\dimen160
+\Gm@layouthoffset=\dimen161
+\Gm@layoutvoffset=\dimen162
 \Gm@dimlist=\toks26
 ) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \ttl@box=\box56
 \beforetitleunit=\skip55
 \aftertitleunit=\skip56
-\ttl@plus=\dimen165
-\ttl@minus=\dimen166
+\ttl@plus=\dimen163
+\ttl@minus=\dimen164
 \ttl@toksa=\toks27
-\titlewidth=\dimen167
-\titlewidthlast=\dimen168
-\titlewidthfirst=\dimen169
+\titlewidth=\dimen165
+\titlewidthlast=\dimen166
+\titlewidthfirst=\dimen167
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count295
 \lst@gtempboxa=\box57
 \lst@token=\toks28
 \lst@length=\count296
-\lst@currlwidth=\dimen170
+\lst@currlwidth=\dimen168
 \lst@column=\count297
 \lst@pos=\count298
-\lst@lostspace=\dimen171
-\lst@width=\dimen172
+\lst@lostspace=\dimen169
+\lst@width=\dimen170
 \lst@newlines=\count299
 \lst@lineno=\count300
-\lst@maxwidth=\dimen173
+\lst@maxwidth=\dimen171
  (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 \c@lstnumber=\count301
@@ -339,8 +324,7 @@ Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
-
-(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
@@ -349,7 +333,7 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count303
 )
-\@linkdim=\dimen174
+\@linkdim=\dimen172
 \Hy@linkcounter=\count304
 \Hy@pagecounter=\count305
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
@@ -358,7 +342,8 @@ File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count306
- (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Hyper figures OFF on input line 4179.
@@ -374,15 +359,15 @@ Package hyperref Info: Bookmarks ON on input line 4446.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4784.
-\XeTeXLinkMargin=\dimen175
+\XeTeXLinkMargin=\dimen173
  (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count308
-\Field@Width=\dimen176
-\Fld@charsize=\dimen177
+\Field@Width=\dimen174
+\Fld@charsize=\dimen175
 Package hyperref Info: Hyper figures OFF on input line 6063.
 Package hyperref Info: Link nesting OFF on input line 6068.
 Package hyperref Info: Hyper index ON on input line 6071.
@@ -424,14 +409,14 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
  (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen178
-\captionmargin=\dimen179
-\caption@leftmargin=\dimen180
-\caption@rightmargin=\dimen181
-\caption@width=\dimen182
-\caption@indent=\dimen183
-\caption@parindent=\dimen184
-\caption@hangindent=\dimen185
+\caption@tempdima=\dimen176
+\captionmargin=\dimen177
+\caption@leftmargin=\dimen178
+\caption@rightmargin=\dimen179
+\caption@width=\dimen180
+\caption@indent=\dimen181
+\caption@parindent=\dimen182
+\caption@hangindent=\dimen183
 Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count316
@@ -444,7 +429,9 @@ Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: xetex.def on input line 274.
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
 Package xcolor Info: Model `RGB' extended on input line 1366.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
@@ -461,15 +448,43 @@ Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count318
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count319
+) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count320
+\calc@Bcount=\count321
+\calc@Adimen=\dimen184
+\calc@Bdimen=\dimen185
+\calc@Askip=\skip58
+\calc@Bskip=\skip59
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count322
+\calc@Cskip=\skip60
+) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count323
+\l_MT_multwidth_dim=\dimen186
+\origjot=\skip61
+\l_MT_shortvdotswithinadjustabove_dim=\dimen187
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen188
+\l_MT_above_intertext_sep=\dimen189
+\l_MT_below_intertext_sep=\dimen190
+\l_MT_above_shortintertext_sep=\dimen191
+\l_MT_below_shortintertext_sep=\dimen192
+\xmathstrut@box=\box60
+\xmathstrut@dim=\dimen193
 ) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \enitkv@toks@=\toks29
-\labelindent=\skip58
-\enit@outerparindent=\dimen186
+\labelindent=\skip62
+\enit@outerparindent=\dimen194
 \enit@toks=\toks30
-\enit@inbox=\box60
-\enit@count@id=\count320
-\enitdp@description=\count321
+\enit@inbox=\box61
+\enit@count@id=\count324
+\enitdp@description=\count325
 ) (/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/alphabeta.sty
 Package: alphabeta 2023-11-16 2.6 macros for Greek letters in text and math
  (/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/textalpha.sty
@@ -478,74 +493,87 @@ Package: textalpha 2023-09-12 2.5 macros for Greek letters in text
 File: tuenc-greek.def 2023-09-12 2.5 Greek LICRs for XeTeX and LuaTeX
  (/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
 File: greek-fontenc.def 2023-09-12 2.5 Common Greek font encoding definitions
-)))) (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+)))) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 107.
+)
+\Gin@req@height=\dimen195
+\Gin@req@width=\dimen196
+)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
  (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count322
+\lrq@indent=\count326
  (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count323
-\c@listtotal=\count324
-\c@listcount=\count325
-\c@liststart=\count326
-\c@liststop=\count327
-\c@citecount=\count328
-\c@citetotal=\count329
-\c@multicitecount=\count330
-\c@multicitetotal=\count331
-\c@instcount=\count332
-\c@maxnames=\count333
-\c@minnames=\count334
-\c@maxitems=\count335
-\c@minitems=\count336
-\c@citecounter=\count337
-\c@maxcitecounter=\count338
-\c@savedcitecounter=\count339
-\c@uniquelist=\count340
-\c@uniquename=\count341
-\c@refsection=\count342
-\c@refsegment=\count343
-\c@maxextratitle=\count344
-\c@maxextratitleyear=\count345
-\c@maxextraname=\count346
-\c@maxextradate=\count347
-\c@maxextraalpha=\count348
-\c@abbrvpenalty=\count349
-\c@highnamepenalty=\count350
-\c@lownamepenalty=\count351
-\c@maxparens=\count352
-\c@parenlevel=\count353
-\blx@tempcnta=\count354
-\blx@tempcntb=\count355
-\blx@tempcntc=\count356
-\c@blx@maxsection=\count357
-\blx@maxsegment@0=\count358
-\blx@notetype=\count359
-\blx@parenlevel@text=\count360
-\blx@parenlevel@foot=\count361
-\blx@sectionciteorder@0=\count362
-\blx@sectionciteorderinternal@0=\count363
-\blx@entrysetcounter=\count364
-\blx@biblioinstance=\count365
-\labelnumberwidth=\skip59
-\labelalphawidth=\skip60
-\biblabelsep=\skip61
-\bibitemsep=\skip62
-\bibnamesep=\skip63
-\bibinitsep=\skip64
-\bibparsep=\skip65
-\bibhang=\skip66
+\c@tabx@nest=\count327
+\c@listtotal=\count328
+\c@listcount=\count329
+\c@liststart=\count330
+\c@liststop=\count331
+\c@citecount=\count332
+\c@citetotal=\count333
+\c@multicitecount=\count334
+\c@multicitetotal=\count335
+\c@instcount=\count336
+\c@maxnames=\count337
+\c@minnames=\count338
+\c@maxitems=\count339
+\c@minitems=\count340
+\c@citecounter=\count341
+\c@maxcitecounter=\count342
+\c@savedcitecounter=\count343
+\c@uniquelist=\count344
+\c@uniquename=\count345
+\c@refsection=\count346
+\c@refsegment=\count347
+\c@maxextratitle=\count348
+\c@maxextratitleyear=\count349
+\c@maxextraname=\count350
+\c@maxextradate=\count351
+\c@maxextraalpha=\count352
+\c@abbrvpenalty=\count353
+\c@highnamepenalty=\count354
+\c@lownamepenalty=\count355
+\c@maxparens=\count356
+\c@parenlevel=\count357
+\blx@tempcnta=\count358
+\blx@tempcntb=\count359
+\blx@tempcntc=\count360
+\c@blx@maxsection=\count361
+\blx@maxsegment@0=\count362
+\blx@notetype=\count363
+\blx@parenlevel@text=\count364
+\blx@parenlevel@foot=\count365
+\blx@sectionciteorder@0=\count366
+\blx@sectionciteorderinternal@0=\count367
+\blx@entrysetcounter=\count368
+\blx@biblioinstance=\count369
+\labelnumberwidth=\skip63
+\labelalphawidth=\skip64
+\biblabelsep=\skip65
+\bibitemsep=\skip66
+\bibnamesep=\skip67
+\bibinitsep=\skip68
+\bibparsep=\skip69
+\bibhang=\skip70
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language89
-\c@mincomprange=\count366
-\c@maxcomprange=\count367
-\c@mincompwidth=\count368
+\c@mincomprange=\count370
+\c@maxcomprange=\count371
+\c@mincompwidth=\count372
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -555,88 +583,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric-comp.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count369
-\c@savedafterword=\count370
-\c@annotator=\count371
-\c@savedannotator=\count372
-\c@author=\count373
-\c@savedauthor=\count374
-\c@bookauthor=\count375
-\c@savedbookauthor=\count376
-\c@commentator=\count377
-\c@savedcommentator=\count378
-\c@editor=\count379
-\c@savededitor=\count380
-\c@editora=\count381
-\c@savededitora=\count382
-\c@editorb=\count383
-\c@savededitorb=\count384
-\c@editorc=\count385
-\c@savededitorc=\count386
-\c@foreword=\count387
-\c@savedforeword=\count388
-\c@holder=\count389
-\c@savedholder=\count390
-\c@introduction=\count391
-\c@savedintroduction=\count392
-\c@namea=\count393
-\c@savednamea=\count394
-\c@nameb=\count395
-\c@savednameb=\count396
-\c@namec=\count397
-\c@savednamec=\count398
-\c@translator=\count399
-\c@savedtranslator=\count400
-\c@shortauthor=\count401
-\c@savedshortauthor=\count402
-\c@shorteditor=\count403
-\c@savedshorteditor=\count404
-\c@labelname=\count405
-\c@savedlabelname=\count406
-\c@institution=\count407
-\c@savedinstitution=\count408
-\c@lista=\count409
-\c@savedlista=\count410
-\c@listb=\count411
-\c@savedlistb=\count412
-\c@listc=\count413
-\c@savedlistc=\count414
-\c@listd=\count415
-\c@savedlistd=\count416
-\c@liste=\count417
-\c@savedliste=\count418
-\c@listf=\count419
-\c@savedlistf=\count420
-\c@location=\count421
-\c@savedlocation=\count422
-\c@organization=\count423
-\c@savedorganization=\count424
-\c@origlocation=\count425
-\c@savedoriglocation=\count426
-\c@origpublisher=\count427
-\c@savedorigpublisher=\count428
-\c@publisher=\count429
-\c@savedpublisher=\count430
-\c@language=\count431
-\c@savedlanguage=\count432
-\c@origlanguage=\count433
-\c@savedoriglanguage=\count434
-\c@pageref=\count435
-\c@savedpageref=\count436
-\shorthandwidth=\skip67
-\shortjournalwidth=\skip68
-\shortserieswidth=\skip69
-\shorttitlewidth=\skip70
-\shortauthorwidth=\skip71
-\shorteditorwidth=\skip72
-\locallabelnumberwidth=\skip73
-\locallabelalphawidth=\skip74
-\localshorthandwidth=\skip75
-\localshortjournalwidth=\skip76
-\localshortserieswidth=\skip77
-\localshorttitlewidth=\skip78
-\localshortauthorwidth=\skip79
-\localshorteditorwidth=\skip80
+\c@afterword=\count373
+\c@savedafterword=\count374
+\c@annotator=\count375
+\c@savedannotator=\count376
+\c@author=\count377
+\c@savedauthor=\count378
+\c@bookauthor=\count379
+\c@savedbookauthor=\count380
+\c@commentator=\count381
+\c@savedcommentator=\count382
+\c@editor=\count383
+\c@savededitor=\count384
+\c@editora=\count385
+\c@savededitora=\count386
+\c@editorb=\count387
+\c@savededitorb=\count388
+\c@editorc=\count389
+\c@savededitorc=\count390
+\c@foreword=\count391
+\c@savedforeword=\count392
+\c@holder=\count393
+\c@savedholder=\count394
+\c@introduction=\count395
+\c@savedintroduction=\count396
+\c@namea=\count397
+\c@savednamea=\count398
+\c@nameb=\count399
+\c@savednameb=\count400
+\c@namec=\count401
+\c@savednamec=\count402
+\c@translator=\count403
+\c@savedtranslator=\count404
+\c@shortauthor=\count405
+\c@savedshortauthor=\count406
+\c@shorteditor=\count407
+\c@savedshorteditor=\count408
+\c@labelname=\count409
+\c@savedlabelname=\count410
+\c@institution=\count411
+\c@savedinstitution=\count412
+\c@lista=\count413
+\c@savedlista=\count414
+\c@listb=\count415
+\c@savedlistb=\count416
+\c@listc=\count417
+\c@savedlistc=\count418
+\c@listd=\count419
+\c@savedlistd=\count420
+\c@liste=\count421
+\c@savedliste=\count422
+\c@listf=\count423
+\c@savedlistf=\count424
+\c@location=\count425
+\c@savedlocation=\count426
+\c@organization=\count427
+\c@savedorganization=\count428
+\c@origlocation=\count429
+\c@savedoriglocation=\count430
+\c@origpublisher=\count431
+\c@savedorigpublisher=\count432
+\c@publisher=\count433
+\c@savedpublisher=\count434
+\c@language=\count435
+\c@savedlanguage=\count436
+\c@origlanguage=\count437
+\c@savedoriglanguage=\count438
+\c@pageref=\count439
+\c@savedpageref=\count440
+\shorthandwidth=\skip71
+\shortjournalwidth=\skip72
+\shortserieswidth=\skip73
+\shorttitlewidth=\skip74
+\shortauthorwidth=\skip75
+\shorteditorwidth=\skip76
+\locallabelnumberwidth=\skip77
+\locallabelalphawidth=\skip78
+\localshorthandwidth=\skip79
+\localshortjournalwidth=\skip80
+\localshortserieswidth=\skip81
+\localshorttitlewidth=\skip82
+\localshortauthorwidth=\skip83
+\localshorteditorwidth=\skip84
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-unicode.def)
@@ -649,19 +677,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count437
-\c@textcitetotal=\count438
-\c@textcitemaxnames=\count439
-\c@biburlbigbreakpenalty=\count440
-\c@biburlbreakpenalty=\count441
-\c@biburlnumpenalty=\count442
-\c@biburlucpenalty=\count443
-\c@biburllcpenalty=\count444
+\c@textcitecount=\count441
+\c@textcitetotal=\count442
+\c@textcitemaxnames=\count443
+\c@biburlbigbreakpenalty=\count444
+\c@biburlbreakpenalty=\count445
+\c@biburlnumpenalty=\count446
+\c@biburlucpenalty=\count447
+\c@biburllcpenalty=\count448
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count445
+\c@smartand=\count449
 )
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
@@ -675,17 +703,17 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count446
-\c@bbx:relatedtotal=\count447
+\c@bbx:relatedcount=\count450
+\c@bbx:relatedtotal=\count451
 )))
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count448
-\c@cbx@tempcntb=\count449
-\c@cbx@tempcntc=\count450
-\c@cbx@tempcntd=\count451
+\c@cbx@tempcnta=\count452
+\c@cbx@tempcntb=\count453
+\c@cbx@tempcntc=\count454
+\c@cbx@tempcntd=\count455
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -712,7 +740,59 @@ Package biblatex Info: ... and expl3
 (biblatex)             setting 'casechanger=expl3'.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
-))
+)) (/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen197
+\c@nlinenum=\count456
+\TeXr@lab=\toks31
+) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2024-01-25 v3.3.10 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count457
+\l__siunitx_number_exponent_fixed_int=\count458
+\l__siunitx_number_min_decimal_int=\count459
+\l__siunitx_number_min_integer_int=\count460
+\l__siunitx_number_round_precision_int=\count461
+\l__siunitx_number_lower_threshold_int=\count462
+\l__siunitx_number_upper_threshold_int=\count463
+\l__siunitx_number_group_first_int=\count464
+\l__siunitx_number_group_size_int=\count465
+\l__siunitx_number_group_minimum_int=\count466
+\l__siunitx_angle_tmp_dim=\dimen198
+\l__siunitx_angle_marker_box=\box62
+\l__siunitx_angle_unit_box=\box63
+\l__siunitx_compound_count_int=\count467
+ (/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+)
+\l__siunitx_table_tmp_box=\box64
+\l__siunitx_table_tmp_dim=\dimen199
+\l__siunitx_table_column_width_dim=\dimen256
+\l__siunitx_table_integer_box=\box65
+\l__siunitx_table_decimal_box=\box66
+\l__siunitx_table_uncert_box=\box67
+\l__siunitx_table_before_box=\box68
+\l__siunitx_table_after_box=\box69
+\l__siunitx_table_before_dim=\dimen257
+\l__siunitx_table_carry_dim=\dimen258
+\l__siunitx_unit_tmp_int=\count468
+\l__siunitx_unit_position_int=\count469
+\l__siunitx_unit_total_int=\count470
+)
+
+Package siunitx Info: Option "detect-all" has been deprecated in this release.
+(siunitx)             
+(siunitx)             Use "mode = match, propagate-math-font = true,
+(siunitx)             reset-math-version = false, reset-text-family = false,
+(siunitx)             reset-text-series = false, reset-text-shape = false,
+(siunitx)             text-family-to-math = true, text-series-to-math = true"
+(siunitx)             as a replacement.
+
+
+Package siunitx Info: Option "table-align-text-post" has been deprecated in
+(siunitx)             this release.
+(siunitx)             
+(siunitx)             Use "table-align-text-after = false" as a replacement.
+
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'polyglossia' package.
 Package csquotes Info: Adjusting default style.
@@ -720,86 +800,86 @@ Package csquotes Info: Redefining alias 'default' -> 'russian'.
  (./vkr_viscosity.aux)
 \openout1 = `vkr_viscosity.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 81.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 51.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 51.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 51.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 51.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 51.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 51.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 51.
-LaTeX Font Info:    Redeclaring math accent \check on input line 51.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 51.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 51.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 51.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 51.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 51.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 81.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 81.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 81.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 81.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 81.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 81.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 81.
+LaTeX Font Info:    Redeclaring math accent \check on input line 81.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 81.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 81.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 81.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 81.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 51.
+(Font)              `operators' in the math version `normal' on input line 81.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 51.
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 81.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 51.
+(Font)              `operators' in the math version `bold' on input line 81.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 51.
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 81.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on input line 51.
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on input line 81.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line 51.
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line 81.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 51.
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 81.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 51.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 81.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 51.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 81.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on input line 51.
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on input line 81.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input line 51.
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input line 81.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 51.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 81.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 51.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 81.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -835,8 +915,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count452
-Package hyperref Info: Link coloring OFF on input line 51.
+\c@lstlisting=\count471
+Package hyperref Info: Link coloring OFF on input line 81.
 (./vkr_viscosity.out) (./vkr_viscosity.out)
 \@outlinefile=\write4
 \openout4 = `vkr_viscosity.out'.
@@ -848,15 +928,15 @@ File: puenc-greek.def 2023-09-12 2.5 Greek LICRs for PDF strings
  (/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
 File: greek-fontenc.def 2023-09-12 2.5 Common Greek font encoding definitions
 ))
-LaTeX Info: Redefining \Upsilon on input line 51.
-LaTeX Info: Redefining \Omega on input line 51.
-LaTeX Info: Redefining \alpha on input line 51.
-LaTeX Info: Redefining \epsilon on input line 51.
-LaTeX Info: Redefining \eta on input line 51.
-LaTeX Info: Redefining \iota on input line 51.
-LaTeX Info: Redefining \rho on input line 51.
-LaTeX Info: Redefining \upsilon on input line 51.
-LaTeX Info: Redefining \omega on input line 51.
+LaTeX Info: Redefining \Upsilon on input line 81.
+LaTeX Info: Redefining \Omega on input line 81.
+LaTeX Info: Redefining \alpha on input line 81.
+LaTeX Info: Redefining \epsilon on input line 81.
+LaTeX Info: Redefining \eta on input line 81.
+LaTeX Info: Redefining \iota on input line 81.
+LaTeX Info: Redefining \rho on input line 81.
+LaTeX Info: Redefining \upsilon on input line 81.
+LaTeX Info: Redefining \omega on input line 81.
 Package biblatex Info: Trying to load language 'american'...
 Package biblatex Info: ... file 'american.lbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/american.lbx
@@ -885,114 +965,142 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'vkr_viscosity.bbl' found.
  (./vkr_viscosity.bbl)
-Package biblatex Info: Reference section=0 on input line 51.
-Package biblatex Info: Reference segment=0 on input line 51.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
+Package biblatex Info: Reference section=0 on input line 81.
+Package biblatex Info: Reference segment=0 on input line 81.
+ (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 81.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 85.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 85.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [2
 
-] [3] (./vkr_viscosity.toc)
+] [3] (./vkr_viscosity.toc [4])
 \tf@toc=\write5
 \openout5 = `vkr_viscosity.toc'.
 
- [4] [5] [6] [7] [8]
-Overfull \hbox (1.23871pt too wide) in paragraph at lines 250--252
+ [5] [6] [7] [8] [9]
+Overfull \hbox (1.23871pt too wide) in paragraph at lines 278--280
 []\TU/TimesNewRoman(1)/b/n/12 1. Ограниченная интерпретируемость моделей. \TU/TimesNewRoman(1)/m/n/12 Большинство моделей машинного обу-
  []
 
-[9]
-Overfull \hbox (10.75613pt too wide) in paragraph at lines 265--266
+[10]
+Overfull \hbox (10.75613pt too wide) in paragraph at lines 293--294
 \TU/TimesNewRoman(1)/m/n/12 чения, они должны использоваться с осторожностью, особенно в задачах с физико-химическим
  []
 
-[10] [11]
-Overfull \hbox (1.75565pt too wide) in paragraph at lines 334--335
+[11] [12]
+Overfull \hbox (1.75565pt too wide) in paragraph at lines 362--363
 []\TU/TimesNewRoman(1)/m/n/12 Анализ преимуществ и недостатков разработанных моделей по сравнению с MYS. 
  []
 
-[12]
-Overfull \hbox (5.50998pt too wide) in paragraph at lines 357--358
+[13]
+Overfull \hbox (5.50998pt too wide) in paragraph at lines 385--386
 \TU/TimesNewRoman(1)/m/n/12 предназначенный для хранения и распространения термодинамических и физико-химических
  []
 
 
-Overfull \hbox (5.82149pt too wide) in paragraph at lines 359--360
+Overfull \hbox (5.82149pt too wide) in paragraph at lines 387--388
 []\TU/TimesNewRoman(1)/m/n/12 Одной из ключевых особенностей ThermoML является строго стандартизированная струк-
  []
 
-[13]
-Overfull \hbox (5.88974pt too wide) in paragraph at lines 408--413
-\OML/cmm/m/it/12 eta[]$ \TU/TimesNewRoman(1)/m/n/12 — характеристическая (референсная) вязкость, - $\OML/cmm/m/it/12 S[]$ \TU/TimesNewRoman(1)/m/n/12 — избыточная энтропия, - $\OML/cmm/m/it/12 A; B; C$
+[14]
+File: images/data_distribution_temperature.png Graphic file (type bmp)
+<images/data_distribution_temperature.png>
+File: images/data_distribution_pressure.png Graphic file (type bmp)
+<images/data_distribution_pressure.png>
+File: images/data_distribution_viscosity.png Graphic file (type bmp)
+<images/data_distribution_viscosity.png>
+
+
+Package siunitx Warning: Unit macro \angstrom has been deprecated in this
+(siunitx)                release.
+(siunitx)                
+(siunitx)                The BIPM have removed this unit from the SI Brochure.
+(siunitx)                You should define it yourself using \DeclareSIUnit in
+(siunitx)                your source. The current definition is
+(siunitx)                
+(siunitx)                \DeclareSIUnit\angstrom{Å}
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--484
+[]
  []
 
-[14] [15] [16] [17]
-Overfull \hbox (5.12065pt too wide) in paragraph at lines 455--455
+[15] [16] [17] [18] [19] [20] [21] [22]
+Overfull \hbox (5.12065pt too wide) in paragraph at lines 637--637
 []\TU/TimesNewRoman(1)/m/n/12 A. Kumagai, D. Tomida и C. Yokoyama. «  Measurements of the Liquid Viscosities of Mixtures
  []
 
 
-Overfull \hbox (46.6509pt too wide) in paragraph at lines 455--455
+Overfull \hbox (46.6509pt too wide) in paragraph at lines 637--637
 []\TU/TimesNewRoman(1)/m/n/12 Gyan Prakash Dubey, Monika Sharma и Neelima Dubey. В: \TU/TimesNewRoman(1)/m/it/12 The Journal of Chemical Thermodynamics
  []
 
-[18]
-Overfull \hbox (7.23274pt too wide) in paragraph at lines 455--455
+[23]
+Overfull \hbox (7.23274pt too wide) in paragraph at lines 637--637
 []\TU/TimesNewRoman(1)/m/n/12 Montserrat Domínguez-Pérez и др. «  Experimental Study of the Dynamic Viscosity Deviations
  []
 
 
-Overfull \hbox (3.89545pt too wide) in paragraph at lines 455--455
+Overfull \hbox (3.89545pt too wide) in paragraph at lines 637--637
 []\TU/TimesNewRoman(1)/m/n/12 Fátima Reyes-García и Gustavo A. Iglesias-Silva. В: \TU/TimesNewRoman(1)/m/it/12 J. Chem. Eng. Data \TU/TimesNewRoman(1)/m/n/12 62 (2017), с. 2726—
  []
 
 
-Overfull \hbox (9.46268pt too wide) in paragraph at lines 455--455
+Overfull \hbox (9.46268pt too wide) in paragraph at lines 637--637
 []\TU/TimesNewRoman(1)/m/n/12 Wanchalerm Srirachat и др. В: \TU/TimesNewRoman(1)/m/it/12 Fluid Phase Equilibria \TU/TimesNewRoman(1)/m/n/12 434 (2017), с. 117—129. DOI: []$[][][][][] []
  []
 
-[19]
-Overfull \hbox (14.2755pt too wide) in paragraph at lines 455--455
+[24]
+Overfull \hbox (14.2755pt too wide) in paragraph at lines 637--637
 []\TU/TimesNewRoman(1)/m/n/12 Xi Yang и др. В: \TU/TimesNewRoman(1)/m/it/12 J. Chem. Eng. Data \TU/TimesNewRoman(1)/m/n/12 55 (2010), с. 2914—2916. DOI: []$[][] [] [][][][] [] [][][][][][][][][]$[]. 
  []
 
 
-Overfull \hbox (27.4975pt too wide) in paragraph at lines 455--455
+Overfull \hbox (27.4975pt too wide) in paragraph at lines 637--637
 \TU/TimesNewRoman(1)/m/n/12 10 Regular Binary Systems at 308.15 K and 313.15 K». В: \TU/TimesNewRoman(1)/m/it/12 International Journal of Thermophysics
  []
 
-[20]
-Overfull \hbox (12.14854pt too wide) in paragraph at lines 455--455
+[25]
+Overfull \hbox (12.14854pt too wide) in paragraph at lines 637--637
 []\TU/TimesNewRoman(1)/m/n/12 Hai Chi и др. В: \TU/TimesNewRoman(1)/m/it/12 J. Chem. Eng. Data \TU/TimesNewRoman(1)/m/n/12 58 (2013), с. 2224—2232. DOI: []$[][] [] [][][][] [] [][][][][][][][][]$[]. 
  []
 
-[21]
-Overfull \hbox (2.89984pt too wide) in paragraph at lines 455--455
+[26]
+Overfull \hbox (2.89984pt too wide) in paragraph at lines 637--637
 []\TU/TimesNewRoman(1)/m/n/12 Marek Blahušiak и Štefan Schlosser. В: \TU/TimesNewRoman(1)/m/it/12 The Journal of Chemical Thermodynamics \TU/TimesNewRoman(1)/m/n/12 72 (2014),
  []
 
-[22] (./vkr_viscosity.aux)
+
+Overfull \hbox (2.29318pt too wide) in paragraph at lines 637--637
+[]$[][][][][] [] [] [] [][][][] [] [][][] [] [][][] [] [][][][][][][][][][][][] [] [][][][][][][] [][] [][][] [] [] [] [] [] [][] [] [][][][][][][] []
+ []
+
+Missing character: There is no ‐ (U+2010) in font Times New Roman/OT:language=dflt;!
+[27] (./vkr_viscosity.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `vkr_viscosity.out' has not changed.
-(rerunfilecheck)             Checksum: FA733B6C93EF8BBEDD8E3EB9E3C950B4;10371.
+(rerunfilecheck)             Checksum: E73DF975543FCD65592F75C00C0EF097;11143.
 Package logreq Info: Writing requests to 'vkr_viscosity.run.xml'.
 \openout1 = `vkr_viscosity.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27726 strings out of 474878
- 555759 string characters out of 5762516
+ 32279 strings out of 474878
+ 688322 string characters out of 5762516
  1943627 words of memory out of 5000000
- 49442 multiletter control sequences out of 15000+600000
- 565993 words of font info for 106 fonts, out of 8000000 for 9000
+ 53964 multiletter control sequences out of 15000+600000
+ 564942 words of font info for 101 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 79i,12n,117p,1618b,5178s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,12n,117p,1618b,5564s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on vkr_viscosity.xdv (21 pages, 464032 bytes).
+Output written on vkr_viscosity.xdv (26 pages, 538268 bytes).

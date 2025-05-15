@@ -3668,6 +3668,103 @@
       \verb 10.1021/je5000132
       \endverb
     \endentry
+    \entry{molecular1955theory}{article}{}
+      \name{author}{3}{}{%
+        {{hash=72bb29442872f448f7e0b1b9eb542c9a}{%
+           family={Hirschfelder},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi O.},
+           giveni={J\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=7afc2566f0579ce94facfeaf4b8ff219}{%
+           family={Curtiss},
+           familyi={C\bibinitperiod},
+           given={C.\bibnamedelimi F.},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=b612c41acd9398471baa05904b00dcfb}{%
+           family={Bird},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{ab2f47997bfb40db025c4daba08a5bfb}
+      \strng{fullhash}{ab2f47997bfb40db025c4daba08a5bfb}
+      \strng{bibnamehash}{ab2f47997bfb40db025c4daba08a5bfb}
+      \strng{authorbibnamehash}{ab2f47997bfb40db025c4daba08a5bfb}
+      \strng{authornamehash}{ab2f47997bfb40db025c4daba08a5bfb}
+      \strng{authorfullhash}{ab2f47997bfb40db025c4daba08a5bfb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0031-9228}
+      \field{journaltitle}{Physics Today}
+      \field{month}{03}
+      \field{title}{Molecular Theory of Gases and Liquids}
+      \field{year}{1955}
+      \verb{doi}
+      \verb 10.1063/1.3061949
+      \endverb
+      \verb{eprint}
+      \verb https://pubs.aip.org/physicstoday/article-pdf/8/3/17/8325716/17\_1\_online.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.3061949
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.3061949
+      \endverb
+    \endentry
+    \entry{neufeld1972collision}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a08c6cd99dc1ec3b18a27770c1612447}{%
+           family={Neufeld},
+           familyi={N\bibinitperiod},
+           given={Philip\bibnamedelima D.},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=c11f92d4fe82958bb66bf092d5d0d99c}{%
+           family={Janzen},
+           familyi={J\bibinitperiod},
+           given={A.\bibnamedelimi R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=fbc2aae1d3151562829aae143975ce03}{%
+           family={Aziz},
+           familyi={A\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{22f93d993bf88e98a0b515138941894c}
+      \strng{fullhash}{22f93d993bf88e98a0b515138941894c}
+      \strng{bibnamehash}{22f93d993bf88e98a0b515138941894c}
+      \strng{authorbibnamehash}{22f93d993bf88e98a0b515138941894c}
+      \strng{authornamehash}{22f93d993bf88e98a0b515138941894c}
+      \strng{authorfullhash}{22f93d993bf88e98a0b515138941894c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We have calculated 16 of the reduced transport collision integrals Ω(l, s)* as a function of reduced temperature T* for the Lennard‐Jones (12–6) potential. These calculations are more accurate than those of Hirschfelder, Curtiss, and Bird, which are frequently used. Empirical equations are presented which allow the calculation of the collision integrals for any reduced temperature in the range 0.3≤ T*≤ 100 without interpolation from tables. The error in the values so obtained is probably less than 0.1\%.}
+      \field{issn}{0021-9606}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{month}{08}
+      \field{number}{3}
+      \field{title}{Empirical Equations to Calculate 16 of the Transport Collision Integrals Ω(l, s)* for the Lennard‐Jones (12–6) Potential}
+      \field{volume}{57}
+      \field{year}{1972}
+      \field{pages}{1100\bibrangedash 1102}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1063/1.1678363
+      \endverb
+      \verb{eprint}
+      \verb https://pubs.aip.org/aip/jcp/article-pdf/57/3/1100/18880310/1100\_1\_online.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.1678363
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.1678363
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

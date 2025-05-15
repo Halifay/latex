@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber vkr_viscosity"] 1747242092.33595 "vkr_viscosity.bcf" "vkr_viscosity.bbl" "vkr_viscosity" 1747242244.96864 0
-  "references.bib" 1747241770.38067 57169 4ecd407cb05325ea123fc0853c59fb69 ""
-  "vkr_viscosity.bcf" 1747242244.65933 118083 5ad6fded02a1cfc9df5524b1a03d2218 "xelatex"
+["biber vkr_viscosity"] 1747343539.91353 "vkr_viscosity.bcf" "vkr_viscosity.bbl" "vkr_viscosity" 1747344000.3589 0
+  "references.bib" 1747343537.4555 58779 f4fadbb83de60c6015dc85f46aff7738 ""
+  "vkr_viscosity.bcf" 1747343999.92982 118234 2c55b5dfcd61768eb74dcb8144e8f2db "xelatex"
   (generated)
   "vkr_viscosity.bbl"
   "vkr_viscosity.blg"
   (rewritten before read)
-["xdvipdfmx"] 1747242244.73785 "vkr_viscosity.xdv" "vkr_viscosity.pdf" "vkr_viscosity" 1747242244.97007 0
-  "vkr_viscosity.xdv" 1747242244.66033 464032 ae985bfe1fdd94ab724e1bf0dbc61f34 "xelatex"
+["xdvipdfmx"] 1747343999.99792 "vkr_viscosity.xdv" "vkr_viscosity.pdf" "vkr_viscosity" 1747344000.36063 0
+  "vkr_viscosity.xdv" 1747343999.93082 538268 f68b5c173e6930077b0f2ec7059f72b3 "xelatex"
   (generated)
   "vkr_viscosity.pdf"
   (rewritten before read)
-["xelatex"] 1747242242.47127 "vkr_viscosity.tex" "vkr_viscosity.xdv" "vkr_viscosity" 1747242244.96871 0
+["xelatex"] 1747343997.83706 "vkr_viscosity.tex" "vkr_viscosity.xdv" "vkr_viscosity" 1747344000.35897 0
   "/etc/texmf/web2c/texmf.cnf" 1726840375.39741 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -22,9 +22,11 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1246382020 908 2921f8a10601f252058503cc6570e581 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1246382020 940 228d6584342e91276bf566bcf9716b83 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1136768653 1520 eccf95517727cb11801f4f1aee3a21b4 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1136768653 1300 b62933e007d01cfd073f79b963c01526 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1136768653 1292 21c1c5bfeaebccffdb478fd231a0997d ""
@@ -96,6 +98,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def" 1663965824 14788 1dde73f396dd97d88c838bee2a352abe ""
+  "/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty" 1654720880 7233 e46ce9241d2b2ca2a78155475fdd557a ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty" 1654720880 18387 8f900a490197ebaf93c02ae9476d4b09 ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty" 1654720880 8010 a8d949cbdbc5c983593827c9eec252e1 ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty" 1654720880 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
@@ -123,6 +126,9 @@
   "/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty" 1677530001 77021 d05e9115c67855816136d82929db8892 ""
   "/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def" 1284153563 1620 fb1c32b818f2058eca187e5c41dfae77 ""
   "/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty" 1284153563 6187 b27afc771af565d3a9ff1ca7d16d0d46 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty" 1249334690 15773 2dd7dde1ec1c2a3d0c85bc3b273e04d8 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty" 1656621545 62269 5c1837a5bc5db4c0d255eedc225ca44b ""
+  "/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty" 1616101747 5582 a43dedf8e5ec418356f1e9dfe5d29fc3 ""
   "/usr/share/texlive/texmf-dist/tex/latex/polyglossia/babelsh.def" 1658175224 21082 3cb177d86ff917ce880342b1c076e85b ""
   "/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-english.ldf" 1702329055 7073 edd9995e1695cc91d737cbf011dba7de ""
   "/usr/share/texlive/texmf-dist/tex/latex/polyglossia/gloss-latex.lde" 1702329055 1021 0e1fb1ec0bedd9f75f72c6988243e9c6 ""
@@ -131,20 +137,27 @@
   "/usr/share/texlive/texmf-dist/tex/latex/polyglossia/xpg-cyrillicnumbers.sty" 1573854094 3630 0f05eb6198a0be5fe2fdd0b87f742f71 ""
   "/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty" 1576624809 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657483315 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty" 1706217749 330278 a251dbbaec6ade657fe551be54fa0659 ""
   "/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty" 1698436711 48766 0b93839be28e9744a24c45075c75b2e2 ""
   "/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty" 1698869629 12667 e4b5eb11e4b7239e6c8a52bbe074a6c6 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty" 1698869629 10214 547fd4d29642cb7c80bf54b49d447f01 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl" 1644096163 5588 0c1628daf15f4411ff1f463114c634a3 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty" 1644096163 44247 2188b95d0ee74e31eca4d316263c58a7 ""
   "/usr/share/texlive/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty" 1700082560 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1655411236 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1730896687 10844396 f7c60128c09712e9cf171ec69012ab26 ""
-  "vkr_viscosity.aux" 1747242244.64233 24016 0d77cebcdd496aa0597c38cb19e4b65d "xelatex"
-  "vkr_viscosity.bbl" 1747242093.67054 175570 9621d09d4f7db99235e99d7a48830dd8 "biber vkr_viscosity"
-  "vkr_viscosity.out" 1747242244.65633 10371 fa733b6c93ef8bbedd8e3eb9e3c950b4 "xelatex"
-  "vkr_viscosity.run.xml" 1747242244.66033 2507 3cca2fc068a9348cf7ceaafada9f33b9 "xelatex"
-  "vkr_viscosity.tex" 1747242242.39231 49643 43e19439785e016ef6493c2ed207db2c ""
-  "vkr_viscosity.toc" 1747242244.66033 4664 10ae6e0f09a83136fce610d064aa6dc7 "xelatex"
+  "images/data_distribution_pressure.png" 1747334105.4182 128481 db1b21c88c3a78364f186bc1e76ff84b ""
+  "images/data_distribution_temperature.png" 1747334083.26668 84004 204ce57650546597c6b82cdecf787137 ""
+  "images/data_distribution_viscosity.png" 1747334265.12355 129832 14e98f9ace79c37ab35786db784a8805 ""
+  "vkr_viscosity.aux" 1747343999.91482 27229 db46fce687225a9a50a3b9a140212652 "xelatex"
+  "vkr_viscosity.bbl" 1747343540.95152 179991 28d08846e994a1ffa51925135db3258e "biber vkr_viscosity"
+  "vkr_viscosity.out" 1747343999.92782 11143 e73df975543fcd65592f75c00c0ef097 "xelatex"
+  "vkr_viscosity.run.xml" 1747343999.93082 2507 3cca2fc068a9348cf7ceaafada9f33b9 "xelatex"
+  "vkr_viscosity.tex" 1747343997.76381 63066 2501ca4de1ed41f0145f40d2b7a4e924 ""
+  "vkr_viscosity.toc" 1747343999.93082 5158 b89883fe668a54b2ae7ab6853e5b73ee "xelatex"
   (generated)
   "vkr_viscosity.aux"
   "vkr_viscosity.bcf"

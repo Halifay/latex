@@ -2521,6 +2521,8 @@
     <bcf:citekey order="12" intorder="23">je400493x</bcf:citekey>
     <bcf:citekey order="12" intorder="24">je400835u</bcf:citekey>
     <bcf:citekey order="12" intorder="25">je5000132</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">molecular1955theory</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">neufeld1972collision</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
