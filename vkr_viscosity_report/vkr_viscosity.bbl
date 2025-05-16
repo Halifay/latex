@@ -3668,51 +3668,29 @@
       \verb 10.1021/je5000132
       \endverb
     \endentry
-    \entry{molecular1955theory}{article}{}
-      \name{author}{3}{}{%
-        {{hash=72bb29442872f448f7e0b1b9eb542c9a}{%
-           family={Hirschfelder},
-           familyi={H\bibinitperiod},
-           given={J.\bibnamedelimi O.},
-           giveni={J\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
-        {{hash=7afc2566f0579ce94facfeaf4b8ff219}{%
-           family={Curtiss},
-           familyi={C\bibinitperiod},
-           given={C.\bibnamedelimi F.},
-           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=b612c41acd9398471baa05904b00dcfb}{%
-           family={Bird},
-           familyi={B\bibinitperiod},
-           given={R.\bibnamedelimi B.},
-           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+    \entry{голубев2013вязкость}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8aa618c68980832c0e04e8ca459774dd}{%
+           family={Голубев},
+           familyi={Г\bibinitperiod},
+           given={Илья\bibnamedelima Федорович},
+           giveni={И\bibinitperiod\bibinitdelim Ф\bibinitperiod}}}%
       }
-      \strng{namehash}{ab2f47997bfb40db025c4daba08a5bfb}
-      \strng{fullhash}{ab2f47997bfb40db025c4daba08a5bfb}
-      \strng{bibnamehash}{ab2f47997bfb40db025c4daba08a5bfb}
-      \strng{authorbibnamehash}{ab2f47997bfb40db025c4daba08a5bfb}
-      \strng{authornamehash}{ab2f47997bfb40db025c4daba08a5bfb}
-      \strng{authorfullhash}{ab2f47997bfb40db025c4daba08a5bfb}
+      \list{publisher}{1}{%
+        {Рипол Классик}%
+      }
+      \strng{namehash}{8aa618c68980832c0e04e8ca459774dd}
+      \strng{fullhash}{8aa618c68980832c0e04e8ca459774dd}
+      \strng{bibnamehash}{8aa618c68980832c0e04e8ca459774dd}
+      \strng{authorbibnamehash}{8aa618c68980832c0e04e8ca459774dd}
+      \strng{authornamehash}{8aa618c68980832c0e04e8ca459774dd}
+      \strng{authorfullhash}{8aa618c68980832c0e04e8ca459774dd}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{0031-9228}
-      \field{journaltitle}{Physics Today}
-      \field{month}{03}
-      \field{title}{Molecular Theory of Gases and Liquids}
-      \field{year}{1955}
-      \verb{doi}
-      \verb 10.1063/1.3061949
-      \endverb
-      \verb{eprint}
-      \verb https://pubs.aip.org/physicstoday/article-pdf/8/3/17/8325716/17\_1\_online.pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1063/1.3061949
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1063/1.3061949
-      \endverb
+      \field{title}{Вязкость газовых смесей}
+      \field{year}{2013}
     \endentry
     \entry{neufeld1972collision}{article}{}
       \name{author}{3}{}{%

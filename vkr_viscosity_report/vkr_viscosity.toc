@@ -21,28 +21,28 @@
 \contentsline {subsubsection}{\numberline {2.1.1}Источник данных: база ThermoML}{14}{subsubsection.2.1.1}%
 \contentsline {subsubsection}{\numberline {2.1.2}ThermoPyL для чтения данных}{14}{subsubsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.2}Выбор веществ и критерии включения}{14}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Распределение данных}{15}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.3}Распределение экспериментальных данных}{15}{subsection.2.3}%
 \contentsline {subsubsection}{\numberline {2.3.1}Фазовое состояние}{15}{subsubsection.2.3.1}%
 \contentsline {subsubsection}{\numberline {2.3.2}Температура}{15}{subsubsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}Давление}{15}{subsubsection.2.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.4}Вязкость}{15}{subsubsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.4}Добавление параметров уравнения CP-PC-SAFT}{16}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Вычисление производных величин}{16}{subsection.2.5}%
-\contentsline {subsubsection}{\numberline {2.5.1}Вязкость идеального газа}{17}{subsubsection.2.5.1}%
-\contentsline {subsubsection}{\numberline {2.5.2}Мольный объем}{19}{subsubsection.2.5.2}%
-\contentsline {subsubsection}{\numberline {2.5.3}Избыточная энтропия}{19}{subsubsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.6}Выводы по главе}{19}{subsection.2.6}%
-\contentsline {section}{\numberline {3}Построение моделей и генерация признаков}{20}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Автоматическая генерация признаков}{20}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Отбор признаков}{20}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Символьная регрессия}{20}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Проверка значимости избыточной энтропии}{20}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Выводы по главе}{20}{subsection.3.5}%
-\contentsline {section}{\numberline {4}Обучение моделей и анализ результатов}{21}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Обучение моделей ML}{21}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Сравнение подходов}{21}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Сравнение с моделью MYS}{21}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Выводы по главе}{21}{subsection.4.4}%
-\contentsline {section}{Заключение}{22}{subsection.4.4}%
-\contentsline {section}{Список литературы}{23}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {2.3.3}Давление}{16}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}Вязкость}{16}{subsubsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.4}Добавление параметров уравнения CP-PC-SAFT}{17}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Вычисление производных величин}{18}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Вязкость идеального газа}{18}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Мольный объем}{20}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.3}Избыточная энтропия}{22}{subsubsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.6}Выводы по главе}{22}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Построение моделей и генерация признаков}{23}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Автоматическая генерация признаков}{23}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Отбор признаков}{23}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Символьная регрессия}{23}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Проверка значимости избыточной энтропии}{23}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Выводы по главе}{23}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Обучение моделей и анализ результатов}{24}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Обучение моделей ML}{24}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Сравнение подходов}{24}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Сравнение с моделью MYS}{24}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Выводы по главе}{24}{subsection.4.4}%
+\contentsline {section}{Заключение}{25}{subsection.4.4}%
+\contentsline {section}{Список литературы}{26}{subsection.4.4}%
 \xpginauxfilefalse 

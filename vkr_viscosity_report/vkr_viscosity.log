@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.11.6)  16 MAY 2025 00:19
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.11.6)  16 MAY 2025 19:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -793,6 +793,7 @@ Package siunitx Info: Option "table-align-text-post" has been deprecated in
 (siunitx)             
 (siunitx)             Use "table-align-text-after = false" as a replacement.
 
+Package hyperref Info: Option `unicode' set `true' on input line 81.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'polyglossia' package.
 Package csquotes Info: Adjusting default style.
@@ -800,86 +801,86 @@ Package csquotes Info: Redefining alias 'default' -> 'russian'.
  (./vkr_viscosity.aux)
 \openout1 = `vkr_viscosity.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 81.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 95.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 81.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 81.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 81.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 81.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 81.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 81.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 81.
-LaTeX Font Info:    Redeclaring math accent \check on input line 81.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 81.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 81.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 81.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 81.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 81.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 95.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 95.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 95.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 95.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 95.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 95.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 95.
+LaTeX Font Info:    Redeclaring math accent \check on input line 95.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 95.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 95.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 95.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 95.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 95.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 81.
+(Font)              `operators' in the math version `normal' on input line 95.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 81.
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 95.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 81.
+(Font)              `operators' in the math version `bold' on input line 95.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 81.
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 95.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on input line 81.
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line 81.
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 81.
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 81.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 81.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 95.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on input line 81.
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input line 81.
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 81.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 95.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 81.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 95.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -916,7 +917,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count471
-Package hyperref Info: Link coloring OFF on input line 81.
+Package hyperref Info: Link coloring OFF on input line 95.
 (./vkr_viscosity.out) (./vkr_viscosity.out)
 \@outlinefile=\write4
 \openout4 = `vkr_viscosity.out'.
@@ -928,15 +929,15 @@ File: puenc-greek.def 2023-09-12 2.5 Greek LICRs for PDF strings
  (/usr/share/texlive/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
 File: greek-fontenc.def 2023-09-12 2.5 Common Greek font encoding definitions
 ))
-LaTeX Info: Redefining \Upsilon on input line 81.
-LaTeX Info: Redefining \Omega on input line 81.
-LaTeX Info: Redefining \alpha on input line 81.
-LaTeX Info: Redefining \epsilon on input line 81.
-LaTeX Info: Redefining \eta on input line 81.
-LaTeX Info: Redefining \iota on input line 81.
-LaTeX Info: Redefining \rho on input line 81.
-LaTeX Info: Redefining \upsilon on input line 81.
-LaTeX Info: Redefining \omega on input line 81.
+LaTeX Info: Redefining \Upsilon on input line 95.
+LaTeX Info: Redefining \Omega on input line 95.
+LaTeX Info: Redefining \alpha on input line 95.
+LaTeX Info: Redefining \epsilon on input line 95.
+LaTeX Info: Redefining \eta on input line 95.
+LaTeX Info: Redefining \iota on input line 95.
+LaTeX Info: Redefining \rho on input line 95.
+LaTeX Info: Redefining \upsilon on input line 95.
+LaTeX Info: Redefining \omega on input line 95.
 Package biblatex Info: Trying to load language 'american'...
 Package biblatex Info: ... file 'american.lbx' found.
  (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/american.lbx
@@ -965,17 +966,17 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'vkr_viscosity.bbl' found.
  (./vkr_viscosity.bbl)
-Package biblatex Info: Reference section=0 on input line 81.
-Package biblatex Info: Reference segment=0 on input line 81.
+Package biblatex Info: Reference section=0 on input line 95.
+Package biblatex Info: Reference segment=0 on input line 95.
  (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 81.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 85.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 95.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 99.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 85.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 99.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [2
@@ -985,33 +986,34 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout5 = `vkr_viscosity.toc'.
 
  [5] [6] [7] [8] [9]
-Overfull \hbox (1.23871pt too wide) in paragraph at lines 278--280
+Overfull \hbox (1.23871pt too wide) in paragraph at lines 292--294
 []\TU/TimesNewRoman(1)/b/n/12 1. Ограниченная интерпретируемость моделей. \TU/TimesNewRoman(1)/m/n/12 Большинство моделей машинного обу-
  []
 
 [10]
-Overfull \hbox (10.75613pt too wide) in paragraph at lines 293--294
+Overfull \hbox (10.75613pt too wide) in paragraph at lines 307--308
 \TU/TimesNewRoman(1)/m/n/12 чения, они должны использоваться с осторожностью, особенно в задачах с физико-химическим
  []
 
 [11] [12]
-Overfull \hbox (1.75565pt too wide) in paragraph at lines 362--363
+Overfull \hbox (1.75565pt too wide) in paragraph at lines 376--377
 []\TU/TimesNewRoman(1)/m/n/12 Анализ преимуществ и недостатков разработанных моделей по сравнению с MYS. 
  []
 
 [13]
-Overfull \hbox (5.50998pt too wide) in paragraph at lines 385--386
+Overfull \hbox (5.50998pt too wide) in paragraph at lines 399--400
 \TU/TimesNewRoman(1)/m/n/12 предназначенный для хранения и распространения термодинамических и физико-химических
  []
 
 
-Overfull \hbox (5.82149pt too wide) in paragraph at lines 387--388
+Overfull \hbox (5.82149pt too wide) in paragraph at lines 401--402
 []\TU/TimesNewRoman(1)/m/n/12 Одной из ключевых особенностей ThermoML является строго стандартизированная струк-
  []
 
 [14]
 File: images/data_distribution_temperature.png Graphic file (type bmp)
 <images/data_distribution_temperature.png>
+ [15]
 File: images/data_distribution_pressure.png Graphic file (type bmp)
 <images/data_distribution_pressure.png>
 File: images/data_distribution_viscosity.png Graphic file (type bmp)
@@ -1028,79 +1030,80 @@ Package siunitx Warning: Unit macro \angstrom has been deprecated in this
 (siunitx)                \DeclareSIUnit\angstrom{Å}
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 468--484
+Underfull \hbox (badness 10000) in paragraph at lines 512--528
 []
  []
 
-[15] [16] [17] [18] [19] [20] [21] [22]
-Overfull \hbox (5.12065pt too wide) in paragraph at lines 637--637
+[16] [17] [18] [19]
+File: images/data_distribution_viscosity_ideal_gas.png Graphic file (type bmp)
+<images/data_distribution_viscosity_ideal_gas.png>
+ [20]
+File: images/data_distribution_molar_volume.png Graphic file (type bmp)
+<images/data_distribution_molar_volume.png>
+ [21] [22] [23] [24] [25]
+Overfull \hbox (5.12065pt too wide) in paragraph at lines 744--744
 []\TU/TimesNewRoman(1)/m/n/12 A. Kumagai, D. Tomida и C. Yokoyama. «  Measurements of the Liquid Viscosities of Mixtures
  []
 
 
-Overfull \hbox (46.6509pt too wide) in paragraph at lines 637--637
+Overfull \hbox (46.6509pt too wide) in paragraph at lines 744--744
 []\TU/TimesNewRoman(1)/m/n/12 Gyan Prakash Dubey, Monika Sharma и Neelima Dubey. В: \TU/TimesNewRoman(1)/m/it/12 The Journal of Chemical Thermodynamics
  []
 
-[23]
-Overfull \hbox (7.23274pt too wide) in paragraph at lines 637--637
+[26]
+Overfull \hbox (7.23274pt too wide) in paragraph at lines 744--744
 []\TU/TimesNewRoman(1)/m/n/12 Montserrat Domínguez-Pérez и др. «  Experimental Study of the Dynamic Viscosity Deviations
  []
 
 
-Overfull \hbox (3.89545pt too wide) in paragraph at lines 637--637
+Overfull \hbox (3.89545pt too wide) in paragraph at lines 744--744
 []\TU/TimesNewRoman(1)/m/n/12 Fátima Reyes-García и Gustavo A. Iglesias-Silva. В: \TU/TimesNewRoman(1)/m/it/12 J. Chem. Eng. Data \TU/TimesNewRoman(1)/m/n/12 62 (2017), с. 2726—
  []
 
 
-Overfull \hbox (9.46268pt too wide) in paragraph at lines 637--637
+Overfull \hbox (9.46268pt too wide) in paragraph at lines 744--744
 []\TU/TimesNewRoman(1)/m/n/12 Wanchalerm Srirachat и др. В: \TU/TimesNewRoman(1)/m/it/12 Fluid Phase Equilibria \TU/TimesNewRoman(1)/m/n/12 434 (2017), с. 117—129. DOI: []$[][][][][] []
  []
 
-[24]
-Overfull \hbox (14.2755pt too wide) in paragraph at lines 637--637
+[27]
+Overfull \hbox (14.2755pt too wide) in paragraph at lines 744--744
 []\TU/TimesNewRoman(1)/m/n/12 Xi Yang и др. В: \TU/TimesNewRoman(1)/m/it/12 J. Chem. Eng. Data \TU/TimesNewRoman(1)/m/n/12 55 (2010), с. 2914—2916. DOI: []$[][] [] [][][][] [] [][][][][][][][][]$[]. 
  []
 
 
-Overfull \hbox (27.4975pt too wide) in paragraph at lines 637--637
+Overfull \hbox (27.4975pt too wide) in paragraph at lines 744--744
 \TU/TimesNewRoman(1)/m/n/12 10 Regular Binary Systems at 308.15 K and 313.15 K». В: \TU/TimesNewRoman(1)/m/it/12 International Journal of Thermophysics
  []
 
-[25]
-Overfull \hbox (12.14854pt too wide) in paragraph at lines 637--637
+[28]
+Overfull \hbox (12.14854pt too wide) in paragraph at lines 744--744
 []\TU/TimesNewRoman(1)/m/n/12 Hai Chi и др. В: \TU/TimesNewRoman(1)/m/it/12 J. Chem. Eng. Data \TU/TimesNewRoman(1)/m/n/12 58 (2013), с. 2224—2232. DOI: []$[][] [] [][][][] [] [][][][][][][][][]$[]. 
  []
 
-[26]
-Overfull \hbox (2.89984pt too wide) in paragraph at lines 637--637
+[29]
+Overfull \hbox (2.89984pt too wide) in paragraph at lines 744--744
 []\TU/TimesNewRoman(1)/m/n/12 Marek Blahušiak и Štefan Schlosser. В: \TU/TimesNewRoman(1)/m/it/12 The Journal of Chemical Thermodynamics \TU/TimesNewRoman(1)/m/n/12 72 (2014),
  []
 
-
-Overfull \hbox (2.29318pt too wide) in paragraph at lines 637--637
-[]$[][][][][] [] [] [] [][][][] [] [][][] [] [][][] [] [][][][][][][][][][][][] [] [][][][][][][] [][] [][][] [] [] [] [] [] [][] [] [][][][][][][] []
- []
-
 Missing character: There is no ‐ (U+2010) in font Times New Roman/OT:language=dflt;!
-[27] (./vkr_viscosity.aux)
+[30] (./vkr_viscosity.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `vkr_viscosity.out' has not changed.
-(rerunfilecheck)             Checksum: E73DF975543FCD65592F75C00C0EF097;11143.
+(rerunfilecheck)             Checksum: 143E2D29178E318EF98FD5A9FD92BA08;11287.
 Package logreq Info: Writing requests to 'vkr_viscosity.run.xml'.
 \openout1 = `vkr_viscosity.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32279 strings out of 474878
- 688322 string characters out of 5762516
- 1943627 words of memory out of 5000000
- 53964 multiletter control sequences out of 15000+600000
+ 32304 strings out of 474878
+ 689473 string characters out of 5762516
+ 1944627 words of memory out of 5000000
+ 53987 multiletter control sequences out of 15000+600000
  564942 words of font info for 101 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  79i,12n,117p,1618b,5564s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on vkr_viscosity.xdv (26 pages, 538268 bytes).
+Output written on vkr_viscosity.xdv (29 pages, 565152 bytes).

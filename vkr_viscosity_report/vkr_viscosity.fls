@@ -315,6 +315,10 @@ INPUT ./images/data_distribution_pressure.png
 INPUT ./images/data_distribution_pressure.png
 INPUT ./images/data_distribution_viscosity.png
 INPUT ./images/data_distribution_viscosity.png
+INPUT ./images/data_distribution_viscosity_ideal_gas.png
+INPUT ./images/data_distribution_viscosity_ideal_gas.png
+INPUT ./images/data_distribution_molar_volume.png
+INPUT ./images/data_distribution_molar_volume.png
 INPUT vkr_viscosity.aux
 INPUT ./vkr_viscosity.out
 INPUT ./vkr_viscosity.out
