@@ -32,17 +32,15 @@
 \contentsline {subsubsection}{\numberline {2.5.2}Мольный объем}{21}{subsubsection.2.5.2}%
 \contentsline {subsubsection}{\numberline {2.5.3}Избыточная энтропия}{22}{subsubsection.2.5.3}%
 \contentsline {subsection}{\numberline {2.6}Выводы по главе}{24}{subsection.2.6}%
-\contentsline {section}{\numberline {3}Построение моделей и генерация признаков}{25}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Автоматическая генерация признаков}{25}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Отбор признаков}{25}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Символьная регрессия}{25}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Проверка значимости избыточной энтропии}{25}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Выводы по главе}{25}{subsection.3.5}%
-\contentsline {section}{\numberline {4}Обучение моделей и анализ результатов}{26}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Обучение моделей ML}{26}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Сравнение подходов}{26}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Сравнение с моделью MYS}{26}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Выводы по главе}{26}{subsection.4.4}%
-\contentsline {section}{Заключение}{27}{subsection.4.4}%
-\contentsline {section}{Список литературы}{28}{subsection.4.4}%
+\contentsline {section}{\numberline {3}Построение моделей и анализ результатов}{25}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Алгоритм автоматической генерации признаков}{25}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Модель MYS}{26}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Символьная регрессия}{28}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Проверка значимости избыточной энтропии}{28}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Обучение моделей ML}{29}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Сравнение подходов}{29}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Сравнение с моделью MYS}{29}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Выводы по главе}{30}{subsection.3.8}%
+\contentsline {section}{Заключение}{30}{subsection.3.8}%
+\contentsline {section}{Список литературы}{31}{subsection.3.8}%
 \xpginauxfilefalse 
