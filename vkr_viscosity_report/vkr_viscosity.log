@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.11.6)  16 MAY 2025 19:51
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.11.6)  17 MAY 2025 01:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -94,7 +94,7 @@ Package polyglossia Info: Option: English, variant=american.
 )
 
 Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
-(fontspec)             New Roman' with options [Ligatures=TeX].
+(fontspec)             New Roman' with options [Ligatures=TeX,Ligatures=TeX].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
@@ -114,42 +114,42 @@ Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
 
 
 Package fontspec Info: Font family 'TimesNewRoman(1)' created for font 'Times
-(fontspec)             New Roman' with options [].
+(fontspec)             New Roman' with options [Ligatures=TeX].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
-(fontspec)             Roman/OT:language=dflt;"
+(fontspec)             Roman/OT:language=dflt;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
-(fontspec)             Roman/B/OT:language=dflt;"
+(fontspec)             Roman/B/OT:language=dflt;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
-(fontspec)             Roman/I/OT:language=dflt;"
+(fontspec)             Roman/I/OT:language=dflt;mapping=tex-text;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
-(fontspec)             Roman/BI/OT:language=dflt;"
+(fontspec)             Roman/BI/OT:language=dflt;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 
 Package fontspec Info: Font family 'CourierNew(0)' created for font 'Courier
-(fontspec)             New' with options [].
+(fontspec)             New' with options [Ligatures=TeX].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Courier
-(fontspec)             New/OT:language=dflt;"
+(fontspec)             New/OT:language=dflt;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Courier
-(fontspec)             New/B/OT:language=dflt;"
+(fontspec)             New/B/OT:language=dflt;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Courier
-(fontspec)             New/I/OT:language=dflt;"
+(fontspec)             New/I/OT:language=dflt;mapping=tex-text;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Courier
-(fontspec)             New/BI/OT:language=dflt;"
+(fontspec)             New/BI/OT:language=dflt;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
  (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
@@ -267,6 +267,8 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen161
 \Gm@layoutvoffset=\dimen162
 \Gm@dimlist=\toks26
+) (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \ttl@box=\box56
@@ -338,12 +340,12 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 \Hy@pagecounter=\count305
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
-) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count306
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Hyper figures OFF on input line 4179.
@@ -499,15 +501,15 @@ Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 107.
 )
 \Gin@req@height=\dimen195
 \Gin@req@width=\dimen196
-)
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
  (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
@@ -985,35 +987,40 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write5
 \openout5 = `vkr_viscosity.toc'.
 
- [5] [6] [7] [8] [9]
-Overfull \hbox (1.23871pt too wide) in paragraph at lines 292--294
+ [5] [6] [7] [8]
+Overfull \hbox (3.8735pt too wide) in paragraph at lines 242--243
+[]$\OML/cmm/m/it/12 "\OT1/cmr/m/n/12 /\OML/cmm/m/it/12 k[]$ \TU/TimesNewRoman(1)/m/n/12 – приведенная энергия взаимодействия между частицами. В случае смеси несколь-
+ []
+
+[9] [10]
+Overfull \hbox (1.23871pt too wide) in paragraph at lines 318--320
 []\TU/TimesNewRoman(1)/b/n/12 1. Ограниченная интерпретируемость моделей. \TU/TimesNewRoman(1)/m/n/12 Большинство моделей машинного обу-
  []
 
-[10]
-Overfull \hbox (10.75613pt too wide) in paragraph at lines 307--308
+
+Overfull \hbox (10.75613pt too wide) in paragraph at lines 333--334
 \TU/TimesNewRoman(1)/m/n/12 чения, они должны использоваться с осторожностью, особенно в задачах с физико-химическим
  []
 
 [11] [12]
-Overfull \hbox (1.75565pt too wide) in paragraph at lines 376--377
+Overfull \hbox (1.75565pt too wide) in paragraph at lines 402--403
 []\TU/TimesNewRoman(1)/m/n/12 Анализ преимуществ и недостатков разработанных моделей по сравнению с MYS. 
  []
 
-[13]
-Overfull \hbox (5.50998pt too wide) in paragraph at lines 399--400
+[13] [14]
+Overfull \hbox (5.50998pt too wide) in paragraph at lines 425--426
 \TU/TimesNewRoman(1)/m/n/12 предназначенный для хранения и распространения термодинамических и физико-химических
  []
 
 
-Overfull \hbox (5.82149pt too wide) in paragraph at lines 401--402
+Overfull \hbox (5.82149pt too wide) in paragraph at lines 427--428
 []\TU/TimesNewRoman(1)/m/n/12 Одной из ключевых особенностей ThermoML является строго стандартизированная струк-
  []
 
-[14]
+[15]
 File: images/data_distribution_temperature.png Graphic file (type bmp)
 <images/data_distribution_temperature.png>
- [15]
+ [16]
 File: images/data_distribution_pressure.png Graphic file (type bmp)
 <images/data_distribution_pressure.png>
 File: images/data_distribution_viscosity.png Graphic file (type bmp)
@@ -1030,63 +1037,81 @@ Package siunitx Warning: Unit macro \angstrom has been deprecated in this
 (siunitx)                \DeclareSIUnit\angstrom{Å}
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 512--528
+Underfull \hbox (badness 10000) in paragraph at lines 538--554
 []
  []
 
-[16] [17] [18] [19]
+[17] [18] [19] [20]
 File: images/data_distribution_viscosity_ideal_gas.png Graphic file (type bmp)
 <images/data_distribution_viscosity_ideal_gas.png>
- [20]
+ [21]
 File: images/data_distribution_molar_volume.png Graphic file (type bmp)
 <images/data_distribution_molar_volume.png>
- [21] [22] [23] [24] [25]
-Overfull \hbox (5.12065pt too wide) in paragraph at lines 744--744
+ [22]
+File: images/data_distribution_excess_entropy.png Graphic file (type bmp)
+<images/data_distribution_excess_entropy.png>
+ [23] [24] [25] [26] [27]
+Overfull \hbox (5.12065pt too wide) in paragraph at lines 817--817
 []\TU/TimesNewRoman(1)/m/n/12 A. Kumagai, D. Tomida и C. Yokoyama. «  Measurements of the Liquid Viscosities of Mixtures
  []
 
 
-Overfull \hbox (46.6509pt too wide) in paragraph at lines 744--744
+Overfull \hbox (46.6509pt too wide) in paragraph at lines 817--817
 []\TU/TimesNewRoman(1)/m/n/12 Gyan Prakash Dubey, Monika Sharma и Neelima Dubey. В: \TU/TimesNewRoman(1)/m/it/12 The Journal of Chemical Thermodynamics
  []
 
-[26]
-Overfull \hbox (7.23274pt too wide) in paragraph at lines 744--744
+[28]
+Overfull \hbox (7.23274pt too wide) in paragraph at lines 817--817
 []\TU/TimesNewRoman(1)/m/n/12 Montserrat Domínguez-Pérez и др. «  Experimental Study of the Dynamic Viscosity Deviations
  []
 
 
-Overfull \hbox (3.89545pt too wide) in paragraph at lines 744--744
+Overfull \hbox (3.89545pt too wide) in paragraph at lines 817--817
 []\TU/TimesNewRoman(1)/m/n/12 Fátima Reyes-García и Gustavo A. Iglesias-Silva. В: \TU/TimesNewRoman(1)/m/it/12 J. Chem. Eng. Data \TU/TimesNewRoman(1)/m/n/12 62 (2017), с. 2726—
  []
 
 
-Overfull \hbox (9.46268pt too wide) in paragraph at lines 744--744
+Overfull \hbox (9.46268pt too wide) in paragraph at lines 817--817
 []\TU/TimesNewRoman(1)/m/n/12 Wanchalerm Srirachat и др. В: \TU/TimesNewRoman(1)/m/it/12 Fluid Phase Equilibria \TU/TimesNewRoman(1)/m/n/12 434 (2017), с. 117—129. DOI: []$[][][][][] []
  []
 
-[27]
-Overfull \hbox (14.2755pt too wide) in paragraph at lines 744--744
+[29]
+Overfull \hbox (14.2755pt too wide) in paragraph at lines 817--817
 []\TU/TimesNewRoman(1)/m/n/12 Xi Yang и др. В: \TU/TimesNewRoman(1)/m/it/12 J. Chem. Eng. Data \TU/TimesNewRoman(1)/m/n/12 55 (2010), с. 2914—2916. DOI: []$[][] [] [][][][] [] [][][][][][][][][]$[]. 
  []
 
 
-Overfull \hbox (27.4975pt too wide) in paragraph at lines 744--744
+Overfull \hbox (27.4975pt too wide) in paragraph at lines 817--817
 \TU/TimesNewRoman(1)/m/n/12 10 Regular Binary Systems at 308.15 K and 313.15 K». В: \TU/TimesNewRoman(1)/m/it/12 International Journal of Thermophysics
  []
 
-[28]
-Overfull \hbox (12.14854pt too wide) in paragraph at lines 744--744
+[30]
+Overfull \hbox (12.14854pt too wide) in paragraph at lines 817--817
 []\TU/TimesNewRoman(1)/m/n/12 Hai Chi и др. В: \TU/TimesNewRoman(1)/m/it/12 J. Chem. Eng. Data \TU/TimesNewRoman(1)/m/n/12 58 (2013), с. 2224—2232. DOI: []$[][] [] [][][][] [] [][][][][][][][][]$[]. 
  []
 
-[29]
-Overfull \hbox (2.89984pt too wide) in paragraph at lines 744--744
+[31]
+Overfull \hbox (2.89984pt too wide) in paragraph at lines 817--817
 []\TU/TimesNewRoman(1)/m/n/12 Marek Blahušiak и Štefan Schlosser. В: \TU/TimesNewRoman(1)/m/it/12 The Journal of Chemical Thermodynamics \TU/TimesNewRoman(1)/m/n/12 72 (2014),
  []
 
-Missing character: There is no ‐ (U+2010) in font Times New Roman/OT:language=dflt;!
-[30] (./vkr_viscosity.aux)
+Missing character: There is no ‐ (U+2010) in font Times New Roman/OT:language=dflt;mapping=tex-text;!
+
+Overfull \hbox (7.93825pt too wide) in paragraph at lines 817--817
+[]\TU/TimesNewRoman(1)/m/n/12 Stepan Zakharov. \TU/TimesNewRoman(1)/m/it/12 cp_pc_saft: Julia Library for SAFT Equations of State\TU/TimesNewRoman(1)/m/n/12 . 2024. URL: []$[][][][][] []
+ []
+
+
+Overfull \hbox (8.31677pt too wide) in paragraph at lines 817--817
+[]\TU/TimesNewRoman(1)/m/n/12 Houman B. Rokni и др. «  Entropy scaling based viscosity predictions for hydrocarbon mixtures
+ []
+
+
+Overfull \hbox (4.79318pt too wide) in paragraph at lines 817--817
+[] [] [][][] [] [][][][][][][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][]$[]\TU/TimesNewRoman(1)/m/n/12 . 
+ []
+
+[32] (./vkr_viscosity.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1098,12 +1123,12 @@ Package logreq Info: Writing requests to 'vkr_viscosity.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32304 strings out of 474878
- 689473 string characters out of 5762516
+ 32349 strings out of 474878
+ 691014 string characters out of 5762516
  1944627 words of memory out of 5000000
- 53987 multiletter control sequences out of 15000+600000
- 564942 words of font info for 101 fonts, out of 8000000 for 9000
+ 54032 multiletter control sequences out of 15000+600000
+ 564910 words of font info for 97 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  79i,12n,117p,1618b,5564s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on vkr_viscosity.xdv (29 pages, 565152 bytes).
+Output written on vkr_viscosity.xdv (31 pages, 614452 bytes).

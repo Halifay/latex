@@ -3743,6 +3743,90 @@
       \verb https://doi.org/10.1063/1.1678363
       \endverb
     \endentry
+    \entry{cppcsaft2024}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=cd5fed6e92b231bdbbe67971ce80e110}{%
+           family={Zakharov},
+           familyi={Z\bibinitperiod},
+           given={Stepan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd5fed6e92b231bdbbe67971ce80e110}
+      \strng{fullhash}{cd5fed6e92b231bdbbe67971ce80e110}
+      \strng{bibnamehash}{cd5fed6e92b231bdbbe67971ce80e110}
+      \strng{authorbibnamehash}{cd5fed6e92b231bdbbe67971ce80e110}
+      \strng{authornamehash}{cd5fed6e92b231bdbbe67971ce80e110}
+      \strng{authorfullhash}{cd5fed6e92b231bdbbe67971ce80e110}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{cp\_pc\_saft: Julia Library for SAFT Equations of State}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://github.com/zmeri/PC-SAFT
+      \endverb
+      \verb{url}
+      \verb https://github.com/zmeri/PC-SAFT
+      \endverb
+    \endentry
+    \entry{roknia2020entropy}{article}{}
+      \name{author}{5}{}{%
+        {{hash=18a8161bb0ab4fbf8d5e26659c7b8dcd}{%
+           family={Rokni},
+           familyi={R\bibinitperiod},
+           given={Houman\bibnamedelima B.},
+           giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=7c7994607b9f618a0652be40e22e18cb}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Joshua\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=8fad0bc983cc4ac8e7b88fc559bce19f}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Ashutosh},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0842c9969ea2f365d7de6dcef5af88ea}{%
+           family={MHugh},
+           familyi={M\bibinitperiod},
+           given={Mark\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9f9d31d135285bc5d1f85c32600a5476}{%
+           family={Gavaises},
+           familyi={G\bibinitperiod},
+           given={Manolis},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{260898b1385e5816cb9c28cff63f18fa}
+      \strng{fullhash}{de623de3c6cdb954d00f7875046efe64}
+      \strng{bibnamehash}{260898b1385e5816cb9c28cff63f18fa}
+      \strng{authorbibnamehash}{260898b1385e5816cb9c28cff63f18fa}
+      \strng{authornamehash}{260898b1385e5816cb9c28cff63f18fa}
+      \strng{authorfullhash}{de623de3c6cdb954d00f7875046efe64}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{An entropy scaling based technique using the Perturbed-Chain Statistical Associating Fluid Theory is described for predicting the viscosity of hydrocarbon mixtures and diesel fuels up to high temperatures and high pressures. The compounds found in diesel fuels or hydrocarbon mixtures are represented as a single pseudo-component. The model is not fit to viscosity data but is predictive up to high temperatures and pressures with input of only two calculated or measured mixture properties: the number averaged molecular weight and hydrogen to carbon ratio. Viscosity is predicted less accurately when the mixture contains high concentrations of iso-alkanes and cyclohexanes. However, it is shown that predictions for these mixtures are improved by fitting a third parameter to a single viscosity data point at a chosen reference state. For hydrocarbon mixtures, viscosity is predicted with average mean absolute percent deviations (MAPDs) of 12.2\% using the two-parameter model and 7.3\% using the three-parameter model from 293 to 353 K and up to 1000 bar. For two different diesel fuels, viscosity is predicted with an average MAPD of 21.4\% using the two-parameter model and 9.4\% using the three-parameter model from 323 to 423 K and up to 3500 bar.}
+      \field{issn}{0016-2361}
+      \field{journaltitle}{Fuel}
+      \field{title}{Entropy scaling based viscosity predictions for hydrocarbon mixtures and diesel fuels up to extreme conditions}
+      \field{volume}{241}
+      \field{year}{2019}
+      \field{pages}{1203\bibrangedash 1213}
+      \range{pages}{11}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.fuel.2018.12.043
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0016236118321069
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0016236118321069
+      \endverb
+      \keyw{Pseudo-component,Viscosity,Entropy scaling,PC-SAFT,Diesel,Fuels,High pressures}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

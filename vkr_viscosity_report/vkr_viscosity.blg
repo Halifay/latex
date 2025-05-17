@@ -1,17 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'vkr_viscosity.blg'
-[56] biber:340> INFO - === Пт мая 16, 2025, 17:04:46
-[70] Biber.pm:419> INFO - Reading 'vkr_viscosity.bcf'
-[133] Biber.pm:979> INFO - Found 89 citekeys in bib section 0
-[143] Biber.pm:4419> INFO - Processing section 0
-[151] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
-[157] bibtex.pm:1713> INFO - LaTeX decoding ...
-[218] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[798] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[798] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
-[798] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
-[799] Biber.pm:4245> INFO - No sort tailoring available for locale 'ru-RU'
-[842] bbl.pm:660> INFO - Writing 'vkr_viscosity.bbl' with encoding 'UTF-8'
-[871] bbl.pm:763> INFO - Output to vkr_viscosity.bbl
-[871] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_oR73/33e59b5ca9ec342068223d604c3f8d55_17216.utf8, line 70, warning: 11 characters of junk seen at toplevel
-[871] Biber.pm:133> INFO - WARNINGS: 1
+[44] biber:340> INFO - === Сб мая 17, 2025, 00:16:57
+[53] Biber.pm:419> INFO - Reading 'vkr_viscosity.bcf'
+[104] Biber.pm:979> INFO - Found 91 citekeys in bib section 0
+[112] Biber.pm:4419> INFO - Processing section 0
+[118] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[121] bibtex.pm:1713> INFO - LaTeX decoding ...
+[171] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[627] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[627] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[627] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
+[627] Biber.pm:4245> INFO - No sort tailoring available for locale 'ru-RU'
+[660] bbl.pm:660> INFO - Writing 'vkr_viscosity.bbl' with encoding 'UTF-8'
+[685] bbl.pm:763> INFO - Output to vkr_viscosity.bbl
+[685] Biber.pm:131> WARN - BibTeX subsystem: /tmp/biber_tmp_n1QK/33e59b5ca9ec342068223d604c3f8d55_36936.utf8, line 70, warning: 11 characters of junk seen at toplevel
+[685] Biber.pm:133> INFO - WARNINGS: 1
