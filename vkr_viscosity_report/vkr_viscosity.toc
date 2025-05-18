@@ -36,11 +36,14 @@
 \contentsline {subsection}{\numberline {3.1}Алгоритм автоматической генерации признаков}{25}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Модель MYS}{26}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Символьная регрессия}{28}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Проверка значимости избыточной энтропии}{28}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Обучение моделей ML}{29}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Сравнение подходов}{29}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}Сравнение с моделью MYS}{29}{subsection.3.7}%
-\contentsline {subsection}{\numberline {3.8}Выводы по главе}{30}{subsection.3.8}%
-\contentsline {section}{Заключение}{30}{subsection.3.8}%
-\contentsline {section}{Список литературы}{31}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.4}Обучение моделей ML}{31}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Линейная регрессия}{31}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Случайный лес}{31}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Метод ближайших соседей}{31}{subsubsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.5}Проверка значимости избыточной энтропии}{31}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Сравнение подходов}{31}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Сравнение с моделью MYS}{32}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Выводы по главе}{32}{subsection.3.8}%
+\contentsline {section}{Заключение}{32}{subsection.3.8}%
+\contentsline {section}{Список литературы}{33}{subsection.3.8}%
 \xpginauxfilefalse 

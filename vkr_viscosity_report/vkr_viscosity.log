@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.11.6)  17 MAY 2025 22:09
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.11.6)  17 MAY 2025 23:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1025,11 +1025,11 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 101.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [2
 
-] [3] (./vkr_viscosity.toc)
+] [3] (./vkr_viscosity.toc [4])
 \tf@toc=\write5
 \openout5 = `vkr_viscosity.toc'.
 
- [4] [5] [6] [7] [8]
+ [5] [6] [7] [8]
 Overfull \hbox (3.8735pt too wide) in paragraph at lines 244--245
 []$\OML/cmm/m/it/12 "\OT1/cmr/m/n/12 /\OML/cmm/m/it/12 k[]$ \TU/TimesNewRoman(1)/m/n/12 – приведенная энергия взаимодействия между частицами. В случае смеси несколь-
  []
@@ -1102,85 +1102,90 @@ File: images/MYS_percent.png Graphic file (type bmp)
 <images/MYS_percent.png>
 File: images/MYS_rmse.png Graphic file (type bmp)
 <images/MYS_rmse.png>
- [27] [28] [29] [30]
-Overfull \hbox (5.12065pt too wide) in paragraph at lines 1002--1002
+ [27] [28]
+File: images/SR_percent.png Graphic file (type bmp)
+<images/SR_percent.png>
+File: images/SR_rmse.png Graphic file (type bmp)
+<images/SR_rmse.png>
+ [29] [30] [31] [32]
+Overfull \hbox (5.12065pt too wide) in paragraph at lines 1080--1080
 []\TU/TimesNewRoman(1)/m/n/12 A. Kumagai, D. Tomida и C. Yokoyama. «  Measurements of the Liquid Viscosities of Mixtures
  []
 
 
-Overfull \hbox (46.6509pt too wide) in paragraph at lines 1002--1002
+Overfull \hbox (46.6509pt too wide) in paragraph at lines 1080--1080
 []\TU/TimesNewRoman(1)/m/n/12 Gyan Prakash Dubey, Monika Sharma и Neelima Dubey. В: \TU/TimesNewRoman(1)/m/it/12 The Journal of Chemical Thermodynamics
  []
 
-[31]
-Overfull \hbox (7.23274pt too wide) in paragraph at lines 1002--1002
+[33]
+Overfull \hbox (7.23274pt too wide) in paragraph at lines 1080--1080
 []\TU/TimesNewRoman(1)/m/n/12 Montserrat Domínguez-Pérez и др. «  Experimental Study of the Dynamic Viscosity Deviations
  []
 
 
-Overfull \hbox (3.89545pt too wide) in paragraph at lines 1002--1002
+Overfull \hbox (3.89545pt too wide) in paragraph at lines 1080--1080
 []\TU/TimesNewRoman(1)/m/n/12 Fátima Reyes-García и Gustavo A. Iglesias-Silva. В: \TU/TimesNewRoman(1)/m/it/12 J. Chem. Eng. Data \TU/TimesNewRoman(1)/m/n/12 62 (2017), с. 2726—
  []
 
 
-Overfull \hbox (9.46268pt too wide) in paragraph at lines 1002--1002
+Overfull \hbox (9.46268pt too wide) in paragraph at lines 1080--1080
 []\TU/TimesNewRoman(1)/m/n/12 Wanchalerm Srirachat и др. В: \TU/TimesNewRoman(1)/m/it/12 Fluid Phase Equilibria \TU/TimesNewRoman(1)/m/n/12 434 (2017), с. 117—129. DOI: []$[][][][][] []
  []
 
-[32]
-Overfull \hbox (14.2755pt too wide) in paragraph at lines 1002--1002
+[34]
+Overfull \hbox (14.2755pt too wide) in paragraph at lines 1080--1080
 []\TU/TimesNewRoman(1)/m/n/12 Xi Yang и др. В: \TU/TimesNewRoman(1)/m/it/12 J. Chem. Eng. Data \TU/TimesNewRoman(1)/m/n/12 55 (2010), с. 2914—2916. DOI: []$[][] [] [][][][] [] [][][][][][][][][]$[]. 
  []
 
 
-Overfull \hbox (27.4975pt too wide) in paragraph at lines 1002--1002
+Overfull \hbox (27.4975pt too wide) in paragraph at lines 1080--1080
 \TU/TimesNewRoman(1)/m/n/12 10 Regular Binary Systems at 308.15 K and 313.15 K». В: \TU/TimesNewRoman(1)/m/it/12 International Journal of Thermophysics
  []
 
-[33]
-Overfull \hbox (12.14854pt too wide) in paragraph at lines 1002--1002
+[35]
+Overfull \hbox (12.14854pt too wide) in paragraph at lines 1080--1080
 []\TU/TimesNewRoman(1)/m/n/12 Hai Chi и др. В: \TU/TimesNewRoman(1)/m/it/12 J. Chem. Eng. Data \TU/TimesNewRoman(1)/m/n/12 58 (2013), с. 2224—2232. DOI: []$[][] [] [][][][] [] [][][][][][][][][]$[]. 
  []
 
-[34]
-Overfull \hbox (2.89984pt too wide) in paragraph at lines 1002--1002
+[36]
+Overfull \hbox (2.89984pt too wide) in paragraph at lines 1080--1080
 []\TU/TimesNewRoman(1)/m/n/12 Marek Blahušiak и Štefan Schlosser. В: \TU/TimesNewRoman(1)/m/it/12 The Journal of Chemical Thermodynamics \TU/TimesNewRoman(1)/m/n/12 72 (2014),
  []
 
 Missing character: There is no ‐ (U+2010) in font Times New Roman/OT:language=dflt;mapping=tex-text;!
 
-Overfull \hbox (7.93825pt too wide) in paragraph at lines 1002--1002
+Overfull \hbox (7.93825pt too wide) in paragraph at lines 1080--1080
 []\TU/TimesNewRoman(1)/m/n/12 Stepan Zakharov. \TU/TimesNewRoman(1)/m/it/12 cp_pc_saft: Julia Library for SAFT Equations of State\TU/TimesNewRoman(1)/m/n/12 . 2024. URL: []$[][][][][] []
  []
 
 
-Overfull \hbox (8.31677pt too wide) in paragraph at lines 1002--1002
+Overfull \hbox (8.31677pt too wide) in paragraph at lines 1080--1080
 []\TU/TimesNewRoman(1)/m/n/12 Houman B. Rokni и др. «  Entropy scaling based viscosity predictions for hydrocarbon mixtures
  []
 
 
-Overfull \hbox (4.79318pt too wide) in paragraph at lines 1002--1002
+Overfull \hbox (4.79318pt too wide) in paragraph at lines 1080--1080
 [] [] [][][] [] [][][][][][][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][]$[]\TU/TimesNewRoman(1)/m/n/12 . 
  []
 
-[35] (./vkr_viscosity.aux)
+[37] (./vkr_viscosity.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `vkr_viscosity.out' has not changed.
-(rerunfilecheck)             Checksum: 08063F577DB15CD4A5F3DFCCCFC785F6;10784.
+(rerunfilecheck)             Checksum: BC32F9C451086AF4C3936AD800761D80;11420.
 Package logreq Info: Writing requests to 'vkr_viscosity.run.xml'.
 \openout1 = `vkr_viscosity.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37548 strings out of 474878
- 799722 string characters out of 5762516
+ 37573 strings out of 474878
+ 800274 string characters out of 5762516
  1944627 words of memory out of 5000000
- 59147 multiletter control sequences out of 15000+600000
+ 59170 multiletter control sequences out of 15000+600000
  564926 words of font info for 99 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  79i,15n,117p,1618b,5564s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on vkr_viscosity.xdv (34 pages, 715944 bytes).
+Output written on vkr_viscosity.xdv (36 pages, 763084 bytes).

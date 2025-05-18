@@ -365,6 +365,10 @@ INPUT ./images/MYS_percent.png
 INPUT ./images/MYS_percent.png
 INPUT ./images/MYS_rmse.png
 INPUT ./images/MYS_rmse.png
+INPUT ./images/SR_percent.png
+INPUT ./images/SR_percent.png
+INPUT ./images/SR_rmse.png
+INPUT ./images/SR_rmse.png
 INPUT vkr_viscosity.aux
 INPUT ./vkr_viscosity.out
 INPUT ./vkr_viscosity.out
