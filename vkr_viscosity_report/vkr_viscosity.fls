@@ -369,6 +369,42 @@ INPUT ./images/SR_percent.png
 INPUT ./images/SR_percent.png
 INPUT ./images/SR_rmse.png
 INPUT ./images/SR_rmse.png
+INPUT ./images/knn/MAE_KNN (k=3)_0.2_base.png
+INPUT ./images/knn/MAE_KNN (k=3)_0.2_base.png
+INPUT ./images/knn/MRE_KNN (k=3)_0.2_base.png
+INPUT ./images/knn/MRE_KNN (k=3)_0.2_base.png
+INPUT ./images/knn/MAE_KNN (k=3)_0.8_base.png
+INPUT ./images/knn/MAE_KNN (k=3)_0.8_base.png
+INPUT ./images/knn/MRE_KNN (k=3)_0.8_base.png
+INPUT ./images/knn/MRE_KNN (k=3)_0.8_base.png
+INPUT ./images/knn/MAE_KNN (k=3)_0.8_rules.png
+INPUT ./images/knn/MAE_KNN (k=3)_0.8_rules.png
+INPUT ./images/knn/MRE_KNN (k=3)_0.8_rules.png
+INPUT ./images/knn/MRE_KNN (k=3)_0.8_rules.png
+INPUT ./images/random_forest/MAE_Random Forest Model_0.2_base.png
+INPUT ./images/random_forest/MAE_Random Forest Model_0.2_base.png
+INPUT ./images/random_forest/MRE_Random Forest Model_0.2_base.png
+INPUT ./images/random_forest/MRE_Random Forest Model_0.2_base.png
+INPUT ./images/random_forest/MAE_Random Forest Model_0.8_base.png
+INPUT ./images/random_forest/MAE_Random Forest Model_0.8_base.png
+INPUT ./images/random_forest/MRE_Random Forest Model_0.8_base.png
+INPUT ./images/random_forest/MRE_Random Forest Model_0.8_base.png
+INPUT ./images/random_forest/MAE_Random Forest Model_0.8_rules.png
+INPUT ./images/random_forest/MAE_Random Forest Model_0.8_rules.png
+INPUT ./images/random_forest/MRE_Random Forest Model_0.8_rules.png
+INPUT ./images/random_forest/MRE_Random Forest Model_0.8_rules.png
+INPUT ./images/linear_regression/MAE_Linear Model_0.2_base.png
+INPUT ./images/linear_regression/MAE_Linear Model_0.2_base.png
+INPUT ./images/linear_regression/MRE_Linear Model_0.2_base.png
+INPUT ./images/linear_regression/MRE_Linear Model_0.2_base.png
+INPUT ./images/linear_regression/MAE_Linear Model_0.8_base.png
+INPUT ./images/linear_regression/MAE_Linear Model_0.8_base.png
+INPUT ./images/linear_regression/MRE_Linear Model_0.8_base.png
+INPUT ./images/linear_regression/MRE_Linear Model_0.8_base.png
+INPUT ./images/linear_regression/MAE_Linear Model_0.8_rules.png
+INPUT ./images/linear_regression/MAE_Linear Model_0.8_rules.png
+INPUT ./images/linear_regression/MRE_Linear Model_0.8_rules.png
+INPUT ./images/linear_regression/MRE_Linear Model_0.8_rules.png
 INPUT vkr_viscosity.aux
 INPUT ./vkr_viscosity.out
 INPUT ./vkr_viscosity.out

@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber vkr_viscosity"] 1747430216.78609 "vkr_viscosity.bcf" "vkr_viscosity.bbl" "vkr_viscosity" 1747514189.1989 0
-  "references.bib" 1747509294.85417 60633 4cfd49d9ddb5556fb90419699cee37e2 ""
-  "vkr_viscosity.bcf" 1747514186.77458 118480 e5af61620bcc994a3f831beaeef57c0f "xelatex"
+["biber vkr_viscosity"] 1747430216.78609 "vkr_viscosity.bcf" "vkr_viscosity.bbl" "vkr_viscosity" 1747599354.86582 0
+  "references.bib" 1747527445.32982 60633 4cfd49d9ddb5556fb90419699cee37e2 ""
+  "vkr_viscosity.bcf" 1747599345.61575 118480 e5af61620bcc994a3f831beaeef57c0f "xelatex"
   (generated)
   "vkr_viscosity.bbl"
   "vkr_viscosity.blg"
   (rewritten before read)
-["xdvipdfmx"] 1747514186.85883 "vkr_viscosity.xdv" "vkr_viscosity.pdf" "vkr_viscosity" 1747514189.20056 0
-  "vkr_viscosity.xdv" 1747514186.77558 763084 3fb4503e4fe5d295f276d1ec46017906 "xelatex"
+["xdvipdfmx"] 1747599345.7885 "vkr_viscosity.xdv" "vkr_viscosity.pdf" "vkr_viscosity" 1747599354.86809 0
+  "vkr_viscosity.xdv" 1747599345.61675 991116 8b808bf7f231028dc59f2b09e2ab5d8d "xelatex"
   (generated)
   "vkr_viscosity.pdf"
   (rewritten before read)
-["xelatex"] 1747514184.19243 "vkr_viscosity.tex" "vkr_viscosity.xdv" "vkr_viscosity" 1747514189.19896 0
+["xelatex"] 1747599342.68295 "vkr_viscosity.tex" "vkr_viscosity.xdv" "vkr_viscosity" 1747599354.86593 0
   "/etc/texmf/web2c/texmf.cnf" 1726840375.39741 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -185,12 +185,30 @@
   "images/data_distribution_temperature.png" 1747334083.26668 84004 204ce57650546597c6b82cdecf787137 ""
   "images/data_distribution_viscosity.png" 1747409547.97196 59700 5beab9bcdc36f0212e0b4e6ae805b70c ""
   "images/data_distribution_viscosity_ideal_gas.png" 1747409601.07079 58876 c6ccacd8fb4ee80d6cb152ea01f57935 ""
-  "vkr_viscosity.aux" 1747514186.75658 32288 a20145cd05a8108c0be88d149d19b28d "xelatex"
+  "images/knn/MAE_KNN (k=3)_0.2_base.png" 1747565367.29873 223233 512703592dd2c376e325739add27bee5 ""
+  "images/knn/MAE_KNN (k=3)_0.8_base.png" 1747565393.34589 413965 92a5a9cf98126e1a8aa4e891e0b575aa ""
+  "images/knn/MAE_KNN (k=3)_0.8_rules.png" 1747565412.70401 383234 64ae4ddacfb1c0e3ba4c182079878714 ""
+  "images/knn/MRE_KNN (k=3)_0.2_base.png" 1747565367.66373 314012 33ca9134a69aa8a31cf101c2e28df94f ""
+  "images/knn/MRE_KNN (k=3)_0.8_base.png" 1747565393.9579 483400 0051ab408c3c99847f8954a89cf60b12 ""
+  "images/knn/MRE_KNN (k=3)_0.8_rules.png" 1747565413.27802 478328 bb4ac9acbb726232c2005d30ca802621 ""
+  "images/linear_regression/MAE_Linear Model_0.2_base.png" 1747578328.97128 236544 420bf93de3e5bd0dcd1a9268508da2d7 ""
+  "images/linear_regression/MAE_Linear Model_0.8_base.png" 1747579306.07119 348804 a933086c56a9473a0dd2dc00a06882b9 ""
+  "images/linear_regression/MAE_Linear Model_0.8_rules.png" 1747580094.00507 238797 d30e63c2eb0b6e61d54367f0e9f1cd4f ""
+  "images/linear_regression/MRE_Linear Model_0.2_base.png" 1747578329.41929 103251 019c03ec76cd1d8991e209b43038bcaf ""
+  "images/linear_regression/MRE_Linear Model_0.8_base.png" 1747579306.61919 111060 7e6c6e70bdb9942764c4b89373ab6534 ""
+  "images/linear_regression/MRE_Linear Model_0.8_rules.png" 1747580094.55208 88622 abaf96c14e55a7e953f09b4651bb2876 ""
+  "images/random_forest/MAE_Random Forest Model_0.2_base.png" 1747572700.69669 234812 fd7144fca3b8ec86e93b26734f49beef ""
+  "images/random_forest/MAE_Random Forest Model_0.8_base.png" 1747574189.7116 372590 c2eda2465d9dd31495266d53d6cac168 ""
+  "images/random_forest/MAE_Random Forest Model_0.8_rules.png" 1747574703.32269 326644 abd3eb417a16c28ff882d6f66177f5e9 ""
+  "images/random_forest/MRE_Random Forest Model_0.2_base.png" 1747572701.27769 324182 1c6e79a6518985dc7b55e38fd385ec98 ""
+  "images/random_forest/MRE_Random Forest Model_0.8_base.png" 1747574190.3136 427007 8ad39ee76e16d74b286e4922b49fe3de ""
+  "images/random_forest/MRE_Random Forest Model_0.8_rules.png" 1747574704.06069 351716 cc8819aef15ec365fb1d8cceef6cb34d ""
+  "vkr_viscosity.aux" 1747599345.59475 40929 7db6d297a4536382a14530b1bdad74c7 "xelatex"
   "vkr_viscosity.bbl" 1747430217.85486 183953 f65e24cd57604ebd189fb873365b2352 "biber vkr_viscosity"
-  "vkr_viscosity.out" 1747514186.77158 11420 bc32f9c451086af4c3936ad800761d80 "xelatex"
-  "vkr_viscosity.run.xml" 1747514186.77558 2507 3cca2fc068a9348cf7ceaafada9f33b9 "xelatex"
-  "vkr_viscosity.tex" 1747514181.58084 108295 6e9772ed82aee3577b6e9f02399b6573 ""
-  "vkr_viscosity.toc" 1747514186.77558 5309 1d9bc57f0687bf5f26749481e042da10 "xelatex"
+  "vkr_viscosity.out" 1747599345.61275 15614 523c75fbe64fe07686c52ea9bf78b232 "xelatex"
+  "vkr_viscosity.run.xml" 1747599345.61675 2507 3cca2fc068a9348cf7ceaafada9f33b9 "xelatex"
+  "vkr_viscosity.tex" 1747599342.57273 153342 76c41b34ed77acbca07f834f6ac178a5 ""
+  "vkr_viscosity.toc" 1747599345.61675 7118 8e3d4310a9dbc450b69a5740e71983a2 "xelatex"
   (generated)
   "vkr_viscosity.aux"
   "vkr_viscosity.bcf"
