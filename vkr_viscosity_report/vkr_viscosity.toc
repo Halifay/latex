@@ -12,8 +12,8 @@
 \contentsline {subsubsection}{\numberline {1.2.4}Параметры веществ в CP-PC-SAFT}{10}{subsubsection.1.2.4}%
 \contentsline {subsubsection}{\numberline {1.2.5}Трудности машинного обучения}{11}{subsubsection.1.2.5}%
 \contentsline {subsubsection}{\numberline {1.2.6}Символьная регрессия}{12}{subsubsection.1.2.6}%
-\contentsline {subsection}{\numberline {1.3}Цель и задачи исследования}{12}{subsection.1.3}%
-\contentsline {subsubsection}{\numberline {1.3.1}Цель исследования}{12}{subsubsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3}Цель и задачи исследования}{13}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Цель исследования}{13}{subsubsection.1.3.1}%
 \contentsline {subsubsection}{\numberline {1.3.2}Задачи исследования}{13}{subsubsection.1.3.2}%
 \contentsline {subsection}{\numberline {1.4}Выводы по главе}{14}{subsection.1.4}%
 \contentsline {section}{\numberline {2}Сбор и обработка данных}{15}{section.2}%
@@ -37,27 +37,28 @@
 \contentsline {subsection}{\numberline {3.2}Символьная регрессия}{27}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Алгоритм автоматической генерации признаков}{29}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Выводы по главе}{31}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Обучение и сравнение ML моделей}{31}{section.4}%
+\contentsline {section}{\numberline {4}Обучение и сравнение ML моделей}{32}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Метод ближайших соседей}{32}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Оценка точности на большом обучающем наборе}{32}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Оценка точности на большом обучающем наборе}{33}{subsubsection.4.1.1}%
 \contentsline {subsubsection}{\numberline {4.1.2}Оценка на ограниченных данных}{33}{subsubsection.4.1.2}%
 \contentsline {subsubsection}{\numberline {4.1.3}Влияние расширенных признаков}{34}{subsubsection.4.1.3}%
-\contentsline {subsubsection}{\numberline {4.1.4}Вывод по методу KNN}{34}{subsubsection.4.1.4}%
-\contentsline {subsection}{\numberline {4.2}Случайный лес}{34}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.1.4}Вывод по методу KNN}{35}{subsubsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.2}Случайный лес}{35}{subsection.4.2}%
 \contentsline {subsubsection}{\numberline {4.2.1}Оценка точности на большом обучающем наборе}{35}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Оценка на ограниченных данных}{35}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2}Оценка на ограниченных данных}{36}{subsubsection.4.2.2}%
 \contentsline {subsubsection}{\numberline {4.2.3}Влияние расширенных признаков}{36}{subsubsection.4.2.3}%
 \contentsline {subsubsection}{\numberline {4.2.4}Вывод по методу случайного леса}{37}{subsubsection.4.2.4}%
 \contentsline {subsection}{\numberline {4.3}Линейная регрессия}{37}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Оценка точности на большом обучающем наборе}{37}{subsubsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.2}Оценка на ограниченных данных}{37}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.1}Оценка точности на большом обучающем наборе}{38}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Оценка на ограниченных данных}{38}{subsubsection.4.3.2}%
 \contentsline {subsubsection}{\numberline {4.3.3}Влияние расширенных признаков}{38}{subsubsection.4.3.3}%
-\contentsline {subsubsection}{\numberline {4.3.4}Вывод по линейной регрессии}{39}{subsubsection.4.3.4}%
+\contentsline {subsubsection}{\numberline {4.3.4}Вывод по линейной регрессии}{40}{subsubsection.4.3.4}%
 \contentsline {subsection}{\numberline {4.4}Сравнение подходов}{40}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Сравнение подходов}{40}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Применимость к новым условиям}{41}{subsection.4.6}%
-\contentsline {subsubsection}{\numberline {4.6.1}Новые вещества}{41}{subsubsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.7}Выводы по главе}{41}{subsection.4.7}%
-\contentsline {section}{Заключение}{43}{subsection.4.7}%
-\contentsline {section}{Список литературы}{44}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.5}Применимость к новым условиям}{41}{subsection.4.5}%
+\contentsline {subsubsection}{\numberline {4.5.1}Новые вещества}{41}{subsubsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.2}Новые температуры}{41}{subsubsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.3}Новые давления}{43}{subsubsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.6}Выводы по главе}{43}{subsection.4.6}%
+\contentsline {section}{Заключение}{44}{subsection.4.6}%
+\contentsline {section}{Список литературы}{46}{Item.23}%
 \xpginauxfilefalse 

@@ -172,7 +172,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortingtemplatename</bcf:key>
-      <bcf:value>nty</bcf:value>
+      <bcf:value>none</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>sortsets</bcf:key>
@@ -642,6 +642,7 @@
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
     <bcf:option datatype="boolean">subentry</bcf:option>
+    <bcf:option datatype="boolean">subentrycomp</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="integer">mincrossrefs</bcf:option>
     <bcf:option datatype="integer">minxrefs</bcf:option>
@@ -724,6 +725,7 @@
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
     <bcf:option datatype="boolean">subentry</bcf:option>
+    <bcf:option datatype="boolean">subentrycomp</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="xml">labelalphatemplate</bcf:option>
     <bcf:option datatype="xml">translit</bcf:option>
@@ -812,6 +814,7 @@
     <bcf:option datatype="boolean" backendout="1">eprint</bcf:option>
     <bcf:option datatype="boolean" backendout="1">related</bcf:option>
     <bcf:option datatype="boolean" backendout="1">subentry</bcf:option>
+    <bcf:option datatype="boolean" backendout="1">subentrycomp</bcf:option>
     <bcf:option datatype="boolean" backendout="1">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="integer" backendin="maxcitenames,maxbibnames,maxsortnames">maxnames</bcf:option>
     <bcf:option datatype="integer" backendin="mincitenames,minbibnames,minsortnames">minnames</bcf:option>
@@ -2363,3 +2366,163 @@
   <bcf:section number="0">
     <bcf:citekey order="1" intorder="1">taib2020residual</bcf:citekey>
     <bcf:citekey order="2" intorder="1">polishuk2015viscosity</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">polishuk2014standardized</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">cranmer2023pysr</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">acs.jced.5b00654</bcf:citekey>
+    <bcf:citekey order="5" intorder="2">s10765-006-0053-2</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">acs.jced.7b00650</bcf:citekey>
+    <bcf:citekey order="6" intorder="2">j.jct.2005.10.011</bcf:citekey>
+    <bcf:citekey order="6" intorder="3">je0501944</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">acs.jced.5b00152</bcf:citekey>
+    <bcf:citekey order="7" intorder="2">acs.jced.8b00589</bcf:citekey>
+    <bcf:citekey order="7" intorder="3">j.fluid.2013.07.060</bcf:citekey>
+    <bcf:citekey order="7" intorder="4">j.fluid.2018.08.001</bcf:citekey>
+    <bcf:citekey order="7" intorder="5">j.jct.2004.09.021</bcf:citekey>
+    <bcf:citekey order="7" intorder="6">j.jct.2005.03.024</bcf:citekey>
+    <bcf:citekey order="7" intorder="7">j.jct.2005.07.008</bcf:citekey>
+    <bcf:citekey order="7" intorder="8">j.jct.2005.10.011</bcf:citekey>
+    <bcf:citekey order="7" intorder="9">j.jct.2007.05.016</bcf:citekey>
+    <bcf:citekey order="7" intorder="10">j.jct.2008.02.005</bcf:citekey>
+    <bcf:citekey order="7" intorder="11">j.tca.2005.10.008</bcf:citekey>
+    <bcf:citekey order="7" intorder="12">je020114l</bcf:citekey>
+    <bcf:citekey order="7" intorder="13">je020131a</bcf:citekey>
+    <bcf:citekey order="7" intorder="14">je030107c</bcf:citekey>
+    <bcf:citekey order="7" intorder="15">je034002l</bcf:citekey>
+    <bcf:citekey order="7" intorder="16">je049576k</bcf:citekey>
+    <bcf:citekey order="7" intorder="17">je049777o</bcf:citekey>
+    <bcf:citekey order="7" intorder="18">je060389r</bcf:citekey>
+    <bcf:citekey order="7" intorder="19">je060491o</bcf:citekey>
+    <bcf:citekey order="7" intorder="20">je800048f</bcf:citekey>
+    <bcf:citekey order="7" intorder="21">je8006138</bcf:citekey>
+    <bcf:citekey order="7" intorder="22">je9006597</bcf:citekey>
+    <bcf:citekey order="7" intorder="23">s10765-005-5572-8</bcf:citekey>
+    <bcf:citekey order="7" intorder="24">s10765-006-0053-2</bcf:citekey>
+    <bcf:citekey order="7" intorder="25">s10765-009-0622-2</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">acs.jced.5b00152</bcf:citekey>
+    <bcf:citekey order="8" intorder="2">acs.jced.7b00121</bcf:citekey>
+    <bcf:citekey order="8" intorder="3">j.fluid.2006.01.030</bcf:citekey>
+    <bcf:citekey order="8" intorder="4">j.fluid.2010.10.009</bcf:citekey>
+    <bcf:citekey order="8" intorder="5">j.fluid.2016.11.029</bcf:citekey>
+    <bcf:citekey order="8" intorder="6">j.jct.2004.09.021</bcf:citekey>
+    <bcf:citekey order="8" intorder="7">j.jct.2005.03.024</bcf:citekey>
+    <bcf:citekey order="8" intorder="8">j.jct.2005.10.011</bcf:citekey>
+    <bcf:citekey order="8" intorder="9">j.jct.2006.01.012</bcf:citekey>
+    <bcf:citekey order="8" intorder="10">j.jct.2013.09.017</bcf:citekey>
+    <bcf:citekey order="8" intorder="11">j.jct.2015.12.021</bcf:citekey>
+    <bcf:citekey order="8" intorder="12">j.tca.2005.10.008</bcf:citekey>
+    <bcf:citekey order="8" intorder="13">j.tca.2015.08.005</bcf:citekey>
+    <bcf:citekey order="8" intorder="14">j.tca.2018.10.018</bcf:citekey>
+    <bcf:citekey order="8" intorder="15">je020131a</bcf:citekey>
+    <bcf:citekey order="8" intorder="16">je049662k</bcf:citekey>
+    <bcf:citekey order="8" intorder="17">je049776w</bcf:citekey>
+    <bcf:citekey order="8" intorder="18">je049777o</bcf:citekey>
+    <bcf:citekey order="8" intorder="19">je400835u</bcf:citekey>
+    <bcf:citekey order="8" intorder="20">je5007532</bcf:citekey>
+    <bcf:citekey order="8" intorder="21">je600554h</bcf:citekey>
+    <bcf:citekey order="8" intorder="22">je700202h</bcf:citekey>
+    <bcf:citekey order="8" intorder="23">je8003707</bcf:citekey>
+    <bcf:citekey order="8" intorder="24">je9006597</bcf:citekey>
+    <bcf:citekey order="8" intorder="25">je900969u</bcf:citekey>
+    <bcf:citekey order="8" intorder="26">s10765-009-0667-2</bcf:citekey>
+    <bcf:citekey order="8" intorder="27">s10765-012-1373-z</bcf:citekey>
+    <bcf:citekey order="8" intorder="28">s10765-014-1759-1</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">acs.jced.6b00391</bcf:citekey>
+    <bcf:citekey order="9" intorder="2">acs.jced.7b00121</bcf:citekey>
+    <bcf:citekey order="9" intorder="3">acs.jced.7b00650</bcf:citekey>
+    <bcf:citekey order="9" intorder="4">j.fluid.2010.10.009</bcf:citekey>
+    <bcf:citekey order="9" intorder="5">j.jct.2003.12.005</bcf:citekey>
+    <bcf:citekey order="9" intorder="6">j.jct.2004.09.021</bcf:citekey>
+    <bcf:citekey order="9" intorder="7">j.jct.2005.03.024</bcf:citekey>
+    <bcf:citekey order="9" intorder="8">j.jct.2005.10.011</bcf:citekey>
+    <bcf:citekey order="9" intorder="9">j.jct.2006.01.012</bcf:citekey>
+    <bcf:citekey order="9" intorder="10">j.jct.2007.05.016</bcf:citekey>
+    <bcf:citekey order="9" intorder="11">j.jct.2008.02.005</bcf:citekey>
+    <bcf:citekey order="9" intorder="12">j.jct.2013.09.017</bcf:citekey>
+    <bcf:citekey order="9" intorder="13">j.jct.2014.09.015</bcf:citekey>
+    <bcf:citekey order="9" intorder="14">j.tca.2005.10.008</bcf:citekey>
+    <bcf:citekey order="9" intorder="15">j.tca.2015.08.005</bcf:citekey>
+    <bcf:citekey order="9" intorder="16">je020131a</bcf:citekey>
+    <bcf:citekey order="9" intorder="17">je034017j</bcf:citekey>
+    <bcf:citekey order="9" intorder="18">je034208m</bcf:citekey>
+    <bcf:citekey order="9" intorder="19">je049572f</bcf:citekey>
+    <bcf:citekey order="9" intorder="20">je049776w</bcf:citekey>
+    <bcf:citekey order="9" intorder="21">je0503296</bcf:citekey>
+    <bcf:citekey order="9" intorder="22">je060389r</bcf:citekey>
+    <bcf:citekey order="9" intorder="23">je300899n</bcf:citekey>
+    <bcf:citekey order="9" intorder="24">je4004806</bcf:citekey>
+    <bcf:citekey order="9" intorder="25">je400835u</bcf:citekey>
+    <bcf:citekey order="9" intorder="26">je600554h</bcf:citekey>
+    <bcf:citekey order="9" intorder="27">je800348s</bcf:citekey>
+    <bcf:citekey order="9" intorder="28">je800417q</bcf:citekey>
+    <bcf:citekey order="9" intorder="29">je9006597</bcf:citekey>
+    <bcf:citekey order="9" intorder="30">s10765-006-0053-2</bcf:citekey>
+    <bcf:citekey order="9" intorder="31">s10765-008-0542-6</bcf:citekey>
+    <bcf:citekey order="9" intorder="32">s10765-014-1759-1</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">acs.jced.7b00121</bcf:citekey>
+    <bcf:citekey order="10" intorder="2">acs.jced.7b00650</bcf:citekey>
+    <bcf:citekey order="10" intorder="3">j.fluid.2010.10.009</bcf:citekey>
+    <bcf:citekey order="10" intorder="4">j.jct.2004.09.021</bcf:citekey>
+    <bcf:citekey order="10" intorder="5">j.jct.2005.03.024</bcf:citekey>
+    <bcf:citekey order="10" intorder="6">j.jct.2005.10.011</bcf:citekey>
+    <bcf:citekey order="10" intorder="7">j.jct.2013.09.017</bcf:citekey>
+    <bcf:citekey order="10" intorder="8">je200757a</bcf:citekey>
+    <bcf:citekey order="10" intorder="9">je300899n</bcf:citekey>
+    <bcf:citekey order="10" intorder="10">je400250u</bcf:citekey>
+    <bcf:citekey order="10" intorder="11">je400835u</bcf:citekey>
+    <bcf:citekey order="10" intorder="12">je700202h</bcf:citekey>
+    <bcf:citekey order="10" intorder="13">je700428f</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">acs.jced.5b00270</bcf:citekey>
+    <bcf:citekey order="11" intorder="2">acs.jced.6b00542</bcf:citekey>
+    <bcf:citekey order="11" intorder="3">acs.jced.7b00121</bcf:citekey>
+    <bcf:citekey order="11" intorder="4">acs.jced.7b00650</bcf:citekey>
+    <bcf:citekey order="11" intorder="5">j.fluid.2010.10.009</bcf:citekey>
+    <bcf:citekey order="11" intorder="6">j.jct.2003.12.005</bcf:citekey>
+    <bcf:citekey order="11" intorder="7">j.jct.2004.09.021</bcf:citekey>
+    <bcf:citekey order="11" intorder="8">j.jct.2005.03.024</bcf:citekey>
+    <bcf:citekey order="11" intorder="9">j.jct.2005.10.011</bcf:citekey>
+    <bcf:citekey order="11" intorder="10">j.jct.2007.05.016</bcf:citekey>
+    <bcf:citekey order="11" intorder="11">j.jct.2008.02.005</bcf:citekey>
+    <bcf:citekey order="11" intorder="12">j.jct.2013.05.014</bcf:citekey>
+    <bcf:citekey order="11" intorder="13">j.jct.2013.09.017</bcf:citekey>
+    <bcf:citekey order="11" intorder="14">je034208m</bcf:citekey>
+    <bcf:citekey order="11" intorder="15">je0501585</bcf:citekey>
+    <bcf:citekey order="11" intorder="16">je060389r</bcf:citekey>
+    <bcf:citekey order="11" intorder="17">je300899n</bcf:citekey>
+    <bcf:citekey order="11" intorder="18">je400250u</bcf:citekey>
+    <bcf:citekey order="11" intorder="19">je400835u</bcf:citekey>
+    <bcf:citekey order="11" intorder="20">je4008926</bcf:citekey>
+    <bcf:citekey order="11" intorder="21">je800348s</bcf:citekey>
+    <bcf:citekey order="11" intorder="22">je800417q</bcf:citekey>
+    <bcf:citekey order="11" intorder="23">je800635g</bcf:citekey>
+    <bcf:citekey order="11" intorder="24">s10765-005-5572-8</bcf:citekey>
+    <bcf:citekey order="11" intorder="25">s10765-008-0542-6</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">acs.jced.6b00391</bcf:citekey>
+    <bcf:citekey order="12" intorder="2">acs.jced.6b00542</bcf:citekey>
+    <bcf:citekey order="12" intorder="3">acs.jced.6b00688</bcf:citekey>
+    <bcf:citekey order="12" intorder="4">acs.jced.7b00201</bcf:citekey>
+    <bcf:citekey order="12" intorder="5">acs.jced.7b00466</bcf:citekey>
+    <bcf:citekey order="12" intorder="6">acs.jced.7b00650</bcf:citekey>
+    <bcf:citekey order="12" intorder="7">acs.jced.7b00866</bcf:citekey>
+    <bcf:citekey order="12" intorder="8">acs.jced.8b00008</bcf:citekey>
+    <bcf:citekey order="12" intorder="9">acs.jced.8b00438</bcf:citekey>
+    <bcf:citekey order="12" intorder="10">acs.jced.8b01135</bcf:citekey>
+    <bcf:citekey order="12" intorder="11">acs.jced.8b01233</bcf:citekey>
+    <bcf:citekey order="12" intorder="12">acs.jced.9b00187</bcf:citekey>
+    <bcf:citekey order="12" intorder="13">j.fluid.2015.07.022</bcf:citekey>
+    <bcf:citekey order="12" intorder="14">j.jct.2003.12.005</bcf:citekey>
+    <bcf:citekey order="12" intorder="15">j.jct.2004.09.021</bcf:citekey>
+    <bcf:citekey order="12" intorder="16">j.jct.2005.03.024</bcf:citekey>
+    <bcf:citekey order="12" intorder="17">j.jct.2013.12.022</bcf:citekey>
+    <bcf:citekey order="12" intorder="18">j.jct.2014.02.012</bcf:citekey>
+    <bcf:citekey order="12" intorder="19">j.jct.2015.12.021</bcf:citekey>
+    <bcf:citekey order="12" intorder="20">je034208m</bcf:citekey>
+    <bcf:citekey order="12" intorder="21">je060491o</bcf:citekey>
+    <bcf:citekey order="12" intorder="22">je200757a</bcf:citekey>
+    <bcf:citekey order="12" intorder="23">je400493x</bcf:citekey>
+    <bcf:citekey order="12" intorder="24">je400835u</bcf:citekey>
+    <bcf:citekey order="12" intorder="25">je5000132</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">голубев2013вязкость</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">голубев2013вязкость</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">neufeld1972collision</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">cppcsaft2024</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">roknia2020entropy</bcf:citekey>

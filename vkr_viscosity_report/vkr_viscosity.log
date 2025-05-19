@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.11.6)  18 MAY 2025 23:15
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2024.11.6)  19 MAY 2025 04:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1034,28 +1034,18 @@ Overfull \hbox (3.8735pt too wide) in paragraph at lines 245--246
 []$\OML/cmm/m/it/12 "\OT1/cmr/m/n/12 /\OML/cmm/m/it/12 k[]$ \TU/TimesNewRoman(1)/m/n/12 – приведенная энергия взаимодействия между частицами. В случае смеси несколь-
  []
 
-[9] [10]
-Overfull \hbox (1.23871pt too wide) in paragraph at lines 321--323
-[]\TU/TimesNewRoman(1)/b/n/12 1. Ограниченная интерпретируемость моделей. \TU/TimesNewRoman(1)/m/n/12 Большинство моделей машинного обу-
- []
-
-
-Overfull \hbox (10.75613pt too wide) in paragraph at lines 336--337
-\TU/TimesNewRoman(1)/m/n/12 чения, они должны использоваться с осторожностью, особенно в задачах с физико-химическим
- []
-
-[11] [12]
-Overfull \hbox (1.75565pt too wide) in paragraph at lines 405--406
+[9] [10] [11] [12]
+Overfull \hbox (1.75565pt too wide) in paragraph at lines 408--409
 []\TU/TimesNewRoman(1)/m/n/12 Анализ преимуществ и недостатков разработанных моделей по сравнению с MYS. 
  []
 
 [13] [14]
-Overfull \hbox (5.50998pt too wide) in paragraph at lines 428--429
+Overfull \hbox (5.50998pt too wide) in paragraph at lines 431--432
 \TU/TimesNewRoman(1)/m/n/12 предназначенный для хранения и распространения термодинамических и физико-химических
  []
 
 
-Overfull \hbox (5.82149pt too wide) in paragraph at lines 430--431
+Overfull \hbox (5.82149pt too wide) in paragraph at lines 433--434
 []\TU/TimesNewRoman(1)/m/n/12 Одной из ключевых особенностей ThermoML является строго стандартизированная струк-
  []
 
@@ -1079,7 +1069,7 @@ Package siunitx Warning: Unit macro \angstrom has been deprecated in this
 (siunitx)                \DeclareSIUnit\angstrom{Å}
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 541--557
+Underfull \hbox (badness 10000) in paragraph at lines 544--560
 []
  []
 
@@ -1103,37 +1093,37 @@ File: images/SR_percent.png Graphic file (type bmp)
 File: images/SR_rmse.png Graphic file (type bmp)
 <images/SR_rmse.png>
  [28]
-Overfull \hbox (1.5736pt too wide) in paragraph at lines 961--964
+Overfull \hbox (1.5736pt too wide) in paragraph at lines 964--967
 []\TU/TimesNewRoman(1)/b/n/12 Удаление избыточных признаков. \TU/TimesNewRoman(1)/m/n/12 Исключаются признаки, обладающие высокой вза-
  []
 
-[29] [30]
-Overfull \hbox (18.0pt too wide) in paragraph at lines 1009--1016
+[29] [30] [31]
+Overfull \hbox (18.0pt too wide) in paragraph at lines 1013--1020
 []$[]$ 
  []
 
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 1017--1026
-[]$[]$ 
- []
-
-[31]
-Overfull \hbox (18.0pt too wide) in paragraph at lines 1027--1035
+Overfull \hbox (18.0pt too wide) in paragraph at lines 1021--1030
 []$[]$ 
  []
 
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 1036--1044
+Overfull \hbox (18.0pt too wide) in paragraph at lines 1031--1039
 []$[]$ 
  []
 
 
-Overfull \hbox (8.08615pt too wide) in paragraph at lines 1045--1046
+Overfull \hbox (18.0pt too wide) in paragraph at lines 1040--1048
+[]$[]$ 
+ []
+
+
+Overfull \hbox (8.08615pt too wide) in paragraph at lines 1049--1050
 []\TU/TimesNewRoman(1)/m/n/12 Для получения наиболее достоверных значений метрик качества было использовано усред-
  []
 
-
-Overfull \hbox (100.31662pt too wide) in paragraph at lines 1051--1052
+[32]
+Overfull \hbox (100.31662pt too wide) in paragraph at lines 1055--1056
 []\TU/TimesNewRoman(1)/m/n/12 Для реализации метода была использована реализация \TU/CourierNew(0)/m/n/12 KNeighborsRegressor \TU/TimesNewRoman(1)/m/n/12 из \TU/CourierNew(0)/m/n/12 sklearn.neighbors
  []
 
@@ -1142,17 +1132,16 @@ File: images/knn/MAE_KNN (k=3)_0.2_base.png Graphic file (type bmp)
 File: images/knn/MRE_KNN (k=3)_0.2_base.png Graphic file (type bmp)
 <images/knn/MRE_KNN (k=3)_0.2_base.png>
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 1074--1082
+Overfull \hbox (18.0pt too wide) in paragraph at lines 1078--1086
 []$[]$ 
  []
 
-[32]
 File: images/knn/MAE_KNN (k=3)_0.8_base.png Graphic file (type bmp)
 <images/knn/MAE_KNN (k=3)_0.8_base.png>
 File: images/knn/MRE_KNN (k=3)_0.8_base.png Graphic file (type bmp)
 <images/knn/MRE_KNN (k=3)_0.8_base.png>
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 1104--1112
+Overfull \hbox (18.0pt too wide) in paragraph at lines 1108--1116
 []$[]$ 
  []
 
@@ -1162,55 +1151,55 @@ File: images/knn/MAE_KNN (k=3)_0.8_rules.png Graphic file (type bmp)
 File: images/knn/MRE_KNN (k=3)_0.8_rules.png Graphic file (type bmp)
 <images/knn/MRE_KNN (k=3)_0.8_rules.png>
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 1134--1142
+Overfull \hbox (18.0pt too wide) in paragraph at lines 1138--1146
 []$[]$ 
  []
 
-
-Overfull \hbox (4.21512pt too wide) in paragraph at lines 1150--1151
+[34]
+Overfull \hbox (4.21512pt too wide) in paragraph at lines 1154--1155
 \TU/TimesNewRoman(1)/m/n/12 жайших соседей, который делает предсказания, опираясь исключительно на локальные участ-
  []
 
-[34]
 File: images/random_forest/MAE_Random Forest Model_0.2_base.png Graphic file (type bmp)
 <images/random_forest/MAE_Random Forest Model_0.2_base.png>
 File: images/random_forest/MRE_Random Forest Model_0.2_base.png Graphic file (type bmp)
 <images/random_forest/MRE_Random Forest Model_0.2_base.png>
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 1175--1183
+Overfull \hbox (18.0pt too wide) in paragraph at lines 1179--1187
 []$[]$ 
  []
 
+[35]
 File: images/random_forest/MAE_Random Forest Model_0.8_base.png Graphic file (type bmp)
 <images/random_forest/MAE_Random Forest Model_0.8_base.png>
 File: images/random_forest/MRE_Random Forest Model_0.8_base.png Graphic file (type bmp)
 <images/random_forest/MRE_Random Forest Model_0.8_base.png>
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 1205--1213
+Overfull \hbox (18.0pt too wide) in paragraph at lines 1209--1217
 []$[]$ 
  []
 
-[35]
 File: images/random_forest/MAE_Random Forest Model_0.8_rules.png Graphic file (type bmp)
 <images/random_forest/MAE_Random Forest Model_0.8_rules.png>
 File: images/random_forest/MRE_Random Forest Model_0.8_rules.png Graphic file (type bmp)
 <images/random_forest/MRE_Random Forest Model_0.8_rules.png>
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 1235--1243
+Overfull \hbox (18.0pt too wide) in paragraph at lines 1239--1247
 []$[]$ 
  []
 
 [36]
-Overfull \hbox (33.6125pt too wide) in paragraph at lines 1252--1253
+Overfull \hbox (33.6125pt too wide) in paragraph at lines 1256--1257
 []\TU/TimesNewRoman(1)/m/n/12 В данной работе использовалась реализация \TU/CourierNew(0)/m/n/12 Ridge \TU/TimesNewRoman(1)/m/n/12 из библиотеки \TU/CourierNew(0)/m/n/12 sklearn.linear_model\TU/TimesNewRoman(1)/m/n/12 .
  []
 
+[37]
 File: images/linear_regression/MAE_Linear Model_0.2_base.png Graphic file (type bmp)
 <images/linear_regression/MAE_Linear Model_0.2_base.png>
 File: images/linear_regression/MRE_Linear Model_0.2_base.png Graphic file (type bmp)
 <images/linear_regression/MRE_Linear Model_0.2_base.png>
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 1275--1283
+Overfull \hbox (18.0pt too wide) in paragraph at lines 1279--1287
 []$[]$ 
  []
 
@@ -1219,239 +1208,799 @@ File: images/linear_regression/MAE_Linear Model_0.8_base.png Graphic file (type 
 File: images/linear_regression/MRE_Linear Model_0.8_base.png Graphic file (type bmp)
 <images/linear_regression/MRE_Linear Model_0.8_base.png>
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 1305--1313
+Overfull \hbox (18.0pt too wide) in paragraph at lines 1309--1317
 []$[]$ 
  []
 
-[37] [38]
+[38]
 File: images/linear_regression/MAE_Linear Model_0.8_rules.png Graphic file (type bmp)
 <images/linear_regression/MAE_Linear Model_0.8_rules.png>
 File: images/linear_regression/MRE_Linear Model_0.8_rules.png Graphic file (type bmp)
 <images/linear_regression/MRE_Linear Model_0.8_rules.png>
 
-Overfull \hbox (18.0pt too wide) in paragraph at lines 1337--1345
+Overfull \hbox (18.0pt too wide) in paragraph at lines 1341--1349
 []$[]$ 
  []
 
-[39] [40]
-Overfull \hbox (10.95pt too wide) detected at line 1479
+[39]
+Overfull \hbox (9.06976pt too wide) in paragraph at lines 1380--1393
+[] 
+ []
+
+[40]
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.95pt too wide) detected at line 1479
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.95pt too wide) detected at line 1479
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.95pt too wide) detected at line 1480
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.95pt too wide) detected at line 1480
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.95pt too wide) detected at line 1480
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.95pt too wide) detected at line 1480
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.95pt too wide) detected at line 1481
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.95pt too wide) detected at line 1481
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.95pt too wide) detected at line 1481
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.95pt too wide) detected at line 1481
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.95pt too wide) detected at line 1482
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.95pt too wide) detected at line 1482
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.95pt too wide) detected at line 1482
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.95pt too wide) detected at line 1482
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.95pt too wide) detected at line 1483
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.95pt too wide) detected at line 1483
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.95pt too wide) detected at line 1483
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.95pt too wide) detected at line 1483
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.95pt too wide) detected at line 1484
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.95pt too wide) detected at line 1484
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.95pt too wide) detected at line 1484
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.95pt too wide) detected at line 1484
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.95pt too wide) detected at line 1485
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.95pt too wide) detected at line 1485
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.54364pt too wide) detected at line 1485
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.95pt too wide) detected at line 1485
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
 
-Overfull \hbox (10.95pt too wide) detected at line 1486
+Overfull \hbox (10.95pt too wide) detected at line 1472
 [] []
  []
 
-[41] [42] [43]
-Overfull \hbox (5.12065pt too wide) in paragraph at lines 1544--1544
+
+Overfull \hbox (10.95pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.54364pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.54364pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1472
+[] []
+ []
+
+
+Overfull \hbox (2.01752pt too wide) in paragraph at lines 1422--1473
+[] [] 
+ []
+
+[41]
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.1373pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1534
+[] []
+ []
+
+
+Overfull \hbox (2.00484pt too wide) in paragraph at lines 1490--1535
+[] [] 
+ []
+
+[42]
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.54364pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (10.95pt too wide) detected at line 1594
+[] []
+ []
+
+
+Overfull \hbox (1.99152pt too wide) in paragraph at lines 1550--1595
+[] [] 
+ []
+
+[43] [44] [45]
+Overfull \hbox (5.12065pt too wide) in paragraph at lines 1670--1670
 []\TU/TimesNewRoman(1)/m/n/12 A. Kumagai, D. Tomida и C. Yokoyama. «  Measurements of the Liquid Viscosities of Mixtures
  []
 
 
-Overfull \hbox (46.6509pt too wide) in paragraph at lines 1544--1544
+Overfull \hbox (46.6509pt too wide) in paragraph at lines 1670--1670
 []\TU/TimesNewRoman(1)/m/n/12 Gyan Prakash Dubey, Monika Sharma и Neelima Dubey. В: \TU/TimesNewRoman(1)/m/it/12 The Journal of Chemical Thermodynamics
  []
 
-[44]
-Overfull \hbox (7.23274pt too wide) in paragraph at lines 1544--1544
+[46]
+Overfull \hbox (7.23274pt too wide) in paragraph at lines 1670--1670
 []\TU/TimesNewRoman(1)/m/n/12 Montserrat Domínguez-Pérez и др. «  Experimental Study of the Dynamic Viscosity Deviations
  []
 
 
-Overfull \hbox (3.89545pt too wide) in paragraph at lines 1544--1544
+Overfull \hbox (3.89545pt too wide) in paragraph at lines 1670--1670
 []\TU/TimesNewRoman(1)/m/n/12 Fátima Reyes-García и Gustavo A. Iglesias-Silva. В: \TU/TimesNewRoman(1)/m/it/12 J. Chem. Eng. Data \TU/TimesNewRoman(1)/m/n/12 62 (2017), с. 2726—
  []
 
 
-Overfull \hbox (9.46268pt too wide) in paragraph at lines 1544--1544
+Overfull \hbox (9.46268pt too wide) in paragraph at lines 1670--1670
 []\TU/TimesNewRoman(1)/m/n/12 Wanchalerm Srirachat и др. В: \TU/TimesNewRoman(1)/m/it/12 Fluid Phase Equilibria \TU/TimesNewRoman(1)/m/n/12 434 (2017), с. 117—129. DOI: []$[][][][][] []
  []
 
-[45]
-Overfull \hbox (14.2755pt too wide) in paragraph at lines 1544--1544
+[47]
+Overfull \hbox (14.2755pt too wide) in paragraph at lines 1670--1670
 []\TU/TimesNewRoman(1)/m/n/12 Xi Yang и др. В: \TU/TimesNewRoman(1)/m/it/12 J. Chem. Eng. Data \TU/TimesNewRoman(1)/m/n/12 55 (2010), с. 2914—2916. DOI: []$[][] [] [][][][] [] [][][][][][][][][]$[]. 
  []
 
 
-Overfull \hbox (27.4975pt too wide) in paragraph at lines 1544--1544
+Overfull \hbox (27.4975pt too wide) in paragraph at lines 1670--1670
 \TU/TimesNewRoman(1)/m/n/12 10 Regular Binary Systems at 308.15 K and 313.15 K». В: \TU/TimesNewRoman(1)/m/it/12 International Journal of Thermophysics
  []
 
-[46]
-Overfull \hbox (12.14854pt too wide) in paragraph at lines 1544--1544
+[48]
+Overfull \hbox (12.14854pt too wide) in paragraph at lines 1670--1670
 []\TU/TimesNewRoman(1)/m/n/12 Hai Chi и др. В: \TU/TimesNewRoman(1)/m/it/12 J. Chem. Eng. Data \TU/TimesNewRoman(1)/m/n/12 58 (2013), с. 2224—2232. DOI: []$[][] [] [][][][] [] [][][][][][][][][]$[]. 
  []
 
-[47]
-Overfull \hbox (2.89984pt too wide) in paragraph at lines 1544--1544
+[49]
+Overfull \hbox (2.89984pt too wide) in paragraph at lines 1670--1670
 []\TU/TimesNewRoman(1)/m/n/12 Marek Blahušiak и Štefan Schlosser. В: \TU/TimesNewRoman(1)/m/it/12 The Journal of Chemical Thermodynamics \TU/TimesNewRoman(1)/m/n/12 72 (2014),
  []
 
 Missing character: There is no ‐ (U+2010) in font Times New Roman/OT:language=dflt;mapping=tex-text;!
 
-Overfull \hbox (7.93825pt too wide) in paragraph at lines 1544--1544
+Overfull \hbox (7.93825pt too wide) in paragraph at lines 1670--1670
 []\TU/TimesNewRoman(1)/m/n/12 Stepan Zakharov. \TU/TimesNewRoman(1)/m/it/12 cp_pc_saft: Julia Library for SAFT Equations of State\TU/TimesNewRoman(1)/m/n/12 . 2024. URL: []$[][][][][] []
  []
 
 
-Overfull \hbox (8.31677pt too wide) in paragraph at lines 1544--1544
+Overfull \hbox (8.31677pt too wide) in paragraph at lines 1670--1670
 []\TU/TimesNewRoman(1)/m/n/12 Houman B. Rokni и др. «  Entropy scaling based viscosity predictions for hydrocarbon mixtures
  []
 
 
-Overfull \hbox (4.79318pt too wide) in paragraph at lines 1544--1544
+Overfull \hbox (4.79318pt too wide) in paragraph at lines 1670--1670
 [] [] [][][] [] [][][][][][][][][][][][][] [] [][][] [] [][][][][][][] [] [][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][]$[]\TU/TimesNewRoman(1)/m/n/12 . 
  []
 
-[48] (./vkr_viscosity.aux)
+[50] (./vkr_viscosity.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `vkr_viscosity.out' has not changed.
-(rerunfilecheck)             Checksum: 523C75FBE64FE07686C52EA9BF78B232;15614.
+(rerunfilecheck)             Checksum: 88F546DF83D55542F8BD3C3E56E23C63;15789.
 Package logreq Info: Writing requests to 'vkr_viscosity.run.xml'.
 \openout1 = `vkr_viscosity.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37799 strings out of 474878
- 811301 string characters out of 5762516
- 1959627 words of memory out of 5000000
- 59375 multiletter control sequences out of 15000+600000
+ 37801 strings out of 474878
+ 811359 string characters out of 5762516
+ 2034627 words of memory out of 5000000
+ 59377 multiletter control sequences out of 15000+600000
  564926 words of font info for 99 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 79i,15n,117p,1618b,5562s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,15n,117p,1618b,5566s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on vkr_viscosity.xdv (47 pages, 991116 bytes).
+Output written on vkr_viscosity.xdv (49 pages, 1097392 bytes).
