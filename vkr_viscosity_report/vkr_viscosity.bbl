@@ -101,6 +101,33 @@
       \verb https://doi.org/10.1021/acs.iecr.5b01468
       \endverb
     \endentry
+    \entry{CPPCSAFTgitJulia}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=245ee16f8ecf6feff4efbaa0851b03d1}{%
+           family={Pisarev},
+           familyi={P\bibinitperiod},
+           given={Vasily},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{245ee16f8ecf6feff4efbaa0851b03d1}
+      \strng{fullhash}{245ee16f8ecf6feff4efbaa0851b03d1}
+      \strng{bibnamehash}{245ee16f8ecf6feff4efbaa0851b03d1}
+      \strng{authorbibnamehash}{245ee16f8ecf6feff4efbaa0851b03d1}
+      \strng{authornamehash}{245ee16f8ecf6feff4efbaa0851b03d1}
+      \strng{authorfullhash}{245ee16f8ecf6feff4efbaa0851b03d1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CP\_PC\_SAFT.jl - Julia package for CP-PC-SAFT equation of state}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://github.com/vvpisarev/CP_PC_SAFT.jl
+      \endverb
+      \verb{url}
+      \verb https://github.com/vvpisarev/CP_PC_SAFT.jl
+      \endverb
+    \endentry
     \entry{polishuk2014standardized}{article}{}
       \name{author}{1}{}{%
         {{hash=d58d58f8259aecd1bd276d93d1ccdca9}{%
@@ -119,8 +146,8 @@
       \strng{authornamehash}{d58d58f8259aecd1bd276d93d1ccdca9}
       \strng{authorfullhash}{d58d58f8259aecd1bd276d93d1ccdca9}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Industrial \& Engineering Chemistry Research}
@@ -145,8 +172,8 @@
       \strng{authorbibnamehash}{987d3dced51a437a02e32a98445c2893}
       \strng{authornamehash}{987d3dced51a437a02e32a98445c2893}
       \strng{authorfullhash}{987d3dced51a437a02e32a98445c2893}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{cs.LG}
@@ -176,8 +203,8 @@
       \strng{authorbibnamehash}{5ddbdfa8b4b7982cb2d76d5347ffebdb}
       \strng{authornamehash}{5ddbdfa8b4b7982cb2d76d5347ffebdb}
       \strng{authorfullhash}{5ddbdfa8b4b7982cb2d76d5347ffebdb}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{60}
@@ -212,8 +239,8 @@
       \strng{authorbibnamehash}{57fbbcfeae822d1672036d47aff6c9e4}
       \strng{authornamehash}{57fbbcfeae822d1672036d47aff6c9e4}
       \strng{authorfullhash}{57fbbcfeae822d1672036d47aff6c9e4}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The viscosities of liquid mixtures of n-butane, n-hexane, and n-octane with squalane that represent model mixtures of refrigerants with refrigeration oil were measured at temperatures between 273.15 and 333.15 K, and at pressures from 0.1 to 30 MPa, by using a falling body viscometer. The uncertainty of the measurements was estimated to be no larger than 2.9\%. The experimental viscosity values were fitted to a Tait-like equation within 2.8\%. There are larger deviations between the experimental data and calculated values predicted by the equation of Kanti et al., which is derived from the Flory theory. By introducing an interaction parameter of the energetic mixing rule into the equation, the deviations were significantly reduced.}
@@ -252,8 +279,8 @@
       \strng{authornamehash}{f34139cc8b3ff31b1f3f16991a66412d}
       \strng{authorfullhash}{f34139cc8b3ff31b1f3f16991a66412d}
       \field{extraname}{1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{62}
@@ -288,8 +315,8 @@
       \strng{authorbibnamehash}{efd632f63207fd9685663fd1697d6cd8}
       \strng{authornamehash}{efd632f63207fd9685663fd1697d6cd8}
       \strng{authorfullhash}{efd632f63207fd9685663fd1697d6cd8}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{abstract}{Densities ρ, dynamic viscosities η, for binary mixtures of toluene with some n-alkanes, namely, n-pentane, n-hexane, n-heptane, n-octane, n-nonane, and n-decane have been measured over the complete composition range. Excess molar volumes VE, viscosity deviations Δη, and excess Gibbs free energy of activation ΔG∗E, were calculated there from and were correlated by Redlich–Kister type function in terms of mole fractions. For mixtures of toluene with n-pentane and n-hexane the VE is negative and for the remaining systems is positive. The Δη values are negative for all the studied mixtures. The ΔG∗E values shows the positive values for the binary mixtures with n-decane, whereas the negative values have been observed for all the remaining binary mixtures. From the results, the excess thermal expansivities at constant pressure αE, is also estimated. The Prigogine–Flory–Patterson (PFP) theory and its applicability in predicting VE is tested. The results obtained for viscosity of binary mixtures were used to test the semi-empirical relations of Grunberg and Nissan, Tamura and Kurata, Hind et al., Katti and Chaudhri, McAllister, Heric, Kendall, and Monroe. The experimental on the constituted binaries are analyzed to discus the nature and strength of intermolecular interactions in these mixtures.}
       \field{journaltitle}{The Journal of Chemical Thermodynamics}
@@ -320,8 +347,8 @@
       \strng{authorbibnamehash}{346e0c61638f90b093b809d0d711c9ff}
       \strng{authornamehash}{346e0c61638f90b093b809d0d711c9ff}
       \strng{authorfullhash}{346e0c61638f90b093b809d0d711c9ff}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{50}
@@ -357,8 +384,8 @@
       \strng{authornamehash}{f34139cc8b3ff31b1f3f16991a66412d}
       \strng{authorfullhash}{f34139cc8b3ff31b1f3f16991a66412d}
       \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{61}
@@ -398,8 +425,8 @@
       \strng{authorbibnamehash}{c89cfb26201985967a07911c8c57b276}
       \strng{authornamehash}{c89cfb26201985967a07911c8c57b276}
       \strng{authorfullhash}{cf64052b7407a2e0dfb760ea1edb16ef}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{64}
@@ -454,8 +481,8 @@
       \strng{authorbibnamehash}{5a40b7fbebbfa16a13725ad0d60719f3}
       \strng{authornamehash}{5a40b7fbebbfa16a13725ad0d60719f3}
       \strng{authorfullhash}{8361395d93cc180b0c58263fccb19c7d}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{abstract}{The viscosity of (hexane+perfluorohexane) mixtures has been measured at 298K, 303K and 308K, over the whole composition range. The results show large negative deviations from the arithmetic mean of the viscosities of the pure components, reaching −17\% at x(perfluorohexane)=0.7. To obtain molecular level insight into the behaviour of the system, all-atom molecular dynamics simulations have been performed and used to calculate the viscosities, radial distribution functions, and rotational relaxation times of the studied (hexane+perfluorohexane) mixtures. This is the first effort to assess the effect of mixing hydrogenated and fluorinated molecules in the viscosity.}
       \field{journaltitle}{Fluid Phase Equilibria}
@@ -501,8 +528,8 @@
       \strng{authorbibnamehash}{ebc0da1db2e1bcd34fef28b08a3198d8}
       \strng{authornamehash}{ebc0da1db2e1bcd34fef28b08a3198d8}
       \strng{authorfullhash}{6446b3c4dc13f68dfc7e24720625634a}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{abstract}{Physicochemical behaviour of n – hexane solutions containing benzyl amine (BA) and alicyclic ethers in the concentration range 0.02M–0.20 M is extensively studied through acoustical (experimental) and Density Functional Theory (DFT) methods and the nature of non-covalent molecular interactions existing in these ternary liquid mixtures have been investigated. Two structurally different ethers, namely, tetrahydrofuran (THF) and 1,4-dioxane (DIOX) are used. Ultrasonic velocity (u) at 2 MHz frequency, density (ρ) and viscosity (η) are measured for the ternary liquid systems at different concentrations andat 303.15 K. The existence of strong BA – ether non-covalent interaction and formation of hydrogen bonded complexes is identified in both the systems through the variations in acoustical and excess thermo-acoustical parameters with concentration. The influence of structure of ether on the strength of molecular interaction has been analysed through the calculation of formation constants of these complexes computed using Kannappan equation. An attempt has been made using meta hybrid density functional theory to confirm the existence of hydrogen bonded complexes in these two systems through the computed interaction energies and hydrogen bonding parameters. Computational investigation shows CH---π dispersive interactions in these complexes in addition to the classical hydrogen bonding.}
       \field{journaltitle}{Fluid Phase Equilibria}
@@ -543,8 +570,8 @@
       \strng{authorbibnamehash}{9fee84d3fb6870da85da01d26bd49db3}
       \strng{authornamehash}{9fee84d3fb6870da85da01d26bd49db3}
       \strng{authorfullhash}{f5c4acf1de992bee99d12868b8b8d008}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{abstract}{Density ρ, viscosity η, and refractive index nD, values of {anisole+hexane, or heptane, or octane, or nonane, or decane, or dodecane} binary mixtures over the entire range of mole fraction at temperatures (293.15, 298.15, and 303.15) K, have been investigated at atmospheric pressure. The excess molar volume VE, has been calculated from the experimental measurements. These results were fitted to Redlich and Kister polynomial equation to estimate the binary interaction parameters. The viscosity data were correlated with equations of Grunberg and Nissan, and McAllister. The refractive indices data were used to calculate the specific refractivity R12, and also correlated with Lorentz–Lorenz equation. While the excess molar volumes of {anisole+hexane} are negative, and {anisole+heptane} are sigmoidal S-shaped, the remaining binary mixtures are positive. The effects of n-alkanes chain length as well as the temperature on the excess molar volume have been studied. The calculated values have been qualitatively used to explain the intermolecular interaction between the mixing components.}
       \field{journaltitle}{The Journal of Chemical Thermodynamics}
@@ -595,8 +622,8 @@
       \strng{authorbibnamehash}{b8cec7f48268a426e592acb58028a8f5}
       \strng{authornamehash}{b8cec7f48268a426e592acb58028a8f5}
       \strng{authorfullhash}{30a5a1e7b1f5081f02755ab75c1ddb6c}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{abstract}{Experimental values of density, viscosity, and refractive index at T=(298.15, 303.15, and 308.15)K while the speed of sound at T=298.15K in the binary mixtures of methylcyclohexane with n-hexane, n-heptane, n-octane, n-nonane, n-decane, n-dodecane, and iso-octane are presented over the entire mole fraction range of the binary mixtures. Using these data, excess molar volume, deviations in viscosity, molar refraction, speed of sound, and isentropic compressibility are calculated. All the computed quantities are fitted to Redlich and Kister equation to derive the coefficients and estimate the standard error values. Such a study on model calculations in addition to presentation of experimental data on binary mixtures are useful to understand the mixing behaviour of liquids in terms of molecular interactions and orientational order–disorder effects.}
       \field{journaltitle}{The Journal of Chemical Thermodynamics}
@@ -638,8 +665,8 @@
       \strng{authornamehash}{70857f511f3a3ca487fabcd634749a4a}
       \strng{authorfullhash}{8ce696bda59f8b7f4768b8dc7e15067b}
       \field{extraname}{1}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{abstract}{Densities, ρ speeds of sound, u and dynamic viscosities, η of the ternary mixtures {dimethyl carbonate (DMC)+methanol+ethanol} and (dimethyl carbonate+methanol+hexane) were gathered at T=(293.15, 298.15, 308.15, and 313.15) K. From experimental data viscosity deviations, Δη of the ternary mixtures were evaluated. These results have been correlated using the Cibulka equation. The fitting parameters and the standard deviations of the ternary viscosity deviations are given. UNIFAC-VISCO group contribution method was used to predict the dynamic viscosities of the ternary mixtures at several temperatures.}
       \field{journaltitle}{The Journal of Chemical Thermodynamics}
@@ -675,8 +702,8 @@
       \strng{authorbibnamehash}{cf58d3278a57e2245f93b017f7bde111}
       \strng{authornamehash}{cf58d3278a57e2245f93b017f7bde111}
       \strng{authorfullhash}{cf58d3278a57e2245f93b017f7bde111}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{abstract}{The densities (ρ) and speeds of sound (u) have been measured over the whole composition range for (butan-1-ol with hexane, or octane, or decane) at T=(298.15, 303.15, and 308.15)K and atmospheric pressure along with the properties of the pure components. Viscosities (η) of these binary mixtures have also been measured over the entire composition range at T=298.15K. Experimental values of density, viscosity and speed of sound have been used to evaluate excess properties viz. excess molar volumes (VE), deviation in viscosity (Δη), deviation in speeds of sound (Δu), deviation in isentropic compressibility (Δκs) and excess Gibbs free energy of activation of viscous flow (ΔG∗E). The excess properties have been correlated using the Redlich–Kister polynomial equation. The sign and magnitude of these excess properties have been used to interpret the results in terms of intermolecular interactions and structural effects. The viscosity data have also been correlated by Grunberg and Nissan, Tamura–Kurata, and Hind correlation equations.}
       \field{journaltitle}{The Journal of Chemical Thermodynamics}
@@ -708,8 +735,8 @@
       \strng{authornamehash}{2389080327d4874e36bcd768744c723e}
       \strng{authorfullhash}{2389080327d4874e36bcd768744c723e}
       \field{extraname}{1}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{abstract}{Experimental values of densities (ρ) and speeds of sound (u) at T=(298.15, 303.15, and 308.15)K while the viscosities (η) at T=298.15K in the binary mixtures of 1-octanol with n-hexane, n-octane, and n-decane are presented over the entire composition range of the binary mixtures. Using these data, excess molar volumes (VmE), viscosity deviation (Δη), deviation in speeds of sound (Δu), deviation in isentropic compressibility (Δκs), excess free volume (VfE), and excess Gibbs free energy of activation of viscous flow (ΔG∗E) are calculated and presented graphically. All the computed quantities are fitted to a polynomial equation. The values of VmE have been analyzed using Prigogine–Flory–Patterson (PFP) theory. Furthermore, the theoretical values of speed of sound (u) and isentropic compressibility (κs) have also been estimated using the Prigogine–Flory–Patterson (PFP) theory with the van der Waals (vdW) potential energy model and the results have been compared with experimental values. The experimental and calculated quantities are used to study the nature of mixing behaviour between the mixture components.}
       \field{journaltitle}{The Journal of Chemical Thermodynamics}
@@ -745,8 +772,8 @@
       \strng{authorbibnamehash}{02b3f73e3d94b355ca474811d26222a3}
       \strng{authornamehash}{02b3f73e3d94b355ca474811d26222a3}
       \strng{authorfullhash}{02b3f73e3d94b355ca474811d26222a3}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{abstract}{Experimental results of excess volumes, speeds of sound and viscosities at 303.15K are presented for the binary systems of diisopropyl ether with hexane, heptane, octane, isooctane, benzene, cyclohexane, tetralin and decalin over the entire range of composition. Isentropic compressibilities are calculated from speed of sound and density data. Speeds of sound are evaluated on the basis of Jacobson free length theory and Schaaffs collision factor theory. Further, the viscosity data was analysed on the basis of corresponding states approach and Grunberg and Nissan treatment. The experimental results are discussed in terms of molecular interactions between unlike molecules.}
       \field{journaltitle}{Thermochimica Acta}
@@ -792,8 +819,8 @@
       \strng{authorbibnamehash}{2f92c8cc104b279184541529dbaae4ac}
       \strng{authornamehash}{2f92c8cc104b279184541529dbaae4ac}
       \strng{authorfullhash}{a8ce25d627a03cb03bd2f9e7cc854b9e}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{48}
@@ -834,8 +861,8 @@
       \strng{authornamehash}{70857f511f3a3ca487fabcd634749a4a}
       \strng{authorfullhash}{df20fb204310334b0f41af057c7f2515}
       \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{48}
@@ -870,8 +897,8 @@
       \strng{authorbibnamehash}{23e615782dbbba98367cbd3d2abed922}
       \strng{authornamehash}{23e615782dbbba98367cbd3d2abed922}
       \strng{authorfullhash}{23e615782dbbba98367cbd3d2abed922}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{48}
@@ -901,8 +928,8 @@
       \strng{authorbibnamehash}{e396320bda6d380b718f6efd31a2c8ac}
       \strng{authornamehash}{e396320bda6d380b718f6efd31a2c8ac}
       \strng{authorfullhash}{e396320bda6d380b718f6efd31a2c8ac}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{48}
@@ -947,8 +974,8 @@
       \strng{authorbibnamehash}{180373f35aef940b1a5038a1905f110d}
       \strng{authornamehash}{180373f35aef940b1a5038a1905f110d}
       \strng{authorfullhash}{ffcb74725c141da7e36e38679822e87d}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{50}
@@ -984,8 +1011,8 @@
       \strng{authornamehash}{cc485fcd6c31bb41c6a07388c767f82d}
       \strng{authorfullhash}{cc485fcd6c31bb41c6a07388c767f82d}
       \field{extraname}{1}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{49}
@@ -1016,8 +1043,8 @@
       \strng{authornamehash}{2389080327d4874e36bcd768744c723e}
       \strng{authorfullhash}{2389080327d4874e36bcd768744c723e}
       \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{52}
@@ -1047,8 +1074,8 @@
       \strng{authorbibnamehash}{6adfe5617464a5573f333c581dea2bbc}
       \strng{authornamehash}{6adfe5617464a5573f333c581dea2bbc}
       \strng{authorfullhash}{6adfe5617464a5573f333c581dea2bbc}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{52}
@@ -1093,8 +1120,8 @@
       \strng{authorbibnamehash}{439d7426370b7bb6e795a6a7ff2b95d2}
       \strng{authornamehash}{439d7426370b7bb6e795a6a7ff2b95d2}
       \strng{authorfullhash}{42fbd01434136ebb700fa2ddb0c611b6}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{53}
@@ -1140,8 +1167,8 @@
       \strng{authornamehash}{6a2bef28ed9bc8904f981396e7fbd54c}
       \strng{authorfullhash}{b4fbe147100c756c1572ab716a6c1fd8}
       \field{extraname}{1}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{53}
@@ -1176,8 +1203,8 @@
       \strng{authorbibnamehash}{7d5895ac73a44b415b132a57c9ae2a92}
       \strng{authornamehash}{7d5895ac73a44b415b132a57c9ae2a92}
       \strng{authorfullhash}{7d5895ac73a44b415b132a57c9ae2a92}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{55}
@@ -1202,8 +1229,8 @@
       \strng{authorbibnamehash}{37b9e9892e39dab036d68a8ef3e72c41}
       \strng{authornamehash}{37b9e9892e39dab036d68a8ef3e72c41}
       \strng{authorfullhash}{37b9e9892e39dab036d68a8ef3e72c41}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Densities, ρ, viscosities, η, and refractive indices, nD, have been measured as a function of composition for binary mixtures of cyclohexane, decane, hexadecane, and squalane with hexane at 298.15 K and atmospheric pressure. From these measurements the excess molar volumes, VmE, viscosity deviations, δη, and the change in refractive indices on mixing, ΔnD, were calculated. These results were fitted to Redlick–Kister polynomial equations to estimate the binary coefficients and standard errors. The effects of size and shape of the components on excess properties have been discussed.}
@@ -1256,8 +1283,8 @@
       \strng{authorbibnamehash}{0d2907cf3b50f859ed88aa8dae09ead8}
       \strng{authornamehash}{0d2907cf3b50f859ed88aa8dae09ead8}
       \strng{authorfullhash}{5d5e7a40ce9f47884b7ff8de2b1630ff}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{In this study experimental measurements of the thermophysical properties of binary mixtures containing hexane + aromatic hydrocarbon are continued. Here experimental data of the dynamic viscosity, η, at 298.15 K and atmospheric pressure, over the complete composition range are presented. As noted, the second compound of all mixtures belong to the same aromatic family, with a benzene ring having one ethyl chain or two methyl chains placed at different sites of the benzene ring. So, the molar mass for all four second compounds is exactly the same. Thus, these measurements will provide information about the influence of the methyl chain positions on the viscosity when it is mixed with hexane. From the measured values of the dynamic viscosity, dynamic viscosity deviations of the binary mixtures are determined and the viscosity deviations are compared with other deviation results for similar mixtures, and among the different binary mixtures.}
@@ -1290,8 +1317,8 @@
       \strng{authorbibnamehash}{5cfda97450491cc79a8cbf5c5ab018d1}
       \strng{authornamehash}{5cfda97450491cc79a8cbf5c5ab018d1}
       \strng{authorfullhash}{5cfda97450491cc79a8cbf5c5ab018d1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{62}
@@ -1336,8 +1363,8 @@
       \strng{authorbibnamehash}{efb32eab805fb93873828c4907abca92}
       \strng{authornamehash}{efb32eab805fb93873828c4907abca92}
       \strng{authorfullhash}{2d2f3d7c04946a0c2d577a6c4ada3d82}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{abstract}{The viscosity of the binary system ethanol+n-heptane has been measured with a falling-body viscometer for seven compositions as well as for the pure compounds in the temperature range 293.15–353.15K and up to 100MPa with an experimental uncertainty of ±2\%. At 0.1MPa, the viscosity has been measured with a classical capillary viscometer (Ubbelohde) with an uncertainty of ±1\%. A total of 208 experimental data points are reported. The viscosity behavior of this binary system is interpreted as the results of changes in the free volume, and the breaking or weakening of hydrogen bonds. The excess activation energy for viscous flow of the mixtures is negative with a maximum absolute value of 0.3kJmol−1, indicating a very weakly interacting system. The data of this binary system as well as those recently measured for ethanol+toluene have been used to study the performance of some viscosity models with a physical and theoretical background. The evaluated models are based on the hard-sphere scheme, the concepts of the free-volume and the friction theory, and a model derived from molecular dynamics. In addition to these models, the simple compositional models by Grunberg–Nissan and Katti–Chaudhri have also been applied. Overall a satisfactory representation of the viscosity of these two binary ethanol+C7 hydrocarbon systems is found for the different models within the considered T, P range taking into account their simplicity.}
       \field{journaltitle}{Fluid Phase Equilibria}
@@ -1383,8 +1410,8 @@
       \strng{authorbibnamehash}{b19ce9f62e24919920f4b69f295afe18}
       \strng{authornamehash}{b19ce9f62e24919920f4b69f295afe18}
       \strng{authorfullhash}{f6dc1142097f189c77024cc9f8342c1d}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{abstract}{Viscosities for the binary mixtures 2-methyl-2-propanol+n-heptane, +n-octane, +n-nonane and +n-decane have been measured at 303.15, 308.15, 313.15, 318.15 and 323.15K and atmospheric pressure. Viscosity deviations for the binary systems were fitted to the Redlich–Kister polynomial equation. The UNIFAC–VISCO and the ASOG–VISCO methods were used to predict the dynamic viscosities of binary mixtures. The viscosity data have also been correlated by Teja–Rice and McAllister models. In addition, the experimental values of viscosity were used to determine the new interaction parameters of alkanes with tertiary alcohols (CH3/OHt and CH2/OHt) for their application in the UNIFAC–VISCO model.}
       \field{journaltitle}{Fluid Phase Equilibria}
@@ -1425,8 +1452,8 @@
       \strng{authorbibnamehash}{44cf161ad4d67fda7b2fd24927974945}
       \strng{authornamehash}{44cf161ad4d67fda7b2fd24927974945}
       \strng{authorfullhash}{3cbc5c8ab84ace665ed6d41075b006f0}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{abstract}{The density and viscosity of binary mixtures of D2EHPA + organic solvent were measured in the temperature range of 303.15–333.15 K and 0.1 MPa. The common organic solvents, having different dielectric constants, namely kerosene (2.0), n-heptane (1.92), chlorobenzene (5.62) and 1-octanol (10.3) were employed in this work. The experimental density and viscosity data were validated employing Nasrifar-Moshfeghian (NM) equation of state (EOS) and Vogel-Fulcher-Tammann (VFT) equation: data correlations proved to be a good fit according to the RAD values in the range of 0.01–2.00\%. Further, the excess molar volume and viscosity deviation were calculated in order to investigate the nature of the solute-solvent binary mixtures. For all binary mixtures, the excess molar volume and viscosity deviations have negative deviations from ideality over the temperature range. The strongest interaction of D2EHPA extractant occurred in kerosene solvent affected by its large hydrophobic molar volume. In addition, other thermodynamic properties of mixtures such as apparent molar volume, thermal expansion coefficients, excess Gibbs energy, enthalpy and entropy of activation of viscous flow were calculated.}
       \field{journaltitle}{Fluid Phase Equilibria}
@@ -1457,8 +1484,8 @@
       \strng{authorbibnamehash}{c78967eca3fcaf375b8eeb084a573e33}
       \strng{authornamehash}{c78967eca3fcaf375b8eeb084a573e33}
       \strng{authorfullhash}{c78967eca3fcaf375b8eeb084a573e33}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{abstract}{Density and viscosity measurements are reported for {x1n-heptane+(1−x1)n-octane} mixtures at x1=(0.2808, 0.5427, 0.7906). The measurements of density and viscosity were made with a constant-volume piezometer immersed in a precision liquid thermostat and a capillary flow technique, respectively. Measurements were made at pressures up to 10MPa. The range of temperature was (293 to 557)K for the density measurements and (298 to 473)K for the viscosity measurements. The total uncertainty of density, viscosity, pressure, temperature, and composition measurements was estimated to be less than 0.06\%, 1.6\%, 0.05\%, 15mK, and 0.02\%, respectively. The effect of temperature, pressure, and concentration on density and viscosity of the binary {x1n-heptane+(1−x1)n-octane} mixtures was studied. The measured values of density and viscosity for the pure components and mixtures were compared with those generated by reference equations and prediction techniques for the mixtures. The excess molar volumes VmE and the viscosity deviations Δη were derived using the measured values of density and viscosity for the mixtures and pure components. The viscosity data have been interpreted in terms of the Grunberg–Nissan equation for binary mixtures. The temperature dependence of the Grunberg–Nissan constant was studied using the present viscosity data. The molar excess Gibbs energy of activation for flow ΔEa was also calculated from our experimental viscosity data for the (n-heptane+n-octane) mixtures.}
       \field{journaltitle}{The Journal of Chemical Thermodynamics}
@@ -1500,8 +1527,8 @@
       \strng{authornamehash}{6a2bef28ed9bc8904f981396e7fbd54c}
       \strng{authorfullhash}{0ea2a7a07c3345818af8852dd4f239df}
       \field{extraname}{2}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{abstract}{Densities (ρ) and viscosities (η) for binary mixtures of tri-n-octylamine (TOA)+n-heptane, TOA+n-octane, TOA+n-nonane, and TOA+n-decane are determined at T (283.15, 293.15, and 303.15)K and atmospheric pressure. The excess molar volume is calculated from the density data and is correlated by a Redlich–Kister type equation. The excess molar volume is negative for all the four systems. The results show that the volume accommodation effect is predominant in these systems. The Grunberg \& Nissan equation and Fang \& He equation for binary mixtures are used to correlate the experimental viscosity data. The Fang \& He equation gives an average absolute deviation (AAD\%) of 0.8\% for TOA with alkane mixtures, better than that of 3.8\% given by the Grunberg \& Nissan equation.}
       \field{journaltitle}{The Journal of Chemical Thermodynamics}
@@ -1552,8 +1579,8 @@
       \strng{authorbibnamehash}{2280fc6acb7cb7b0711c7159a419697b}
       \strng{authornamehash}{2280fc6acb7cb7b0711c7159a419697b}
       \strng{authorfullhash}{f53e65cd04f28482c25b1c58fb8cc26a}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{abstract}{Two new techniques for measuring viscosities at high pressure have been implemented at the TERMOCAL laboratory in order to obtain accurate values of thermophysical properties such as viscosity, especially at high pressures. A vibrating-wire viscometer has been developed to accurately measure viscosities over the working ranges T=(283.15 to 423.15)K and p=(0.1 to 140)MPa. The setup of the equipment includes calibration with toluene and its validation with n-dodecane. A falling body viscometer able to measure viscosities at T=(253.15 to 523.15)K and p=(0.1 to 140)MPa is also presented in this work. Results of calibration with toluene and its verification with n-heptane and n-dodecane are reported. The detailed uncertainty budgets for both techniques are included in this work. Moreover, the paper studies the compatibility of the results obtained using both techniques according to their corresponding uncertainties in order to obtain reliable data. New viscosity measurements of 1,2,4-trimethylbenzene and 2,2,4-trimethylpentane have been performed and included in the paper.}
       \field{journaltitle}{The Journal of Chemical Thermodynamics}
@@ -1605,8 +1632,8 @@
       \strng{authornamehash}{ed4810352451061702b7c55f0a0f1632}
       \strng{authorfullhash}{5d2d95d88ecd26a7bd808ffbdaa86fa3}
       \field{extraname}{1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{abstract}{A two-capillary method based on the Hagen–Poiseuille theory was proposed for on-line measurements of dynamic viscosity of hydrocarbons at high temperatures and high pressures. A two-capillary viscometer was designed and proved to be applicable to the viscosity measurements in a mini-tube. The standard uncertainty of dynamic viscosity measurements is identified as (2.22–5.28)\% (coverage factor k=2). N-heptane, n-octane and their binary mixture were tested respectively in the calibration experiments of the viscometer. Results showed that the measured maximum relative deviations of all substances were all within 2\% and the average absolute deviations were within 0.72\%. Finally viscosities of a kerosene kind hydrocarbon fuel were measured using the two-capillary viscometer at temperature from (303.2 to 513.2)K and supercritical pressures of (3.00 and 4.00)MPa.}
       \field{journaltitle}{Thermochimica Acta}
@@ -1657,8 +1684,8 @@
       \strng{authorbibnamehash}{752257d1727ade24031012bbd6175ec4}
       \strng{authornamehash}{752257d1727ade24031012bbd6175ec4}
       \strng{authorfullhash}{8e4047d982cb7694f30432519452eae1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{abstract}{New experimental densities and viscosities data for binary mixtures of methyl decanoate plus n-heptane were reported at temperatures of (298.15, 308.15 and 318.15) K and pressures of (0.1–15) MPa. The expanded uncertainty for density measurement is estimated to be 2 kg m−3 and the relative expanded uncertainty for viscosity measurement is estimated to be 0.03. A fitting equation was proposed to correlate the density of the binary mixture and Grunberg-Nissan equation was used to predict the viscosity of the binary mixture, respectively. The maximum absolute relative deviations between the experimental results and calculation values for densities and viscosities were 0.11\% and 5.94\%, respectively.}
       \field{journaltitle}{Thermochimica Acta}
@@ -1699,8 +1726,8 @@
       \strng{authorbibnamehash}{24d5abe676a09760beea85476af8da39}
       \strng{authornamehash}{24d5abe676a09760beea85476af8da39}
       \strng{authorfullhash}{e26dfffc8be1e7bb577706314bc13837}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{50}
@@ -1736,8 +1763,8 @@
       \strng{authornamehash}{cc485fcd6c31bb41c6a07388c767f82d}
       \strng{authorfullhash}{cc485fcd6c31bb41c6a07388c767f82d}
       \field{extraname}{2}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{49}
@@ -1767,8 +1794,8 @@
       \strng{authorbibnamehash}{de1ea2244dc7ac0afbf6945fb96945a8}
       \strng{authornamehash}{de1ea2244dc7ac0afbf6945fb96945a8}
       \strng{authorfullhash}{de1ea2244dc7ac0afbf6945fb96945a8}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{59}
@@ -1803,8 +1830,8 @@
       \strng{authorbibnamehash}{86c973c0ffe79c8b9605ff2bcee43af0}
       \strng{authornamehash}{86c973c0ffe79c8b9605ff2bcee43af0}
       \strng{authorfullhash}{86c973c0ffe79c8b9605ff2bcee43af0}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{59}
@@ -1845,8 +1872,8 @@
       \strng{authornamehash}{0fdf7e97343e005d596307afd677d3de}
       \strng{authorfullhash}{507a0d78f8ae9bb9a207e67d7169b053}
       \field{extraname}{1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{52}
@@ -1881,8 +1908,8 @@
       \strng{authorbibnamehash}{6fe60926e816079276fc20af02d24b6f}
       \strng{authornamehash}{6fe60926e816079276fc20af02d24b6f}
       \strng{authorfullhash}{6fe60926e816079276fc20af02d24b6f}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{52}
@@ -1917,8 +1944,8 @@
       \strng{authorbibnamehash}{95c75072afb26d770d4a314b75d905c5}
       \strng{authornamehash}{95c75072afb26d770d4a314b75d905c5}
       \strng{authorfullhash}{95c75072afb26d770d4a314b75d905c5}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{53}
@@ -1964,8 +1991,8 @@
       \strng{authornamehash}{e837f368648fa60c4f4854ae33148b71}
       \strng{authorfullhash}{05cfa74ccf2c8de9d2fc30c42890559d}
       \field{extraname}{2}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{55}
@@ -1995,8 +2022,8 @@
       \strng{authorbibnamehash}{c10365f32f9a8b6bf8ed375f1704ef1b}
       \strng{authornamehash}{c10365f32f9a8b6bf8ed375f1704ef1b}
       \strng{authorfullhash}{c10365f32f9a8b6bf8ed375f1704ef1b}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The densities and kinematic viscosities of 10 binary subsystems of the regular quinary system, benzene (1) + toluene (2) + ethylbenzene (3) + heptane (4) + cyclooctane (5), were measured at 308.15 K and 313.15 K over the entire composition range. The viscosity-composition data reported herein were utilized to examine the predictive capability of some viscosity models, namely, the predictive version of the McAllister model, a group contribution method (GC-UNIMOD), a generalized corresponding states principle (GCSP), and the Allan and Teja correlation. The results of testing showed that the McAllister model outperformed all other models except for systems containing cyclooctane. The results also showed an overall average absolute deviation (\%AAD) of 1.25\% for systems that did not contain cyclooctane.}
@@ -2039,8 +2066,8 @@
       \strng{authorbibnamehash}{37150019de9b08b432bbc6d0719b27ca}
       \strng{authornamehash}{37150019de9b08b432bbc6d0719b27ca}
       \strng{authorfullhash}{74f07e353bac2c0b87e22d333d0bc01f}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The density and viscosity of $$n$$-heptane have been simultaneously measured over the temperature range from 298 K to 470 K and at pressures up to 245 MPa using the hydrostatic weighing and falling-body techniques, respectively. The expanded uncertainty of the density, pressure, temperature, and viscosity measurements at the 95 \% confidence level with a coverage factor of $$k= 2$$is estimated to be 0.15 \% to 0.30 \%, 0.05 \%, 0.02 K, and 1.5 \% to 2.0 \% (depending on temperature and pressure ranges), respectively. The measured densities were used to develop a Tait-type equation of state for liquid $$n$$-heptane. Theoretically based Arrhenius–Andrade and Vogel–Tamman–Fulcher type equations with pressure-dependent coefficients were used to describe the temperature and pressure dependences of the measured viscosities for liquid $$n$$-heptane. The measured values of the density and viscosity were compared in detail with reported data and with the values calculated from a reference EOS and correlation models for the viscosity.}
@@ -2078,8 +2105,8 @@
       \strng{authorbibnamehash}{aa483611bd33c79a15a7953daf0fa594}
       \strng{authornamehash}{aa483611bd33c79a15a7953daf0fa594}
       \strng{authorfullhash}{aa483611bd33c79a15a7953daf0fa594}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Densities and kinematic viscosities of a quinary regular liquid system and its five quaternary subsystems were measured at two different temperatures. Pure component properties of the quinary system octane (1) + heptane (2) + ethylbenzene (3) + cyclohexane (4) + toluene (5) have shown excellent agreement with previously reported data. Kinematic viscosity data obtained for different mixtures of this quinary system and its quaternary subsystems were used to test the predictive capability of selected viscosity models available from the literature.}
@@ -2117,8 +2144,8 @@
       \strng{authorbibnamehash}{a4f0018263ae0d963dc7a1c3a410433b}
       \strng{authornamehash}{a4f0018263ae0d963dc7a1c3a410433b}
       \strng{authorfullhash}{a4f0018263ae0d963dc7a1c3a410433b}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{61}
@@ -2153,8 +2180,8 @@
       \strng{authorbibnamehash}{1145c011d5cb998b0848f90948f65c1b}
       \strng{authornamehash}{1145c011d5cb998b0848f90948f65c1b}
       \strng{authorfullhash}{1145c011d5cb998b0848f90948f65c1b}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{abstract}{The dynamic viscosities, densities, and speed of sound for the binary mixtures (2-butanol with octane, or decane, or dodecane) at several temperatures T=(293.15, 298.15, 303.15) K have been measured over the whole composition range and atmospheric pressure along with the properties of the pure components. Excess molar volumes, isentropic compressibility, deviations in isentropic compressibility, and viscosity deviation for the binary systems at the above-mentioned temperatures were calculated and fitted to Redlich–Kister equation to determine the fitting parameters and the root-mean-square deviations. UNIQUAC equation were used to correlate the experimental viscosity data. UNIFAC-VISCO method and ASOG-VISCO method, based on contribution groups, were used to predict the dynamic viscosities of the binary mixtures.}
       \field{journaltitle}{The Journal of Chemical Thermodynamics}
@@ -2205,8 +2232,8 @@
       \strng{authorbibnamehash}{7309f9a7b48ebb7940b438760cd4689c}
       \strng{authornamehash}{7309f9a7b48ebb7940b438760cd4689c}
       \strng{authorfullhash}{c522f6e840bbf4ec25e1bbe18561f5db}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{abstract}{The fundamental physical properties including density, viscosity, refractive index and relative permittivity, have been measured for binary mixtures of exo-tetrahydrodicyclopentadiene (JP-10) with four octane isomers (n-octane, 3-methylheptane, 2,4-dimethylhexane and 2,2,4-trimethylpentane) over the whole composition range at temperatures T=(293.15 to 313.15)K and pressure p=0.1MPa. The values of excess molar volume VmE, viscosity deviation (Δη), refractive index deviation (ΔnD) and relative permittivity deviation (Δεr) are then calculated. All of the values of VmE and Δη are observed to be negative, while those of ΔnD and Δεr are close to zero. The effects of temperature and composition on the variation of VmE values are discussed. The negative values of VmE and Δη are conductive to high-density and low-resistance of fuels, which is favorable for the design and preparation of advanced hydrocarbon fuels.}
       \field{journaltitle}{The Journal of Chemical Thermodynamics}
@@ -2252,8 +2279,8 @@
       \strng{authorbibnamehash}{065d5260779d94ece53e2b4e5335cdeb}
       \strng{authornamehash}{065d5260779d94ece53e2b4e5335cdeb}
       \strng{authorfullhash}{783fef6d70a3d6095c8a5cff19f019b4}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{48}
@@ -2293,8 +2320,8 @@
       \strng{authorbibnamehash}{de194813bbec1ae03756301c13a5eb44}
       \strng{authornamehash}{de194813bbec1ae03756301c13a5eb44}
       \strng{authorfullhash}{6a350fc3d6e7416ee243c09d309c8a36}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{49}
@@ -2329,8 +2356,8 @@
       \strng{authorbibnamehash}{e6a5f76a88b497d16e000702858a1b22}
       \strng{authornamehash}{e6a5f76a88b497d16e000702858a1b22}
       \strng{authorfullhash}{e6a5f76a88b497d16e000702858a1b22}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{50}
@@ -2395,8 +2422,8 @@
       \strng{authorbibnamehash}{d6fcfcb97bcc0f971df31f7ec18caf72}
       \strng{authornamehash}{d6fcfcb97bcc0f971df31f7ec18caf72}
       \strng{authorfullhash}{53f9e4861bf508b2d648d7c160f34811}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{51}
@@ -2441,8 +2468,8 @@
       \strng{authorbibnamehash}{8c3c5863da2cc3111b2b7e7865155363}
       \strng{authornamehash}{8c3c5863da2cc3111b2b7e7865155363}
       \strng{authorfullhash}{52f539e952678ca66166410c39ccaca6}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{57}
@@ -2477,8 +2504,8 @@
       \strng{authorbibnamehash}{fef838144debc4f4103df03beee54be2}
       \strng{authornamehash}{fef838144debc4f4103df03beee54be2}
       \strng{authorfullhash}{fef838144debc4f4103df03beee54be2}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{58}
@@ -2529,8 +2556,8 @@
       \strng{authornamehash}{e3b25ee41fff8b7a8b7944fe5b892ae8}
       \strng{authorfullhash}{1b81df665c9f4654f300aa84f081b737}
       \field{extraname}{3}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{53}
@@ -2570,8 +2597,8 @@
       \strng{authorbibnamehash}{70f4adff2c707189e2a46655849688d6}
       \strng{authornamehash}{70f4adff2c707189e2a46655849688d6}
       \strng{authorfullhash}{255916bff4cb8b48347c007b6f452fb0}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{journaltitle}{J. Chem. Eng. Data}
       \field{volume}{54}
@@ -2611,8 +2638,8 @@
       \strng{authorbibnamehash}{e07c927f731fdbf2ea9128628ef51b65}
       \strng{authornamehash}{e07c927f731fdbf2ea9128628ef51b65}
       \strng{authorfullhash}{bcfcd30319dbec855a71cb117296f2dd}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A new apparatus was developed for measuring the viscosity, density, and bubble-point pressure of CO2 and organic liquid mixtures. The apparatus is based on the rolling-ball principle and consists of a computer-controlled stepper motor that rotates a high-pressure cell that is equipped with a sapphire window, a movable piston, and a position-sensing device. Design of the high-pressure cell was made such that compositions could be determined by mass. The viscosity was determined by sensing the speed of a rolling ball, and the density was determined by sensing the position of the piston with a linear-variable differential transformer. Bubble-point pressures were measured with the synthetic method. The viscosity and density of octane and decane were measured, and the average deviations of these properties compared with reliable literature values were 1.1 \% and 0.15 \%, respectively. The viscosity and density of CO2 + tetrahydrofuran system were measured at a temperature of 60 °C, a pressure of 10.2 MPa, and CO2 mole fractions up to 0.3. Bubble-point pressures for the CO2 + tetrahydrofuran system were in good agreement with literature data.}

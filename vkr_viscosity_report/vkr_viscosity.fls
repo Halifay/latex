@@ -266,6 +266,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
@@ -306,10 +308,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/american.lbx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/american.lbx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/russian.lbx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/russian.lbx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/russian.lbx
@@ -322,10 +320,6 @@ INPUT vkr_viscosity.bbl
 INPUT /usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 INPUT /usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 INPUT /usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
-OUTPUT vkr_viscosity.xdv
-INPUT ./vkr_viscosity.toc
-INPUT ./vkr_viscosity.toc
-INPUT vkr_viscosity.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
@@ -350,6 +344,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+OUTPUT vkr_viscosity.xdv
+INPUT ./vkr_viscosity.toc
+INPUT ./vkr_viscosity.toc
+INPUT vkr_viscosity.toc
 OUTPUT vkr_viscosity.toc
 INPUT ./images/data_distribution_temperature.png
 INPUT ./images/data_distribution_temperature.png
