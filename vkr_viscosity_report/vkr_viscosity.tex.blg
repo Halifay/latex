@@ -1,5 +1,0 @@
-[0] Config.pm:307> INFO - This is Biber 2.19
-[0] Config.pm:310> INFO - Logfile is 'vkr_viscosity.tex.blg'
-[45] biber:340> INFO - === Пн мая 19, 2025, 05:03:20
-[126] Utils.pm:399> ERROR - Cannot find 'vkr_viscosity.tex.bcf'!
-[126] Biber.pm:136> INFO - ERRORS: 1
